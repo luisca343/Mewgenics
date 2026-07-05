@@ -1,0 +1,45 @@
+{
+ "counts": {
+  "items": 1134,
+  "characters": 689,
+  "passives": 511,
+  "classes": 14,
+  "events": 214,
+  "maps": 20,
+  "abilities": 3076,
+  "keywords": 293,
+  "music": 111
+ },
+ "languages": [
+  {
+   "code": "en",
+   "name": "English",
+   "strings": 16277
+  },
+  {
+   "code": "es",
+   "name": "Español",
+   "strings": 16277
+  },
+  {
+   "code": "fr",
+   "name": "Français",
+   "strings": 15999
+  },
+  {
+   "code": "de",
+   "name": "Deutsch",
+   "strings": 16263
+  },
+  {
+   "code": "it",
+   "name": "Italiano",
+   "strings": 16469
+  },
+  {
+   "code": "pt",
+   "name": "Português (Brasil)",
+   "strings": 16015
+  }
+ ]
+}

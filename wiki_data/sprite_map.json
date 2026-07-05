@@ -1,0 +1,1178 @@
+{
+ "IceCube": {
+  "svg": "assets/sprites/IceCube.svg",
+  "frames": 85
+ },
+ "Thump": {
+  "svg": "assets/sprites/Thump.svg",
+  "frames": 24
+ },
+ "Cactus": {
+  "svg": "assets/sprites/Cactus.svg",
+  "frames": 6
+ },
+ "BabySpider": {
+  "svg": "assets/sprites/BabySpider.svg",
+  "frames": 12
+ },
+ "BabyDeathWorm": {
+  "svg": "assets/sprites/BabyDeathWorm.svg",
+  "frames": 18
+ },
+ "BirdMed": {
+  "svg": "assets/sprites/BirdMed.svg",
+  "frames": 26
+ },
+ "Wisp": {
+  "svg": "assets/sprites/Wisp.svg",
+  "frames": 12
+ },
+ "Carcus": {
+  "svg": "assets/sprites/Carcus.svg",
+  "frames": 8
+ },
+ "Shambler": {
+  "svg": "assets/sprites/Shambler.svg",
+  "frames": 32
+ },
+ "BirdSmall": {
+  "svg": "assets/sprites/BirdSmall.svg",
+  "frames": 26
+ },
+ "TallHaunt": {
+  "svg": "assets/sprites/TallHaunt.svg",
+  "frames": 12
+ },
+ "SpikyCactus2x2": {
+  "svg": "assets/sprites/SpikyCactus2x2.svg",
+  "frames": 6
+ },
+ "SpikyCactusTall": {
+  "svg": "assets/sprites/SpikyCactusTall.svg",
+  "frames": 6
+ },
+ "Reaper": {
+  "svg": "assets/sprites/Reaper.svg",
+  "frames": 16
+ },
+ "Triachnid": {
+  "svg": "assets/sprites/Triachnid.svg",
+  "frames": 12
+ },
+ "SnakeyBones": {
+  "svg": "assets/sprites/SnakeyBones.svg",
+  "frames": 28
+ },
+ "BirdLarge": {
+  "svg": "assets/sprites/BirdLarge.svg",
+  "frames": 26
+ },
+ "DeathWorm": {
+  "svg": "assets/sprites/DeathWorm.svg",
+  "frames": 26
+ },
+ "Peashy": {
+  "svg": "assets/sprites/Peashy.svg",
+  "frames": 34
+ },
+ "FlySwarm": {
+  "svg": "assets/sprites/FlySwarm.svg",
+  "frames": 60
+ },
+ "SpikyCactus": {
+  "svg": "assets/sprites/SpikyCactus.svg",
+  "frames": 1
+ },
+ "GraveWorm": {
+  "svg": "assets/sprites/GraveWorm.svg",
+  "frames": 12
+ },
+ "GroundZombie": {
+  "svg": "assets/sprites/GroundZombie.svg",
+  "frames": 30
+ },
+ "BrambleBaby": {
+  "svg": "assets/sprites/BrambleBaby.svg",
+  "frames": 34
+ },
+ "BigAsteroid": {
+  "svg": "assets/sprites/BigAsteroid.svg",
+  "frames": 17
+ },
+ "Sprout": {
+  "svg": "assets/sprites/Sprout.svg",
+  "frames": 12
+ },
+ "SmallUFO": {
+  "svg": "assets/sprites/SmallUFO.svg",
+  "frames": 21
+ },
+ "MegaTumor": {
+  "svg": "assets/sprites/MegaTumor.svg",
+  "frames": 26
+ },
+ "BishopHat": {
+  "svg": "assets/sprites/BishopHat.svg",
+  "frames": 8
+ },
+ "PokerDemon": {
+  "svg": "assets/sprites/PokerDemon.svg",
+  "frames": 16
+ },
+ "BigUFO": {
+  "svg": "assets/sprites/BigUFO.svg",
+  "frames": 47
+ },
+ "CoreFreak": {
+  "svg": "assets/sprites/CoreFreak.svg",
+  "frames": 16
+ },
+ "BigDemon": {
+  "svg": "assets/sprites/BigDemon.svg",
+  "frames": 20
+ },
+ "Whisperer": {
+  "svg": "assets/sprites/Whisperer.svg",
+  "frames": 16
+ },
+ "LoveBot": {
+  "svg": "assets/sprites/LoveBot.svg",
+  "frames": 20
+ },
+ "Amoeba": {
+  "svg": "assets/sprites/Amoeba.svg",
+  "frames": 26
+ },
+ "Carnibulb": {
+  "svg": "assets/sprites/Carnibulb.svg",
+  "frames": 16
+ },
+ "Hemlock": {
+  "svg": "assets/sprites/Hemlock.svg",
+  "frames": 22
+ },
+ "CloakedDemon": {
+  "svg": "assets/sprites/CloakedDemon.svg",
+  "frames": 20
+ },
+ "SecurityBot": {
+  "svg": "assets/sprites/SecurityBot.svg",
+  "frames": 38
+ },
+ "GeoLad": {
+  "svg": "assets/sprites/GeoLad.svg",
+  "frames": 24
+ },
+ "KillDozer": {
+  "svg": "assets/sprites/KillDozer.svg",
+  "frames": 33
+ },
+ "Nettle": {
+  "svg": "assets/sprites/Nettle.svg",
+  "frames": 16
+ },
+ "BunkerBoy": {
+  "svg": "assets/sprites/BunkerBoy.svg",
+  "frames": 205
+ },
+ "Tremblo": {
+  "svg": "assets/sprites/Tremblo.svg",
+  "frames": 26
+ },
+ "HeadTumor": {
+  "svg": "assets/sprites/HeadTumor.svg",
+  "frames": 20
+ },
+ "Birthwort": {
+  "svg": "assets/sprites/Birthwort.svg",
+  "frames": 20
+ },
+ "SmallAsteroid": {
+  "svg": "assets/sprites/SmallAsteroid.svg",
+  "frames": 17
+ },
+ "ThrobbingKing2": {
+  "svg": "assets/sprites/ThrobbingKing2.svg",
+  "frames": 18
+ },
+ "ThrobbingKing": {
+  "svg": "assets/sprites/ThrobbingKing.svg",
+  "frames": 38
+ },
+ "Spewer": {
+  "svg": "assets/sprites/Spewer.svg",
+  "frames": 32
+ },
+ "Hitler": {
+  "svg": "assets/sprites/Hitler.svg",
+  "frames": 28
+ },
+ "MegaDinoHead": {
+  "svg": "assets/sprites/MegaDinoHead.svg",
+  "frames": 16
+ },
+ "SpewerTube": {
+  "svg": "assets/sprites/SpewerTube.svg",
+  "frames": 4
+ },
+ "SpewerPill": {
+  "svg": "assets/sprites/SpewerPill.svg",
+  "frames": 6
+ },
+ "HitlerHead": {
+  "svg": "assets/sprites/HitlerHead.svg",
+  "frames": 16
+ },
+ "BungaThrone": {
+  "svg": "assets/sprites/BungaThrone.svg",
+  "frames": 6
+ },
+ "MegaDinoLeg": {
+  "svg": "assets/sprites/MegaDinoLeg.svg",
+  "frames": 28
+ },
+ "BloatEye": {
+  "svg": "assets/sprites/BloatEye.svg",
+  "frames": 14
+ },
+ "TheBloat": {
+  "svg": "assets/sprites/TheBloat.svg",
+  "frames": 60
+ },
+ "DrMangler": {
+  "svg": "assets/sprites/DrMangler.svg",
+  "frames": 38
+ },
+ "LightningElemental": {
+  "svg": "assets/sprites/LightningElemental.svg",
+  "frames": 20
+ },
+ "LordBunga": {
+  "svg": "assets/sprites/LordBunga.svg",
+  "frames": 71
+ },
+ "ManglersMonster": {
+  "svg": "assets/sprites/ManglersMonster.svg",
+  "frames": 49
+ },
+ "IceElemental": {
+  "svg": "assets/sprites/IceElemental.svg",
+  "frames": 16
+ },
+ "Dybbuk": {
+  "svg": "assets/sprites/Dybbuk.svg",
+  "frames": 26
+ },
+ "TallTumor": {
+  "svg": "assets/sprites/TallTumor.svg",
+  "frames": 20
+ },
+ "MechSuit": {
+  "svg": "assets/sprites/MechSuit.svg",
+  "frames": 38
+ },
+ "Roomba": {
+  "svg": "assets/sprites/Roomba.svg",
+  "frames": 25
+ },
+ "Mask": {
+  "svg": "assets/sprites/Mask.svg",
+  "frames": 12
+ },
+ "Bear": {
+  "svg": "assets/sprites/Bear.svg",
+  "frames": 18
+ },
+ "AlienEgg": {
+  "svg": "assets/sprites/AlienEgg.svg",
+  "frames": 8
+ },
+ "Turtle": {
+  "svg": "assets/sprites/Turtle.svg",
+  "frames": 26
+ },
+ "Punchbot": {
+  "svg": "assets/sprites/Punchbot.svg",
+  "frames": 15
+ },
+ "Snake": {
+  "svg": "assets/sprites/Snake.svg",
+  "frames": 14
+ },
+ "AnimalEgg": {
+  "svg": "assets/sprites/AnimalEgg.svg",
+  "frames": 8
+ },
+ "Deathbot": {
+  "svg": "assets/sprites/Deathbot.svg",
+  "frames": 17
+ },
+ "Frog": {
+  "svg": "assets/sprites/Frog.svg",
+  "frames": 22
+ },
+ "GlowingMushroom": {
+  "svg": "assets/sprites/GlowingMushroom.svg",
+  "frames": 13
+ },
+ "Caterpillar": {
+  "svg": "assets/sprites/Caterpillar.svg",
+  "frames": 21
+ },
+ "Decoy2": {
+  "svg": "assets/sprites/Decoy2.svg",
+  "frames": 11
+ },
+ "Moth": {
+  "svg": "assets/sprites/Moth.svg",
+  "frames": 23
+ },
+ "Crow": {
+  "svg": "assets/sprites/Crow.svg",
+  "frames": 18
+ },
+ "Squirrel": {
+  "svg": "assets/sprites/Squirrel.svg",
+  "frames": 18
+ },
+ "Turret": {
+  "svg": "assets/sprites/Turret.svg",
+  "frames": 13
+ },
+ "Bombchu": {
+  "svg": "assets/sprites/Bombchu.svg",
+  "frames": 22
+ },
+ "Flea": {
+  "svg": "assets/sprites/Flea.svg",
+  "frames": 10
+ },
+ "Cutter": {
+  "svg": "assets/sprites/Cutter.svg",
+  "frames": 2
+ },
+ "HolyPickup": {
+  "svg": "assets/sprites/HolyPickup.svg",
+  "frames": 30
+ },
+ "TenTickles": {
+  "svg": "assets/sprites/TenTickles.svg",
+  "frames": 14
+ },
+ "Tire": {
+  "svg": "assets/sprites/Tire.svg",
+  "frames": 15
+ },
+ "Boulder": {
+  "svg": "assets/sprites/Boulder.svg",
+  "frames": 29
+ },
+ "WaterLeech": {
+  "svg": "assets/sprites/WaterLeech.svg",
+  "frames": 34
+ },
+ "BigRock": {
+  "svg": "assets/sprites/BigRock.svg",
+  "frames": 30
+ },
+ "BloatyCorpse": {
+  "svg": "assets/sprites/BloatyCorpse.svg",
+  "frames": 1
+ },
+ "Pooter": {
+  "svg": "assets/sprites/Pooter.svg",
+  "frames": 14
+ },
+ "Poop": {
+  "svg": "assets/sprites/Poop.svg",
+  "frames": 30
+ },
+ "FetusGusher": {
+  "svg": "assets/sprites/FetusGusher.svg",
+  "frames": 14
+ },
+ "TeslaCoil": {
+  "svg": "assets/sprites/TeslaCoil.svg",
+  "frames": 1
+ },
+ "Decoy": {
+  "svg": "assets/sprites/Decoy.svg",
+  "frames": 1
+ },
+ "ChargeyMaggot": {
+  "svg": "assets/sprites/ChargeyMaggot.svg",
+  "frames": 18
+ },
+ "Kirby": {
+  "svg": "assets/sprites/Kirby.svg",
+  "frames": 24
+ },
+ "HydrantFountain": {
+  "svg": "assets/sprites/HydrantFountain.svg",
+  "frames": 8
+ },
+ "ArmorPickup": {
+  "svg": "assets/sprites/ArmorPickup.svg",
+  "frames": 30
+ },
+ "Scary": {
+  "svg": "assets/sprites/Scary.svg",
+  "frames": 16
+ },
+ "Hive": {
+  "svg": "assets/sprites/Hive.svg",
+  "frames": 12
+ },
+ "PetBoulder": {
+  "svg": "assets/sprites/PetBoulder.svg",
+  "frames": 36
+ },
+ "Coin": {
+  "svg": "assets/sprites/Coin.svg",
+  "frames": 30
+ },
+ "Rat": {
+  "svg": "assets/sprites/Rat.svg",
+  "frames": 30
+ },
+ "TNTCrate": {
+  "svg": "assets/sprites/TNTCrate.svg",
+  "frames": 4
+ },
+ "BombFly": {
+  "svg": "assets/sprites/BombFly.svg",
+  "frames": 12
+ },
+ "Maggot": {
+  "svg": "assets/sprites/Maggot.svg",
+  "frames": 12
+ },
+ "Fetus": {
+  "svg": "assets/sprites/Fetus.svg",
+  "frames": 16
+ },
+ "Floater": {
+  "svg": "assets/sprites/Floater.svg",
+  "frames": 14
+ },
+ "ChumBag": {
+  "svg": "assets/sprites/ChumBag.svg",
+  "frames": 12
+ },
+ "Chummy": {
+  "svg": "assets/sprites/Chummy.svg",
+  "frames": 18
+ },
+ "BabyShark": {
+  "svg": "assets/sprites/BabyShark.svg",
+  "frames": 14
+ },
+ "PetRock": {
+  "svg": "assets/sprites/PetRock.svg",
+  "frames": 35
+ },
+ "Pinky": {
+  "svg": "assets/sprites/Pinky.svg",
+  "frames": 14
+ },
+ "Multicat": {
+  "svg": "assets/sprites/Multicat.svg",
+  "frames": 34
+ },
+ "Rager": {
+  "svg": "assets/sprites/Rager.svg",
+  "frames": 20
+ },
+ "Fly": {
+  "svg": "assets/sprites/Fly.svg",
+  "frames": 30
+ },
+ "DiggyMaggot": {
+  "svg": "assets/sprites/DiggyMaggot.svg",
+  "frames": 14
+ },
+ "BloatRat": {
+  "svg": "assets/sprites/BloatRat.svg",
+  "frames": 14
+ },
+ "Pile": {
+  "svg": "assets/sprites/Pile.svg",
+  "frames": 12
+ },
+ "SmallRock": {
+  "svg": "assets/sprites/SmallRock.svg",
+  "frames": 24
+ },
+ "Bomb": {
+  "svg": "assets/sprites/Bomb.svg",
+  "frames": 12
+ },
+ "ElectricNail": {
+  "svg": "assets/sprites/ElectricNail.svg",
+  "frames": 1
+ },
+ "Dip": {
+  "svg": "assets/sprites/Dip.svg",
+  "frames": 16
+ },
+ "MindFetus": {
+  "svg": "assets/sprites/MindFetus.svg",
+  "frames": 20
+ },
+ "Gasser": {
+  "svg": "assets/sprites/Gasser.svg",
+  "frames": 30
+ },
+ "GasCloud": {
+  "svg": "assets/sprites/GasCloud.svg",
+  "frames": 30
+ },
+ "AcidOoze": {
+  "svg": "assets/sprites/AcidOoze.svg",
+  "frames": 14
+ },
+ "Tatters": {
+  "svg": "assets/sprites/Tatters.svg",
+  "frames": 16
+ },
+ "Junk": {
+  "svg": "assets/sprites/Junk.svg",
+  "frames": 10
+ },
+ "AntidotePickup": {
+  "svg": "assets/sprites/AntidotePickup.svg",
+  "frames": 30
+ },
+ "TrashBag": {
+  "svg": "assets/sprites/TrashBag.svg",
+  "frames": 30
+ },
+ "Bat": {
+  "svg": "assets/sprites/Bat.svg",
+  "frames": 20
+ },
+ "Food": {
+  "svg": "assets/sprites/Food.svg",
+  "frames": 30
+ },
+ "SpikyRock": {
+  "svg": "assets/sprites/SpikyRock.svg",
+  "frames": 1
+ },
+ "MadLad": {
+  "svg": "assets/sprites/MadLad.svg",
+  "frames": 30
+ },
+ "FatRat": {
+  "svg": "assets/sprites/FatRat.svg",
+  "frames": 22
+ },
+ "MegaFetus": {
+  "svg": "assets/sprites/MegaFetus.svg",
+  "frames": 32
+ },
+ "FloatingHive": {
+  "svg": "assets/sprites/FloatingHive.svg",
+  "frames": 12
+ },
+ "GasCan": {
+  "svg": "assets/sprites/GasCan.svg",
+  "frames": 10
+ },
+ "Spookie": {
+  "svg": "assets/sprites/Spookie.svg",
+  "frames": 14
+ },
+ "HarpoonTrap": {
+  "svg": "assets/sprites/HarpoonTrap.svg",
+  "frames": 4
+ },
+ "Crate": {
+  "svg": "assets/sprites/Crate.svg",
+  "frames": 10
+ },
+ "Tumor": {
+  "svg": "assets/sprites/Tumor.svg",
+  "frames": 30
+ },
+ "Burfer": {
+  "svg": "assets/sprites/Burfer.svg",
+  "frames": 14
+ },
+ "TarBaby": {
+  "svg": "assets/sprites/TarBaby.svg",
+  "frames": 12
+ },
+ "Host": {
+  "svg": "assets/sprites/Host.svg",
+  "frames": 14
+ },
+ "DustCloud": {
+  "svg": "assets/sprites/DustCloud.svg",
+  "frames": 30
+ },
+ "Hydrant": {
+  "svg": "assets/sprites/Hydrant.svg",
+  "frames": 8
+ },
+ "DaddyShark": {
+  "svg": "assets/sprites/DaddyShark.svg",
+  "frames": 14
+ },
+ "ManaPickup": {
+  "svg": "assets/sprites/ManaPickup.svg",
+  "frames": 30
+ },
+ "Worm": {
+  "svg": "assets/sprites/Worm.svg",
+  "frames": 30
+ },
+ "BunkerCandles2x2": {
+  "svg": "assets/sprites/BunkerCandles2x2.svg",
+  "frames": 4
+ },
+ "Dumpster": {
+  "svg": "assets/sprites/Dumpster.svg",
+  "frames": 4
+ },
+ "BunkerCandlesSmall": {
+  "svg": "assets/sprites/BunkerCandlesSmall.svg",
+  "frames": 6
+ },
+ "SpearTestGuy": {
+  "svg": "assets/sprites/SpearTestGuy.svg",
+  "frames": 4
+ },
+ "Tox": {
+  "svg": "assets/sprites/Tox.svg",
+  "frames": 24
+ },
+ "Stegosaurus": {
+  "svg": "assets/sprites/Stegosaurus.svg",
+  "frames": 20
+ },
+ "Revalark": {
+  "svg": "assets/sprites/Revalark.svg",
+  "frames": 16
+ },
+ "MoonWorm": {
+  "svg": "assets/sprites/MoonWorm.svg",
+  "frames": 22
+ },
+ "ShadeMShadow": {
+  "svg": "assets/sprites/ShadeMShadow.svg",
+  "frames": 14
+ },
+ "Angel": {
+  "svg": "assets/sprites/Angel.svg",
+  "frames": 16
+ },
+ "Waggle": {
+  "svg": "assets/sprites/Waggle.svg",
+  "frames": 16
+ },
+ "MeatSlime": {
+  "svg": "assets/sprites/MeatSlime.svg",
+  "frames": 12
+ },
+ "CaveChief": {
+  "svg": "assets/sprites/CaveChief.svg",
+  "frames": 20
+ },
+ "Mammoth": {
+  "svg": "assets/sprites/Mammoth.svg",
+  "frames": 22
+ },
+ "Slag": {
+  "svg": "assets/sprites/Slag.svg",
+  "frames": 18
+ },
+ "FetusJar": {
+  "svg": "assets/sprites/FetusJar.svg",
+  "frames": 18
+ },
+ "CoreArm": {
+  "svg": "assets/sprites/CoreArm.svg",
+  "frames": 20
+ },
+ "DocBot": {
+  "svg": "assets/sprites/DocBot.svg",
+  "frames": 18
+ },
+ "FrankX": {
+  "svg": "assets/sprites/FrankX.svg",
+  "frames": 24
+ },
+ "Invader": {
+  "svg": "assets/sprites/Invader.svg",
+  "frames": 14
+ },
+ "GroundedSpear": {
+  "svg": "assets/sprites/GroundedSpear.svg",
+  "frames": 14
+ },
+ "CavePerson": {
+  "svg": "assets/sprites/CavePerson.svg",
+  "frames": 179
+ },
+ "Triceratops": {
+  "svg": "assets/sprites/Triceratops.svg",
+  "frames": 24
+ },
+ "Floast": {
+  "svg": "assets/sprites/Floast.svg",
+  "frames": 20
+ },
+ "WhiteBear": {
+  "svg": "assets/sprites/WhiteBear.svg",
+  "frames": 18
+ },
+ "FetusNoJar": {
+  "svg": "assets/sprites/FetusNoJar.svg",
+  "frames": 32
+ },
+ "FatMan": {
+  "svg": "assets/sprites/FatMan.svg",
+  "frames": 20
+ },
+ "Fuzzer": {
+  "svg": "assets/sprites/Fuzzer.svg",
+  "frames": 16
+ },
+ "BungaElite2": {
+  "svg": "assets/sprites/BungaElite2.svg",
+  "frames": 119
+ },
+ "OrganGrinderX": {
+  "svg": "assets/sprites/OrganGrinderX.svg",
+  "frames": 20
+ },
+ "CopBot": {
+  "svg": "assets/sprites/CopBot.svg",
+  "frames": 22
+ },
+ "RatCat": {
+  "svg": "assets/sprites/RatCat.svg",
+  "frames": 19
+ },
+ "EmptyV": {
+  "svg": "assets/sprites/EmptyV.svg",
+  "frames": 36
+ },
+ "BeaniesX": {
+  "svg": "assets/sprites/BeaniesX.svg",
+  "frames": 20
+ },
+ "BungaElite1": {
+  "svg": "assets/sprites/BungaElite1.svg",
+  "frames": 119
+ },
+ "Parasiter": {
+  "svg": "assets/sprites/Parasiter.svg",
+  "frames": 16
+ },
+ "HumanCat": {
+  "svg": "assets/sprites/HumanCat.svg",
+  "frames": 32
+ },
+ "GirlDino": {
+  "svg": "assets/sprites/GirlDino.svg",
+  "frames": 22
+ },
+ "ShadeF": {
+  "svg": "assets/sprites/ShadeF.svg",
+  "frames": 42
+ },
+ "JarHead": {
+  "svg": "assets/sprites/JarHead.svg",
+  "frames": 18
+ },
+ "TumorBarrier": {
+  "svg": "assets/sprites/TumorBarrier.svg",
+  "frames": 16
+ },
+ "Gatekeeper": {
+  "svg": "assets/sprites/Gatekeeper.svg",
+  "frames": 20
+ },
+ "SlotMachine": {
+  "svg": "assets/sprites/SlotMachine.svg",
+  "frames": 18
+ },
+ "TracyX": {
+  "svg": "assets/sprites/TracyX.svg",
+  "frames": 32
+ },
+ "Clot": {
+  "svg": "assets/sprites/Clot.svg",
+  "frames": 12
+ },
+ "Pterodactyl": {
+  "svg": "assets/sprites/Pterodactyl.svg",
+  "frames": 32
+ },
+ "PinkyX": {
+  "svg": "assets/sprites/PinkyX.svg",
+  "frames": 12
+ },
+ "AngelicCatFetus": {
+  "svg": "assets/sprites/AngelicCatFetus.svg",
+  "frames": 18
+ },
+ "DrDitto": {
+  "svg": "assets/sprites/DrDitto.svg",
+  "frames": 18
+ },
+ "ShadeM": {
+  "svg": "assets/sprites/ShadeM.svg",
+  "frames": 18
+ },
+ "GreenProber": {
+  "svg": "assets/sprites/GreenProber.svg",
+  "frames": 18
+ },
+ "SoldierBot": {
+  "svg": "assets/sprites/SoldierBot.svg",
+  "frames": 24
+ },
+ "MegaMutant": {
+  "svg": "assets/sprites/MegaMutant.svg",
+  "frames": 30
+ },
+ "NubsCat": {
+  "svg": "assets/sprites/NubsCat.svg",
+  "frames": 14
+ },
+ "ShamblingShade": {
+  "svg": "assets/sprites/ShamblingShade.svg",
+  "frames": 18
+ },
+ "Yeti": {
+  "svg": "assets/sprites/Yeti.svg",
+  "frames": 24
+ },
+ "BoyDino": {
+  "svg": "assets/sprites/BoyDino.svg",
+  "frames": 26
+ },
+ "ConjoinedHusk": {
+  "svg": "assets/sprites/ConjoinedHusk.svg",
+  "frames": 32
+ },
+ "CloningVat": {
+  "svg": "assets/sprites/CloningVat.svg",
+  "frames": 6
+ },
+ "CatHuman": {
+  "svg": "assets/sprites/CatHuman.svg",
+  "frames": 20
+ },
+ "HangerBot": {
+  "svg": "assets/sprites/HangerBot.svg",
+  "frames": 18
+ },
+ "ThrobbingTurret": {
+  "svg": "assets/sprites/ThrobbingTurret.svg",
+  "frames": 12
+ },
+ "FatWoman": {
+  "svg": "assets/sprites/FatWoman.svg",
+  "frames": 20
+ },
+ "GreyAlien": {
+  "svg": "assets/sprites/GreyAlien.svg",
+  "frames": 34
+ },
+ "MedSlimeX": {
+  "svg": "assets/sprites/MedSlimeX.svg",
+  "frames": 12
+ },
+ "FleshLad": {
+  "svg": "assets/sprites/FleshLad.svg",
+  "frames": 16
+ },
+ "SmallSlimeX": {
+  "svg": "assets/sprites/SmallSlimeX.svg",
+  "frames": 14
+ },
+ "Gamete": {
+  "svg": "assets/sprites/Gamete.svg",
+  "frames": 28
+ },
+ "DinoEggs": {
+  "svg": "assets/sprites/DinoEggs.svg",
+  "frames": 13
+ },
+ "BigSlimeX": {
+  "svg": "assets/sprites/BigSlimeX.svg",
+  "frames": 12
+ },
+ "Husk": {
+  "svg": "assets/sprites/Husk.svg",
+  "frames": 18
+ },
+ "TallBot": {
+  "svg": "assets/sprites/TallBot.svg",
+  "frames": 26
+ },
+ "ButchTinkX": {
+  "svg": "assets/sprites/ButchTinkX.svg",
+  "frames": 18
+ },
+ "YellowBlaster": {
+  "svg": "assets/sprites/YellowBlaster.svg",
+  "frames": 24
+ },
+ "Trex": {
+  "svg": "assets/sprites/Trex.svg",
+  "frames": 22
+ },
+ "FleshyMind": {
+  "svg": "assets/sprites/FleshyMind.svg",
+  "frames": 16
+ },
+ "WoC_Wall": {
+  "svg": "assets/sprites/WoC_Wall.svg",
+  "frames": 1
+ },
+ "SimonFlop": {
+  "svg": "assets/sprites/SimonFlop.svg",
+  "frames": 4
+ },
+ "Guillotina3Head": {
+  "svg": "assets/sprites/Guillotina3Head.svg",
+  "frames": 16
+ },
+ "WoC_Mouth": {
+  "svg": "assets/sprites/WoC_Mouth.svg",
+  "frames": 1
+ },
+ "Guillotina2Head": {
+  "svg": "assets/sprites/Guillotina2Head.svg",
+  "frames": 34
+ },
+ "WoC_Eye": {
+  "svg": "assets/sprites/WoC_Eye.svg",
+  "frames": 1
+ },
+ "Guillotina2Body": {
+  "svg": "assets/sprites/Guillotina2Body.svg",
+  "frames": 28
+ },
+ "UltraSmough": {
+  "svg": "assets/sprites/UltraSmough.svg",
+  "frames": 2
+ },
+ "Guillotina3Body": {
+  "svg": "assets/sprites/Guillotina3Body.svg",
+  "frames": 36
+ },
+ "QueenHippo": {
+  "svg": "assets/sprites/QueenHippo.svg",
+  "frames": 20
+ },
+ "Trampy": {
+  "svg": "assets/sprites/Trampy.svg",
+  "frames": 34
+ },
+ "Johnny": {
+  "svg": "assets/sprites/Johnny.svg",
+  "frames": 30
+ },
+ "Ornstein": {
+  "svg": "assets/sprites/Ornstein.svg",
+  "frames": 2
+ },
+ "Smough": {
+  "svg": "assets/sprites/Smough.svg",
+  "frames": 2
+ },
+ "UltraOrnstein": {
+  "svg": "assets/sprites/UltraOrnstein.svg",
+  "frames": 2
+ },
+ "Guillotina1": {
+  "svg": "assets/sprites/Guillotina1.svg",
+  "frames": 66
+ },
+ "Simon": {
+  "svg": "assets/sprites/Simon.svg",
+  "frames": 2
+ },
+ "MeatMinion": {
+  "svg": "assets/sprites/MeatMinion.svg",
+  "frames": 2
+ },
+ "Wizard": {
+  "svg": "assets/sprites/Wizard.svg",
+  "frames": 2
+ },
+ "GambitDice": {
+  "svg": "assets/sprites/GambitDice.svg",
+  "frames": 23
+ },
+ "MoonHand": {
+  "svg": "assets/sprites/MoonHand.svg",
+  "frames": 54
+ },
+ "Pyrophina": {
+  "svg": "assets/sprites/Pyrophina.svg",
+  "frames": 42
+ },
+ "Cerberubs": {
+  "svg": "assets/sprites/Cerberubs.svg",
+  "frames": 34
+ },
+ "AstroSkull": {
+  "svg": "assets/sprites/AstroSkull.svg",
+  "frames": 16
+ },
+ "CovenCandle": {
+  "svg": "assets/sprites/CovenCandle.svg",
+  "frames": 12
+ },
+ "MoonHead": {
+  "svg": "assets/sprites/MoonHead.svg",
+  "frames": 94
+ },
+ "Zodiac": {
+  "svg": "assets/sprites/Zodiac.svg",
+  "frames": 20
+ },
+ "AstroZombie": {
+  "svg": "assets/sprites/AstroZombie.svg",
+  "frames": 46
+ },
+ "Gambit": {
+  "svg": "assets/sprites/Gambit.svg",
+  "frames": 30
+ },
+ "Zaratana": {
+  "svg": "assets/sprites/Zaratana.svg",
+  "frames": 56
+ },
+ "NeutronStar": {
+  "svg": "assets/sprites/NeutronStar.svg",
+  "frames": 3
+ },
+ "Grenade": {
+  "svg": "assets/sprites/Grenade.svg",
+  "frames": 6
+ },
+ "MiniVolcano": {
+  "svg": "assets/sprites/MiniVolcano.svg",
+  "frames": 6
+ },
+ "LabSupportPillar": {
+  "svg": "assets/sprites/LabSupportPillar.svg",
+  "frames": 8
+ },
+ "DustDevil": {
+  "svg": "assets/sprites/DustDevil.svg",
+  "frames": 26
+ },
+ "Gemini": {
+  "svg": "assets/sprites/Gemini.svg",
+  "frames": 22
+ },
+ "Lenny": {
+  "svg": "assets/sprites/Lenny.svg",
+  "frames": 54
+ },
+ "RatKing": {
+  "svg": "assets/sprites/RatKing.svg",
+  "frames": 2
+ },
+ "MamaMaggot": {
+  "svg": "assets/sprites/MamaMaggot.svg",
+  "frames": 17
+ },
+ "BigSlime": {
+  "svg": "assets/sprites/BigSlime.svg",
+  "frames": 12
+ },
+ "Fatso": {
+  "svg": "assets/sprites/Fatso.svg",
+  "frames": 18
+ },
+ "Flushmaster": {
+  "svg": "assets/sprites/Flushmaster.svg",
+  "frames": 16
+ },
+ "Bumblefoot": {
+  "svg": "assets/sprites/Bumblefoot.svg",
+  "frames": 30
+ },
+ "CanCreeperOut": {
+  "svg": "assets/sprites/CanCreeperOut.svg",
+  "frames": 16
+ },
+ "Nubs": {
+  "svg": "assets/sprites/Nubs.svg",
+  "frames": 14
+ },
+ "RockyBobo": {
+  "svg": "assets/sprites/RockyBobo.svg",
+  "frames": 26
+ },
+ "Chubs": {
+  "svg": "assets/sprites/Chubs.svg",
+  "frames": 28
+ },
+ "SpiderQueen": {
+  "svg": "assets/sprites/SpiderQueen.svg",
+  "frames": 50
+ },
+ "CanCreeper": {
+  "svg": "assets/sprites/CanCreeper.svg",
+  "frames": 18
+ },
+ "BomberRat": {
+  "svg": "assets/sprites/BomberRat.svg",
+  "frames": 20
+ },
+ "RatPile": {
+  "svg": "assets/sprites/RatPile.svg",
+  "frames": 1
+ },
+ "MedSlime": {
+  "svg": "assets/sprites/MedSlime.svg",
+  "frames": 12
+ },
+ "SmallSlime": {
+  "svg": "assets/sprites/SmallSlime.svg",
+  "frames": 12
+ },
+ "TheCoven": {
+  "svg": "assets/sprites/TheCoven.svg",
+  "frames": 14
+ },
+ "Tombstone": {
+  "svg": "assets/sprites/Tombstone.svg",
+  "frames": 8
+ },
+ "TheMother": {
+  "svg": "assets/sprites/TheMother.svg",
+  "frames": 3
+ },
+ "FinalBossPhase2": {
+  "svg": "assets/sprites/FinalBossPhase2.svg",
+  "frames": 1
+ },
+ "AlienBeast": {
+  "svg": "assets/sprites/AlienBeast.svg",
+  "frames": 1
+ },
+ "MotherTumor": {
+  "svg": "assets/sprites/MotherTumor.svg",
+  "frames": 1
+ },
+ "RatKing_New": {
+  "svg": "assets/sprites/RatKing_New.svg",
+  "frames": 1
+ },
+ "HitlerMech": {
+  "svg": "assets/sprites/HitlerMech.svg",
+  "frames": 1
+ }
+}

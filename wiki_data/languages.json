@@ -1,0 +1,32 @@
+[
+ {
+  "code": "en",
+  "name": "English",
+  "strings": 16277
+ },
+ {
+  "code": "es",
+  "name": "Español",
+  "strings": 16277
+ },
+ {
+  "code": "fr",
+  "name": "Français",
+  "strings": 15999
+ },
+ {
+  "code": "de",
+  "name": "Deutsch",
+  "strings": 16263
+ },
+ {
+  "code": "it",
+  "name": "Italiano",
+  "strings": 16469
+ },
+ {
+  "code": "pt",
+  "name": "Português (Brasil)",
+  "strings": 16015
+ }
+]

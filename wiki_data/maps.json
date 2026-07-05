@@ -1,0 +1,1620 @@
+[
+ {
+  "graphics": "Map_Alley",
+  "chapter_id": "alley",
+  "tileset": "alley",
+  "world_name_frame": "alley",
+  "area_name": "AREA_NAME_ALLEY",
+  "intro_cutscene": "none",
+  "act": 1,
+  "chapter": 1,
+  "version": 1,
+  "levels": {
+   "folder": "alley",
+   "easy": [
+    "easy"
+   ],
+   "hard": [
+    "easy"
+   ],
+   "rare": [
+    "rare"
+   ],
+   "boss": [
+    "boss"
+   ],
+   "miniboss": [
+    "miniboss"
+   ],
+   "special": [
+    "special"
+   ]
+  },
+  "bosses": {
+   "radicalrat": "auto",
+   "queenhippo": "auto"
+  },
+  "minibosses": {
+   "fightercat": "auto",
+   "huntercat": "auto",
+   "magecat": "auto",
+   "tankcat": "auto",
+   "jestercat": "auto"
+  },
+  "music": "alley",
+  "ambience": "amb_alley.ogg",
+  "events": {
+   "normal": [
+    "common",
+    "alley_events.gon"
+   ]
+  },
+  "enemy_pools": {
+   "small": [
+    "Maggot",
+    "Fly",
+    "Flea",
+    "Pinky"
+   ],
+   "medium": [
+    "Rat",
+    "Leaper",
+    "Pooter",
+    "Kitten",
+    "TomTom",
+    "Mangy",
+    "CatCaller"
+   ],
+   "large": []
+  },
+  "item_pools": {
+   "chapter_item_pool": "alleyitems"
+  },
+  "flags": {
+   "HardPathUnlocked": {
+    "hard_initial": {
+     "locked": false
+    }
+   },
+   "SewersUnlocked": {
+    "exit0": {
+     "locked": false
+    }
+   },
+   "JunkyardUnlocked": {
+    "exit1": {
+     "locked": false
+    }
+   }
+  },
+  "area_name_key": "AREA_NAME_ALLEY",
+  "area_name_en": "The Alley",
+  "_id": "alley",
+  "_source": "alley.gon"
+ },
+ {
+  "graphics": "Map_Graves",
+  "chapter_id": "boneyard",
+  "tileset": "boneyard",
+  "world_name_frame": "boneyard",
+  "area_name": "AREA_NAME_BONEYARD",
+  "intro_cutscene": "graveyard",
+  "act": 1,
+  "chapter": 3,
+  "version": 1,
+  "levels": {
+   "folder": "boneyard",
+   "easy": [
+    "easy"
+   ],
+   "hard": [
+    "easy"
+   ],
+   "rare": [
+    "rare"
+   ],
+   "boss": [
+    "boss"
+   ],
+   "miniboss": [
+    "miniboss"
+   ],
+   "special": [
+    "special"
+   ]
+  },
+  "music": "boneyard",
+  "ambience": "amb_boneyard.ogg",
+  "events": {
+   "normal": [
+    "common",
+    "boneyard_events.gon"
+   ]
+  },
+  "enemy_pools": {
+   "small": [
+    "Flea",
+    "Wisp",
+    "Fly",
+    "Maggot"
+   ],
+   "medium": [
+    "ZombieCat",
+    "SkeletonCat",
+    "TallSkeletonCat",
+    "WolfCat",
+    "Tatters",
+    "Spookie",
+    "Scary",
+    "Reaper",
+    "TallRobes",
+    "GraveWorm",
+    "ButtZombie"
+   ],
+   "large": [
+    "Shambler"
+   ]
+  },
+  "item_pools": {
+   "chapter_item_pool": "boneyarditems"
+  },
+  "minibosses": {
+   "mamamaggot": "auto"
+  },
+  "flags": {
+   "ThrobbingArteryDone": {
+    "quest_event": {
+     "level": "Quest_ThrobbingArtery2",
+     "override_art": "MapNode_VeinsDrained"
+    }
+   },
+   "MeatWorldUnlocked": {
+    "quest_event": {
+     "type": "empty",
+     "override_art": "MapNode_Empty"
+    },
+    "exit0": {
+     "hidden": false
+    }
+   }
+  },
+  "area_name_key": "AREA_NAME_BONEYARD",
+  "area_name_en": "The Boneyard",
+  "_id": "boneyard",
+  "_source": "boneyard.gon"
+ },
+ {
+  "graphics": "Map_Bunker",
+  "chapter_id": "bunker",
+  "tileset": "bunker",
+  "world_name_frame": "bunker",
+  "area_name": "AREA_NAME_BUNKER",
+  "intro_cutscene": "bunker",
+  "act": 2,
+  "chapter": 2,
+  "version": 1,
+  "levels": {
+   "folder": "bunker",
+   "easy": [
+    "easy"
+   ],
+   "hard": [
+    "easy"
+   ],
+   "rare": [
+    "rare"
+   ],
+   "boss": [
+    "boss"
+   ],
+   "miniboss": [
+    "miniboss"
+   ],
+   "special": [
+    "special"
+   ]
+  },
+  "music": "bunker",
+  "ambience": "amb_bunker.ogg",
+  "events": {
+   "normal": [
+    "common",
+    "bunker_events.gon"
+   ]
+  },
+  "enemy_pools": {
+   "small": [],
+   "medium": [
+    "AtomicKitten",
+    "RoboTom",
+    "CatCultist",
+    "Cultist",
+    "CultistZealot",
+    "CultistMutant",
+    "CultistBishop",
+    "BishopHat",
+    "LoveBot",
+    "SecurityBot",
+    "Hive",
+    "FloatingHive"
+   ],
+   "large": [
+    "KillDozer"
+   ]
+  },
+  "item_pools": {
+   "chapter_item_pool": "bunkeritems"
+  },
+  "minibosses": {
+   "lenny": "auto",
+   "bumblefoot": "auto"
+  },
+  "flags": {
+   "CoreUnlocked": {
+    "exit0": {
+     "locked": false
+    }
+   }
+  },
+  "area_name_key": "AREA_NAME_BUNKER",
+  "area_name_en": "The Bunker",
+  "_id": "bunker",
+  "_source": "bunker.gon"
+ },
+ {
+  "graphics": "Map_Caves",
+  "chapter_id": "caves",
+  "tileset": "caves",
+  "world_name_frame": "caves",
+  "area_name": "AREA_NAME_CAVES",
+  "intro_cutscene": "caves",
+  "act": 1,
+  "chapter": 3,
+  "version": 1,
+  "levels": {
+   "folder": "caves",
+   "easy": [
+    "easy"
+   ],
+   "hard": [
+    "easy"
+   ],
+   "rare": [
+    "rare"
+   ],
+   "boss": [
+    "boss"
+   ],
+   "miniboss": [
+    "miniboss"
+   ],
+   "special": [
+    "special"
+   ]
+  },
+  "music": "caves",
+  "ambience": "amb_cave.ogg",
+  "events": {
+   "normal": [
+    "common",
+    "caves_events.gon"
+   ]
+  },
+  "enemy_pools": {
+   "small": [
+    "TinySpider"
+   ],
+   "medium": [
+    "SkullOoze",
+    "BrainDrain",
+    "Bat",
+    "TallSpiderCat",
+    "SpiderCat",
+    "Toadie",
+    "AlbinoTomTom",
+    "KirbyFetus",
+    "TenTickles"
+   ],
+   "large": [
+    "MegaFetus"
+   ]
+  },
+  "item_pools": {
+   "chapter_item_pool": "cavesitems"
+  },
+  "minibosses": {
+   "slime": "auto"
+  },
+  "flags": {
+   "WallOfFleshDone": {
+    "quest_event": {
+     "level": "Quest_WallOfFlesh2",
+     "override_art": "MapNode_FleshWall"
+    }
+   },
+   "MeatWorldUnlocked": {
+    "quest_event": {
+     "type": "empty",
+     "override_art": "MapNode_Empty"
+    },
+    "exit0": {
+     "hidden": false
+    }
+   }
+  },
+  "area_name_key": "AREA_NAME_CAVES",
+  "area_name_en": "The Caves",
+  "_id": "caves",
+  "_source": "caves.gon"
+ },
+ {
+  "graphics": "Map_Core",
+  "chapter_id": "core",
+  "tileset": "core",
+  "world_name_frame": "thecore",
+  "area_name": "AREA_NAME_CORE",
+  "intro_cutscene": "core",
+  "act": 2,
+  "chapter": 3,
+  "version": 1,
+  "levels": {
+   "folder": "core",
+   "easy": [
+    "easy"
+   ],
+   "hard": [
+    "easy"
+   ],
+   "rare": [
+    "rare"
+   ],
+   "boss": [
+    "boss"
+   ],
+   "miniboss": [
+    "miniboss"
+   ],
+   "special": [
+    "special"
+   ]
+  },
+  "music": "core",
+  "ambience": "amb_core.ogg",
+  "events": {
+   "normal": [
+    "common",
+    "core_events.gon"
+   ]
+  },
+  "enemy_pools": {
+   "small": [],
+   "medium": [
+    "CoreFreak",
+    "PokerDemon",
+    "Whisperer",
+    "CloakedDemon",
+    "BigDemon",
+    "HeadTumor",
+    "TallTumor",
+    "DemonHooker",
+    "Belcher",
+    "TumorCat"
+   ],
+   "large": [
+    "MegaTumor"
+   ]
+  },
+  "item_pools": {
+   "chapter_item_pool": "coreitems"
+  },
+  "minibosses": {
+   "cerberubs": "auto"
+  },
+  "flags": {
+   "CoreObeliskUnlocked": {
+    "quest_event": {
+     "level": "Quest_CoreObeliskRaised",
+     "override_art": "MapNode_ObeliskFull"
+    }
+   },
+   "BothObelisksUnlocked": {
+    "quest_event": {
+     "level": "Quest_CoreObeliskGlowing",
+     "override_art": "MapNode_ObeliskGlowing"
+    }
+   },
+   "DimensionXUnlocked": {
+    "quest_event": {
+     "level": "Quest_DimensionXPortal",
+     "override_art": "MapNode_RiftPortal"
+    }
+   }
+  },
+  "area_name_key": "AREA_NAME_CORE",
+  "area_name_en": "The Core",
+  "_id": "core",
+  "_source": "core.gon"
+ },
+ {
+  "graphics": "Map_Crater",
+  "chapter_id": "crater",
+  "tileset": "crater",
+  "world_name_frame": "crater",
+  "area_name": "AREA_NAME_CRATER",
+  "intro_cutscene": "crater",
+  "act": 2,
+  "chapter": 2,
+  "version": 1,
+  "levels": {
+   "folder": "crater",
+   "easy": [
+    "easy"
+   ],
+   "hard": [
+    "easy"
+   ],
+   "rare": [
+    "rare"
+   ],
+   "boss": [
+    "boss"
+   ],
+   "miniboss": [
+    "miniboss"
+   ],
+   "special": [
+    "special"
+   ]
+  },
+  "music": "crater",
+  "ambience": "amb_crater.ogg",
+  "events": {
+   "normal": [
+    "common",
+    "crater_events.gon"
+   ]
+  },
+  "enemy_pools": {
+   "small": [
+    "Amoeba"
+   ],
+   "medium": [
+    "GeoLad",
+    "BrambleBaby",
+    "Hemlock",
+    "Nettle",
+    "Birthwort",
+    "Tremblo",
+    "Infested",
+    "RockHead",
+    "NoHead",
+    "CraterCreeper"
+   ],
+   "large": [
+    "Carnibulb"
+   ]
+  },
+  "item_pools": {
+   "chapter_item_pool": "crateritems"
+  },
+  "minibosses": {
+   "rockybobo": "auto",
+   "infestedduo": "auto"
+  },
+  "flags": {
+   "MoonUnlocked": {
+    "exit0": {
+     "locked": false
+    }
+   }
+  },
+  "area_name_key": "AREA_NAME_CRATER",
+  "area_name_en": "The Crater",
+  "_id": "crater",
+  "_source": "crater.gon"
+ },
+ {
+  "graphics": "Map_Desert",
+  "chapter_id": "desert",
+  "tileset": "desert",
+  "world_name_frame": "desert",
+  "area_name": "AREA_NAME_DESERT",
+  "act": 2,
+  "chapter": 1,
+  "version": 1,
+  "cat_flip": -1,
+  "levels": {
+   "folder": "desert",
+   "easy": [
+    "easy"
+   ],
+   "hard": [
+    "easy"
+   ],
+   "rare": [
+    "rare"
+   ],
+   "boss": [
+    "boss"
+   ],
+   "miniboss": [
+    "miniboss"
+   ],
+   "special": [
+    "special"
+   ]
+  },
+  "music": "desert",
+  "ambience": "amb_desert.ogg",
+  "innate_weather": [
+   "HeatWave"
+  ],
+  "events": {
+   "normal": [
+    "common",
+    "desert_events.gon"
+   ]
+  },
+  "enemy_pools": {
+   "small": [
+    "RattleSnake"
+   ],
+   "medium": [
+    "FlySwarm",
+    "SnakeyBones",
+    "Carcus",
+    "Peashy",
+    "BabyDeathWorm",
+    "HornyCat",
+    "GunCat",
+    "Mangy2",
+    "ScorpionCat"
+   ],
+   "large": [
+    "SkeletonShambler",
+    "Thump",
+    "DeathWorm"
+   ]
+  },
+  "item_pools": {
+   "chapter_item_pool": "desertitems"
+  },
+  "bosses": {
+   "zodiac": "auto",
+   "gambit": "auto"
+  },
+  "minibosses": {
+   "thiefcat": "auto",
+   "clericcat": "auto",
+   "butchercat": "auto",
+   "necrocat": "auto",
+   "jestercat": "auto"
+  },
+  "flags": {
+   "BunkerUnlocked": {
+    "exit0": {
+     "locked": false
+    }
+   },
+   "CraterUnlocked": {
+    "exit1": {
+     "locked": false
+    }
+   }
+  },
+  "area_name_key": "AREA_NAME_DESERT",
+  "area_name_en": "The Desert",
+  "_id": "desert",
+  "_source": "desert.gon"
+ },
+ {
+  "graphics": "Map_DimensionX",
+  "chapter_id": "dimensionx",
+  "tileset": "therift",
+  "world_name_frame": "therift",
+  "area_name": "AREA_NAME_DIMENSIONX",
+  "act": 2,
+  "chapter": 4,
+  "version": 1,
+  "levels": {
+   "folder": "dimensionx",
+   "easy": [
+    "easy"
+   ],
+   "hard": [
+    "easy"
+   ],
+   "rare": [
+    "rare"
+   ],
+   "boss": [
+    "boss"
+   ],
+   "miniboss": [
+    "miniboss"
+   ],
+   "special": [
+    "special"
+   ]
+  },
+  "music": "dimensionx",
+  "ambience": "amb_dimensionx.ogg",
+  "events": {
+   "normal": [
+    "common"
+   ]
+  },
+  "enemy_pools": {
+   "small": [
+    "FrankPinky"
+   ],
+   "medium": [
+    "JackCat",
+    "ChaosStacy",
+    "FrankFetus",
+    "BeaniesRat"
+   ],
+   "large": [
+    "ButchTinkBoris",
+    "TracyFetus"
+   ]
+  },
+  "item_pools": {
+   "chapter_item_pool": "dimensionxitems"
+  },
+  "flags": {
+   "ChaosAntennaAttached": {
+    "quest_event": {
+     "override_art": "MapNode_DeadChaosAntenna"
+    }
+   }
+  },
+  "area_name_key": "AREA_NAME_DIMENSIONX",
+  "area_name_en": "The Rift",
+  "_id": "dimensionx",
+  "_source": "dimensionx.gon"
+ },
+ {
+  "graphics": "Map_EndOfTime",
+  "chapter_id": "endoftime",
+  "tileset": "theinfinite",
+  "world_name_frame": "theinfinite",
+  "use_text_fallback_for_nonenglish": false,
+  "area_name": "AREA_NAME_ENDOFTIME",
+  "act": 3,
+  "chapter": 4,
+  "version": 1,
+  "levels": {
+   "folder": "theinfinite",
+   "easy": [
+    "easy"
+   ],
+   "hard": [
+    "easy"
+   ],
+   "rare": [
+    "rare"
+   ],
+   "boss": [
+    "boss"
+   ],
+   "miniboss": [
+    "miniboss"
+   ],
+   "special": [
+    "special"
+   ]
+  },
+  "music": "endoftime",
+  "ambience": "amb_endoftime.ogg",
+  "events": {
+   "normal": [
+    "common"
+   ]
+  },
+  "enemy_pools": {
+   "small": [],
+   "medium": [
+    "Cherubim",
+    "Seraphim",
+    "Gatekeeper",
+    "AngelicKitten",
+    "AngelicCat"
+   ],
+   "large": []
+  },
+  "item_pools": {
+   "chapter_item_pool": "theinfiniteitems"
+  },
+  "flags": {},
+  "area_name_key": "AREA_NAME_ENDOFTIME",
+  "area_name_en": "The Infinite",
+  "_id": "endoftime",
+  "_source": "endoftime.gon"
+ },
+ {
+  "graphics": "Map_EventDebug",
+  "chapter_id": "debug",
+  "act": 1,
+  "chapter": 1,
+  "version": 1,
+  "levels": {
+   "folder": "alley",
+   "easy": [
+    "easy"
+   ],
+   "hard": [
+    "hard"
+   ],
+   "rare": [
+    "rare"
+   ],
+   "boss": [
+    "boss"
+   ],
+   "miniboss": [
+    "miniboss"
+   ],
+   "nemesis": [
+    "nemesis"
+   ]
+  },
+  "music": "jurassic",
+  "events": {
+   "normal": [
+    "common",
+    "special_events.gon"
+   ]
+  },
+  "item_pools": {
+   "chapter_item_pool": "alleyitems"
+  },
+  "nemesis": {
+   "head_start": 99,
+   "advance": 1,
+   "spawn_node": "start",
+   "repeat": "never"
+  },
+  "generated_nodes": {},
+  "groups": {},
+  "flags": {},
+  "_id": "eventdebug",
+  "_source": "eventdebug.gon"
+ },
+ {
+  "graphics": "Map_Future",
+  "chapter_id": "future",
+  "tileset": "future",
+  "world_name_frame": "future",
+  "area_name": "AREA_NAME_FUTURE",
+  "act": 3,
+  "chapter": 2,
+  "version": 1,
+  "levels": {
+   "folder": "future",
+   "easy": [
+    "easy"
+   ],
+   "hard": [
+    "easy"
+   ],
+   "rare": [
+    "rare"
+   ],
+   "boss": [
+    "boss"
+   ],
+   "miniboss": [
+    "miniboss"
+   ],
+   "special": [
+    "special"
+   ]
+  },
+  "music": "future",
+  "ambience": "amb_future.ogg",
+  "events": {
+   "normal": [
+    "common",
+    "future_events.gon"
+   ]
+  },
+  "enemy_pools": {
+   "small": [
+    "Invader"
+   ],
+   "medium": [
+    "FatCat",
+    "FutureBot",
+    "SoldierBot",
+    "HangerBot",
+    "DoctorBot",
+    "TallBot",
+    "TVBot",
+    "JarHead",
+    "FetusJar",
+    "FetusNoJar"
+   ],
+   "large": [
+    "FatMan",
+    "FatWoman"
+   ]
+  },
+  "item_pools": {
+   "chapter_item_pool": "futureitems"
+  },
+  "minibosses": {
+   "lightningelemental": "auto",
+   "drmangler": "auto"
+  },
+  "flags": {
+   "TheEndUnlocked": {
+    "exit0": {
+     "locked": false
+    }
+   }
+  },
+  "area_name_key": "AREA_NAME_FUTURE",
+  "area_name_en": "Das Füture",
+  "_id": "future",
+  "_source": "future.gon"
+ },
+ {
+  "graphics": "Map_IceAge",
+  "chapter_id": "iceage",
+  "tileset": "iceage",
+  "world_name_frame": "iceage",
+  "area_name": "AREA_NAME_ICEAGE",
+  "act": 3,
+  "chapter": 2,
+  "version": 1,
+  "cat_flip": -1,
+  "levels": {
+   "folder": "iceage",
+   "easy": [
+    "easy"
+   ],
+   "hard": [
+    "easy"
+   ],
+   "rare": [
+    "rare"
+   ],
+   "boss": [
+    "boss"
+   ],
+   "miniboss": [
+    "miniboss"
+   ],
+   "special": [
+    "special"
+   ]
+  },
+  "music": "iceage",
+  "ambience": [
+   "amb_iceage.ogg",
+   "amb_snow.ogg"
+  ],
+  "innate_weather": [
+   "Snow"
+  ],
+  "events": {
+   "normal": [
+    "common",
+    "iceage_events.gon"
+   ]
+  },
+  "enemy_pools": {
+   "small": [],
+   "medium": [
+    "CaveBaby",
+    "CaveMan",
+    "CaveWoman",
+    "WereMan",
+    "CaveChief",
+    "Yeti",
+    "Yeticat",
+    "SabertoothCat",
+    "SabertoothCub",
+    "MammothBaby",
+    "Fuzzer"
+   ],
+   "large": [
+    "Mammoth"
+   ]
+  },
+  "item_pools": {
+   "chapter_item_pool": "iceageitems"
+  },
+  "minibosses": {
+   "iceelemental": "auto",
+   "cavecatfamily": "auto"
+  },
+  "flags": {
+   "JurassicUnlocked": {
+    "exit0": {
+     "locked": false
+    }
+   }
+  },
+  "area_name_key": "AREA_NAME_ICEAGE",
+  "area_name_en": "The Ice Age",
+  "_id": "iceage",
+  "_source": "iceage.gon"
+ },
+ {
+  "graphics": "Map_Junkyard",
+  "chapter_id": "junkyard",
+  "tileset": "junkyard",
+  "world_name_frame": "junkyard",
+  "area_name": "AREA_NAME_JUNKYARD",
+  "intro_cutscene": "junkyard",
+  "act": 1,
+  "chapter": 2,
+  "version": 1,
+  "levels": {
+   "folder": "junkyard",
+   "easy": [
+    "easy"
+   ],
+   "hard": [
+    "easy"
+   ],
+   "rare": [
+    "rare"
+   ],
+   "boss": [
+    "boss"
+   ],
+   "miniboss": [
+    "miniboss"
+   ],
+   "special": [
+    "special"
+   ]
+  },
+  "music": "junkyard",
+  "ambience": "amb_junkyard.ogg",
+  "events": {
+   "normal": [
+    "common",
+    "junkyard_events.gon"
+   ]
+  },
+  "enemy_pools": {
+   "small": [
+    "Maggot",
+    "Fly"
+   ],
+   "medium": [
+    "Lumpy",
+    "GlassSpitter",
+    "Siren",
+    "Jekyll",
+    "SpikedCat",
+    "PopeyeCat",
+    "ChumBag",
+    "Chummy",
+    "Host"
+   ],
+   "large": []
+  },
+  "item_pools": {
+   "chapter_item_pool": "junkyarditems"
+  },
+  "minibosses": {
+   "cancreeper": "auto",
+   "trampy": "auto"
+  },
+  "flags": {
+   "BoneyardUnlocked": {
+    "exit0": {
+     "locked": false
+    }
+   }
+  },
+  "area_name_key": "AREA_NAME_JUNKYARD",
+  "area_name_en": "The Junkyard",
+  "_id": "junkyard",
+  "_source": "junkyard.gon"
+ },
+ {
+  "graphics": "Map_Jurassic",
+  "chapter_id": "jurassic",
+  "tileset": "jurassic",
+  "world_name_frame": "jurassic",
+  "area_name": "AREA_NAME_JURASSIC",
+  "act": 3,
+  "chapter": 3,
+  "version": 1,
+  "cat_flip": -1,
+  "levels": {
+   "folder": "jurassic",
+   "easy": [
+    "easy"
+   ],
+   "hard": [
+    "easy"
+   ],
+   "rare": [
+    "rare"
+   ],
+   "boss": [
+    "boss"
+   ],
+   "miniboss": [
+    "miniboss"
+   ],
+   "special": [
+    "special"
+   ]
+  },
+  "music": "jurassic",
+  "ambience": "amb_jurassic.ogg",
+  "events": {
+   "normal": [
+    "common",
+    "jurassic_events.gon"
+   ]
+  },
+  "enemy_pools": {
+   "small": [],
+   "medium": [
+    "PrehistoricPooter",
+    "Pterodactyl",
+    "Raptor",
+    "RaptorBaby",
+    "Ankylosaurus",
+    "Parasaurolophus",
+    "Maelestes",
+    "DinoEggs"
+   ],
+   "large": [
+    "Trex",
+    "Stegosaurus",
+    "Triceratops"
+   ]
+  },
+  "item_pools": {
+   "chapter_item_pool": "jurassicitems"
+  },
+  "minibosses": {
+   "dinocouple": "auto"
+  },
+  "flags": {
+   "VolcanoAntennaAttached": {
+    "quest_event": {
+     "override_art": "MapNode_VolcanoAntenna"
+    }
+   },
+   "EndOfTimeUnlocked": {
+    "exit0": {
+     "hidden": false
+    }
+   }
+  },
+  "area_name_key": "AREA_NAME_JURASSIC",
+  "area_name_en": "The Jurassic",
+  "_id": "jurassic",
+  "_source": "jurassic.gon"
+ },
+ {
+  "graphics": "Map_Lab",
+  "chapter_id": "lab",
+  "tileset": "lab",
+  "world_name_frame": "thelab",
+  "area_name": "AREA_NAME_LAB",
+  "act": 3,
+  "chapter": 1,
+  "version": 1,
+  "levels": {
+   "folder": "lab",
+   "easy": [
+    "easy"
+   ],
+   "hard": [
+    "easy"
+   ],
+   "rare": [
+    "rare"
+   ],
+   "boss": [
+    "boss"
+   ],
+   "miniboss": [
+    "miniboss"
+   ],
+   "special": [
+    "special"
+   ]
+  },
+  "music": "lab",
+  "ambience": "amb_alley.ogg",
+  "events": {
+   "normal": [
+    "common",
+    "lab_events.gon"
+   ]
+  },
+  "enemy_pools": {
+   "small": [],
+   "medium": [
+    "RatCat",
+    "Gamete",
+    "NubsCat",
+    "CatHuman",
+    "HumanCat",
+    "CopBot",
+    "DrDitto",
+    "Drcat",
+    "Mangy3",
+    "Needlecat",
+    "Stacy2p0"
+   ],
+   "large": [
+    "MegaMutant"
+   ]
+  },
+  "item_pools": {
+   "chapter_item_pool": "labitems"
+  },
+  "bosses": {
+   "stacy": "auto",
+   "spewer": "auto"
+  },
+  "minibosses": {
+   "druidcat": "auto",
+   "monkcat": "auto",
+   "psychiccat": "auto",
+   "tinkerercat": "auto",
+   "jestercat": "auto"
+  },
+  "random_generation_flags": {
+   "choose_one": [
+    "GenFlag_Boss_Stacy",
+    "GenFlag_Boss_Spewer"
+   ]
+  },
+  "flags": {
+   "IceAgeUnlocked": {
+    "quest_event": {
+     "level": "Quest_TimeMachine",
+     "override_art": "MapNode_TimeMachine"
+    }
+   },
+   "FutureUnlocked": {
+    "quest_event": {
+     "level": "Quest_TimeMachine",
+     "override_art": "MapNode_TimeMachine"
+    }
+   },
+   "GenFlag_Boss_Stacy": {
+    "miniboss_event": {
+     "type": "special_event",
+     "level": "StacyMutant1"
+    },
+    "boss": {
+     "level": "stacy"
+    }
+   },
+   "GenFlag_Boss_Spewer": {
+    "boss": {
+     "level": "spewer"
+    }
+   }
+  },
+  "area_name_key": "AREA_NAME_LAB",
+  "area_name_en": "The Lab",
+  "_id": "lab",
+  "_source": "lab.gon"
+ },
+ {
+  "graphics": "Map_MeatWorld",
+  "chapter_id": "meatworld",
+  "tileset": "meatworld",
+  "world_name_frame": "meatworld",
+  "area_name": "AREA_NAME_MEATWORLD",
+  "act": 1,
+  "chapter": 4,
+  "version": 1,
+  "levels": {
+   "folder": "meatworld",
+   "easy": [
+    "easy"
+   ],
+   "hard": [
+    "easy"
+   ],
+   "rare": [
+    "rare"
+   ],
+   "boss": [
+    "boss"
+   ],
+   "miniboss": [
+    "miniboss"
+   ],
+   "special": [
+    "special"
+   ]
+  },
+  "music": "meatworld",
+  "ambience": "amb_meatworld.ogg",
+  "events": {
+   "normal": [
+    "common"
+   ]
+  },
+  "enemy_pools": {
+   "small": [
+    "Clot",
+    "Maggot"
+   ],
+   "medium": [
+    "Skinned",
+    "ThrobbingTurret",
+    "FleshLad",
+    "Parasiter",
+    "MeatSlime",
+    "StemCat",
+    "TumorousMaggot",
+    "ChargeyMaggot",
+    "SwappyMaggot"
+   ],
+   "large": []
+  },
+  "item_pools": {
+   "chapter_item_pool": "meatworlditems"
+  },
+  "flags": {
+   "MeatWorldUnlockedFull": {
+    "mw_battle1": {
+     "hidden": false
+    },
+    "mw_hard1": {
+     "hidden": false
+    },
+    "mw_event1": {
+     "hidden": false
+    },
+    "mw_treasure": {
+     "hidden": false
+    },
+    "mw_boss": {
+     "hidden": false
+    },
+    "mw_quest_event": {
+     "hidden": false
+    },
+    "mw_home": {
+     "hidden": false
+    },
+    "mw_earlyhome": {
+     "hidden": true
+    }
+   }
+  },
+  "area_name_key": "AREA_NAME_MEATWORLD",
+  "area_name_en": "The Throbbing Domain",
+  "_id": "meatworld",
+  "_source": "meatworld.gon"
+ },
+ {
+  "graphics": "Map_Moon",
+  "chapter_id": "moon",
+  "tileset": "moon",
+  "world_name_frame": "themoon",
+  "area_name": "AREA_NAME_MOON",
+  "intro_cutscene": "moon",
+  "act": 2,
+  "chapter": 3,
+  "version": 1,
+  "levels": {
+   "folder": "moon",
+   "easy": [
+    "easy"
+   ],
+   "hard": [
+    "easy"
+   ],
+   "rare": [
+    "rare"
+   ],
+   "boss": [
+    "boss"
+   ],
+   "miniboss": [
+    "miniboss"
+   ],
+   "special": [
+    "special"
+   ]
+  },
+  "music": "moon",
+  "ambience": "amb_moon.ogg",
+  "innate_weather": [
+   "LowGravity"
+  ],
+  "events": {
+   "normal": [
+    "common",
+    "moon_events.gon"
+   ]
+  },
+  "enemy_pools": {
+   "small": [
+    "MoonWorm"
+   ],
+   "medium": [
+    "BigAsteroid",
+    "SmallAsteroid",
+    "SmallUFO",
+    "YellowBlaster",
+    "GreyAlien",
+    "GreenProber",
+    "Waggle",
+    "MoonWorm",
+    "Rover",
+    "Astro"
+   ],
+   "large": [
+    "BigUFO"
+   ]
+  },
+  "item_pools": {
+   "chapter_item_pool": "moonitems"
+  },
+  "minibosses": {
+   "abandonedones": "auto"
+  },
+  "flags": {
+   "MoonObeliskUnlocked": {
+    "quest_event": {
+     "level": "Quest_MoonObeliskRaised",
+     "override_art": "MapNode_ObeliskFull"
+    }
+   },
+   "BothObelisksUnlocked": {
+    "quest_event": {
+     "level": "Quest_MoonObeliskGlowing",
+     "override_art": "MapNode_ObeliskGlowing"
+    }
+   },
+   "DimensionXUnlocked": {
+    "quest_event": {
+     "level": "Quest_DimensionXPortal",
+     "override_art": "MapNode_RiftPortal"
+    }
+   }
+  },
+  "area_name_key": "AREA_NAME_MOON",
+  "area_name_en": "The Moon",
+  "_id": "moon",
+  "_source": "moon.gon"
+ },
+ {
+  "graphics": "Map_Sewers",
+  "chapter_id": "sewers",
+  "tileset": "sewers",
+  "world_name_frame": "sewers",
+  "area_name": "AREA_NAME_SEWERS",
+  "intro_cutscene": "sewers",
+  "act": 1,
+  "chapter": 2,
+  "version": 1,
+  "levels": {
+   "folder": "sewer",
+   "easy": [
+    "easy",
+    "bigsharklevels"
+   ],
+   "hard": [
+    "easy",
+    "bigsharklevels"
+   ],
+   "rare": [
+    "rare"
+   ],
+   "boss": [
+    "boss"
+   ],
+   "miniboss": [
+    "miniboss"
+   ],
+   "special": [
+    "special"
+   ]
+  },
+  "music": "sewers",
+  "ambience": "amb_sewer.ogg",
+  "events": {
+   "normal": [
+    "common",
+    "sewer_events.gon"
+   ]
+  },
+  "enemy_pools": {
+   "small": [
+    "Dip"
+   ],
+   "medium": [
+    "BabyShark",
+    "GassyCat",
+    "SharkyCat",
+    "BoomerCat",
+    "WaterKitten",
+    "Pile",
+    "Floater",
+    "WaterLeech",
+    "Fetus",
+    "FetusGusher"
+   ],
+   "large": [
+    "DaddyShark"
+   ]
+  },
+  "item_pools": {
+   "chapter_item_pool": "seweritems"
+  },
+  "minibosses": {
+   "flushmaster": "auto",
+   "ratking": "auto"
+  },
+  "flags": {
+   "HardPathUnlocked": {
+    "hard_initial": {
+     "locked": false
+    }
+   },
+   "CavesUnlocked": {
+    "exit0": {
+     "locked": false
+    }
+   }
+  },
+  "area_name_key": "AREA_NAME_SEWERS",
+  "area_name_en": "The Sewers",
+  "_id": "sewers",
+  "_source": "sewers.gon"
+ },
+ {
+  "graphics": "Map_TheEnd",
+  "chapter_id": "theend",
+  "tileset": "theend",
+  "world_name_frame": "theend",
+  "area_name": "AREA_NAME_THEEND",
+  "act": 3,
+  "chapter": 3,
+  "version": 1,
+  "levels": {
+   "folder": "theend",
+   "easy": [
+    "easy"
+   ],
+   "hard": [
+    "easy"
+   ],
+   "rare": [
+    "rare"
+   ],
+   "boss": [
+    "boss"
+   ],
+   "miniboss": [
+    "miniboss"
+   ],
+   "special": [
+    "special"
+   ]
+  },
+  "music": "theend",
+  "ambience": "amb_theend.ogg",
+  "events": {
+   "normal": [
+    "common",
+    "theend_events.gon"
+   ]
+  },
+  "enemy_pools": {
+   "small": [],
+   "medium": [
+    "BoyShade",
+    "GirlShade",
+    "Gasper",
+    "Floast",
+    "TumorBarrier",
+    "Husk",
+    "ConjoinedHusk",
+    "CancerCat",
+    "CollectiveCat",
+    "ShadeCat"
+   ],
+   "large": [
+    "Slag"
+   ]
+  },
+  "item_pools": {
+   "chapter_item_pool": "theenditems"
+  },
+  "minibosses": {
+   "thebloat": "auto"
+  },
+  "flags": {
+   "VolcanoAntennaAttached": {
+    "quest_event": {
+     "override_art": "MapNode_OrbAntenna"
+    }
+   },
+   "EndOfTimeUnlocked": {
+    "exit0": {
+     "hidden": false
+    }
+   }
+  },
+  "area_name_key": "AREA_NAME_THEEND",
+  "area_name_en": "The End",
+  "_id": "theend",
+  "_source": "theend.gon"
+ },
+ {
+  "graphics": "Map_Tutorial",
+  "chapter_id": "tutorial",
+  "tileset": "tutorial",
+  "world_name_frame": "tutorial",
+  "area_name": "AREA_NAME_TUTORIAL",
+  "act": 0,
+  "chapter": 1,
+  "version": 1,
+  "levels": {
+   "folder": "tutorial",
+   "easy": [
+    "easy"
+   ],
+   "hard": [
+    "easy"
+   ],
+   "rare": [
+    "rare"
+   ],
+   "boss": [
+    "boss"
+   ],
+   "miniboss": [
+    "miniboss"
+   ],
+   "special": [
+    "special"
+   ]
+  },
+  "music": "tutorial",
+  "ambience": "amb_alley.ogg",
+  "events": {
+   "normal": [
+    "common"
+   ]
+  },
+  "enemy_pools": {
+   "small": [
+    "Maggot",
+    "Fly",
+    "Flea",
+    "Pinky"
+   ],
+   "medium": [
+    "Rat",
+    "Leaper",
+    "Pooter",
+    "Kitten",
+    "TomTom",
+    "Mangy",
+    "CatCaller"
+   ],
+   "large": []
+  },
+  "item_pools": {},
+  "area_name_key": "AREA_NAME_TUTORIAL",
+  "area_name_en": "The Path",
+  "_id": "tutorial",
+  "_source": "tutorial.gon"
+ }
+]

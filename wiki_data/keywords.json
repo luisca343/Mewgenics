@@ -1,0 +1,2562 @@
+[
+ {
+  "name": "KEYWORD_ADRENALINE_NAME",
+  "tooltip": "KEYWORD_ADRENALINE_DESC",
+  "name_key": "KEYWORD_ADRENALINE_NAME",
+  "name_en": "Adrenaline",
+  "tooltip_key": "KEYWORD_ADRENALINE_DESC",
+  "tooltip_en": "Keeps Exhaustion at 0.\n+25% Crit Chance.\n+25% Block Chance.",
+  "_id": "Adrenaline"
+ },
+ {
+  "name": "KEYWORD_ALLSTATSUP_NAME",
+  "name_stacks_neg": "KEYWORD_ALLSTATSDOWN_NAME",
+  "tooltip_stacks_pos": "KEYWORD_ALLSTATSUP_DESC",
+  "tooltip_stacks_neg": "KEYWORD_ALLSTATSDOWN_DESC",
+  "tooltip_stackless": "none",
+  "name_stacks_neg_key": "KEYWORD_ALLSTATSDOWN_NAME",
+  "name_stacks_neg_en": "All Stats Down",
+  "tooltip_stacks_pos_key": "KEYWORD_ALLSTATSUP_DESC",
+  "tooltip_stacks_pos_en": "All Stats increased by {stacks}",
+  "tooltip_stacks_neg_key": "KEYWORD_ALLSTATSDOWN_DESC",
+  "tooltip_stacks_neg_en": "All Stats decreased by {absstacks}",
+  "tooltip_stackless_key": "none",
+  "tooltip_stackless_en": "none",
+  "name_key": "KEYWORD_ALLSTATSUP_NAME",
+  "name_en": "All Stats Up",
+  "_id": "AllStatsUp"
+ },
+ {
+  "alias": "AllStatsUp",
+  "_id": "AlphaAllStatsUp"
+ },
+ {
+  "alias": "DodgeChance_Status",
+  "_id": "AlphaDodgeChance"
+ },
+ {
+  "name": "KEYWORD_ALPHA_NAME",
+  "tooltip": "KEYWORD_ALPHA_DESC",
+  "tooltip_stackless": "KEYWORD_ALPHA_DESC_STACKLESS",
+  "tooltip_stackless_key": "KEYWORD_ALPHA_DESC_STACKLESS",
+  "tooltip_stackless_en": "No effects on its own. Only one unit can be The Alpha. Certain spells and abilities provide bonuses for The Alpha.",
+  "name_key": "KEYWORD_ALPHA_NAME",
+  "name_en": "The Alpha",
+  "tooltip_key": "KEYWORD_ALPHA_DESC",
+  "tooltip_en": "This is the Alpha. Certain abilities care about this.",
+  "_id": "AlphaCat"
+ },
+ {
+  "alias": "DodgeChance_Status",
+  "_id": "AllyDodgeChanceAura"
+ },
+ {
+  "alias": "DodgeChance_Status",
+  "_id": "LowHealthAllyDodgeChanceAura"
+ },
+ {
+  "alias": "Infested",
+  "_id": "AllyInfested"
+ },
+ {
+  "name": "KEYWORD_AMMO_NAME",
+  "tooltip_stacks": "KEYWORD_AMMO_DESC",
+  "tooltip_stackless": "none",
+  "tooltip_stackless_key": "none",
+  "tooltip_stackless_en": "none",
+  "name_key": "KEYWORD_AMMO_NAME",
+  "name_en": "Ammo",
+  "_id": "Ammo"
+ },
+ {
+  "name": "KEYWORD_ATTRACTION_NAME",
+  "name_reference_applier": "KEYWORD_ATTRACTION_REF",
+  "tooltip_stacks": "KEYWORD_ATTRACTION_DESC",
+  "tooltip_reference_applier": "KEYWORD_ATTRACTION_DESC_REF",
+  "tooltip_stackless": "KEYWORD_ATTRACTION_DESC_STACKLESS",
+  "tooltip_stackless_key": "KEYWORD_ATTRACTION_DESC_STACKLESS",
+  "tooltip_stackless_en": "Moves towards you at the start of its turn.",
+  "name_key": "KEYWORD_ATTRACTION_NAME",
+  "name_en": "Attraction",
+  "_id": "Attraction"
+ },
+ {
+  "name": "KEYWORD_BACKFLIP_NAME",
+  "tooltip": "KEYWORD_BACKFLIP_DESC",
+  "name_key": "KEYWORD_BACKFLIP_NAME",
+  "name_en": "Backflip",
+  "tooltip_key": "KEYWORD_BACKFLIP_DESC",
+  "tooltip_en": "Backflips out of the way the next time it's targeted.",
+  "_id": "BackflipWhenTargeted"
+ },
+ {
+  "name": "KEYWORD_BLASTRESISTANCE_NAME",
+  "tooltip_stacks": "KEYWORD_BLASTRESISTANCE_DESC",
+  "tooltip_stackless": "KEYWORD_BLASTRESISTANCE_DESC_STACKLESS",
+  "tooltip_stackless_key": "KEYWORD_BLASTRESISTANCE_DESC_STACKLESS",
+  "tooltip_stackless_en": "Reduces damage taken from explosions.",
+  "name_key": "KEYWORD_BLASTRESISTANCE_NAME",
+  "name_en": "Blast Resistance",
+  "_id": "BlastResistance"
+ },
+ {
+  "name": "KEYWORD_BLEED_NAME",
+  "tooltip_stacks": "KEYWORD_BLEED_DESC",
+  "tooltip_stackless": "KEYWORD_BLEED_DESC_STACKLESS",
+  "tooltip_stackless_key": "KEYWORD_BLEED_DESC_STACKLESS",
+  "tooltip_stackless_en": "Takes damage at the end of the round, then increase Bleed by 1.",
+  "name_key": "KEYWORD_BLEED_NAME",
+  "name_en": "Bleed",
+  "_id": "Bleed"
+ },
+ {
+  "name": "KEYWORD_BLEEDTHORNS_NAME",
+  "tooltip_stacks": "KEYWORD_BLEEDTHORNS_DESC",
+  "tooltip_stackless": "KEYWORD_BLEEDTHORNS_DESC_STACKLESS",
+  "tooltip_stackless_key": "KEYWORD_BLEEDTHORNS_DESC_STACKLESS",
+  "tooltip_stackless_en": "Deals damage and inflicts Bleed to units that contact you.",
+  "name_key": "KEYWORD_BLEEDTHORNS_NAME",
+  "name_en": "Bleed Thorns",
+  "_id": "BleedThorns"
+ },
+ {
+  "name": "KEYWORD_BLESSINGOFPEACE_NAME",
+  "tooltip": "KEYWORD_BLESSINGOFPEACE_DESC",
+  "tooltip_stackless": "KEYWORD_BLESSINGOFPEACE_DESC_STACKLESS",
+  "tooltip_stackless_key": "KEYWORD_BLESSINGOFPEACE_DESC_STACKLESS",
+  "tooltip_stackless_en": "Gain [img:divineshield] at the end of your turn. Lose this when you deal damage.",
+  "name_key": "KEYWORD_BLESSINGOFPEACE_NAME",
+  "name_en": "Blessing of Peace",
+  "tooltip_key": "KEYWORD_BLESSINGOFPEACE_DESC",
+  "tooltip_en": "Gain +{stacks} [img:divineshield] at the end of your turn. Lose this when you deal damage.",
+  "_id": "BlessingOfPeace"
+ },
+ {
+  "name": "KEYWORD_BLIND_NAME",
+  "tooltip_stacks": "KEYWORD_BLIND_DESC",
+  "tooltip_stacks_singular": "KEYWORD_BLIND_DESC_STACKLESS",
+  "tooltip_stacks_neg": "KEYWORD_PERMABLIND_DESC",
+  "tooltip_stacks_neg_key": "KEYWORD_PERMABLIND_DESC",
+  "tooltip_stacks_neg_en": "30% miss chance.",
+  "name_key": "KEYWORD_BLIND_NAME",
+  "name_en": "Blind",
+  "_id": "Blind"
+ },
+ {
+  "name": "KEYWORD_BLOODZERK_NAME",
+  "tooltip_stacks": "KEYWORD_BLOODZERK_DESC",
+  "name_key": "KEYWORD_BLOODZERK_NAME",
+  "name_en": "Bloodzerked",
+  "_id": "Bloodzerked"
+ },
+ {
+  "alias": "DodgeChance_Status",
+  "_id": "Blur"
+ },
+ {
+  "name": "KEYWORD_BODYGUARD_NAME",
+  "tooltip": "KEYWORD_BODYGUARD_DESC",
+  "name_key": "KEYWORD_BODYGUARD_NAME",
+  "name_en": "Body Guard",
+  "tooltip_key": "KEYWORD_BODYGUARD_DESC",
+  "tooltip_en": "The next time an ally is targeted, swap places with them first.",
+  "_id": "BodyGuard"
+ },
+ {
+  "alias": "DamageUp",
+  "_id": "BoostDamageAura"
+ },
+ {
+  "alias": "DamageUp",
+  "_id": "BoostDamageGlobalAura"
+ },
+ {
+  "name": "KEYWORD_BOUNTY_NAME",
+  "tooltip_stacks": "KEYWORD_BOUNTY_DESC",
+  "tooltip_stackless": "KEYWORD_BOUNTY_DESC_STACKLESS",
+  "tooltip_stackless_key": "KEYWORD_BOUNTY_DESC_STACKLESS",
+  "tooltip_stackless_en": "Takes 25% extra damage. If killed, gain coins.",
+  "name_key": "KEYWORD_BOUNTY_NAME",
+  "name_en": "Bounty",
+  "_id": "Bounty"
+ },
+ {
+  "name": "KEYWORD_BRACE_NAME",
+  "tooltip_stacks": "KEYWORD_BRACE_DESC",
+  "tooltip_stackless": "KEYWORD_BRACE_DESC_STACKLESS",
+  "tooltip_stackless_key": "KEYWORD_BRACE_DESC_STACKLESS",
+  "tooltip_stackless_en": "Reduces all incoming damage.",
+  "name_key": "KEYWORD_BRACE_NAME",
+  "name_en": "Brace",
+  "_id": "Brace"
+ },
+ {
+  "alias": "Brace",
+  "_id": "BraceForEachNeighboringEnemy"
+ },
+ {
+  "name": "KEYWORD_BRUISE_NAME",
+  "tooltip_stacks": "KEYWORD_BRUISE_DESC",
+  "tooltip_stackless": "KEYWORD_BRUISE_DESC_STACKLESS",
+  "tooltip_stackless_key": "KEYWORD_BRUISE_DESC_STACKLESS",
+  "tooltip_stackless_en": "Increases all incoming physical damage.",
+  "name_key": "KEYWORD_BRUISE_NAME",
+  "name_en": "Bruise",
+  "_id": "Bruise"
+ },
+ {
+  "name": "KEYWORD_BURN_NAME",
+  "tooltip_stacks": "KEYWORD_BURN_DESC",
+  "tooltip_stackless": "KEYWORD_BURN_DESC_STACKLESS",
+  "tooltip_stackless_key": "KEYWORD_BURN_DESC_STACKLESS",
+  "tooltip_stackless_en": "Takes damage at start of its turn, then decrease Burn by 1.",
+  "name_key": "KEYWORD_BURN_NAME",
+  "name_en": "Burn",
+  "_id": "Burn"
+ },
+ {
+  "name": "KEYWORD_PROMOTE_NAME",
+  "tooltip": "KEYWORD_PROMOTE_DESC",
+  "name_key": "KEYWORD_PROMOTE_NAME",
+  "name_en": "Promote",
+  "tooltip_key": "KEYWORD_PROMOTE_DESC",
+  "tooltip_en": "The next familiar you spawn is upgraded into a [img:champion] Champion.",
+  "_id": "ChampionUpgradeNextMinion"
+ },
+ {
+  "name": "KEYWORD_PROMOTE2_NAME",
+  "tooltip": "KEYWORD_PROMOTE2_DESC",
+  "name_key": "KEYWORD_PROMOTE2_NAME",
+  "name_en": "Promote+",
+  "tooltip_key": "KEYWORD_PROMOTE2_DESC",
+  "tooltip_en": "The next familiar you spawn is upgraded into an [img:elite] Elite.",
+  "_id": "EliteUpgradeNextMinion"
+ },
+ {
+  "name": "KEYWORD_CHARGE_NAME",
+  "tooltip_stacks": "KEYWORD_CHARGE_DESC",
+  "tooltip_stackless": "KEYWORD_CHARGE_DESC_STACKLESS",
+  "tooltip_stackless_key": "KEYWORD_CHARGE_DESC_STACKLESS",
+  "tooltip_stackless_en": "Gains mana at the start of its next turn.",
+  "name_key": "KEYWORD_CHARGE_NAME",
+  "name_en": "Charge",
+  "_id": "Charge"
+ },
+ {
+  "name": "KEYWORD_CHARGEFISTS_NAME",
+  "tooltip_stacks": "KEYWORD_CHARGEFISTS_DESC",
+  "tooltip_stacks_singular": "KEYWORD_CHARGEFISTS_DESC_SINGULAR",
+  "tooltip_stackless": "KEYWORD_CHARGEFISTS_DESC_STACKLESS",
+  "tooltip_stackless_key": "KEYWORD_CHARGEFISTS_DESC_STACKLESS",
+  "tooltip_stackless_en": "Your basic attack emits Sparkles until the end of the turn.",
+  "name_key": "KEYWORD_CHARGEFISTS_NAME",
+  "name_en": "Charge Fists",
+  "_id": "ChargeFists"
+ },
+ {
+  "name": "KEYWORD_CHAUP_NAME",
+  "name_stacks_neg": "KEYWORD_CHADOWN_NAME",
+  "tooltip_stacks_pos": "KEYWORD_CHAUP_DESC",
+  "tooltip_stacks_neg": "KEYWORD_CHADOWN_DESC",
+  "tooltip_stackless": "none",
+  "name_stacks_neg_key": "KEYWORD_CHADOWN_NAME",
+  "name_stacks_neg_en": "Charisma Down",
+  "tooltip_stacks_pos_key": "KEYWORD_CHAUP_DESC",
+  "tooltip_stacks_pos_en": "Charisma increased by {stacks}.\nCharisma affects max mana and initial mana.",
+  "tooltip_stacks_neg_key": "KEYWORD_CHADOWN_DESC",
+  "tooltip_stacks_neg_en": "Charisma decreased by {absstacks}.\nCharisma affects max mana and initial mana.",
+  "tooltip_stackless_key": "none",
+  "tooltip_stackless_en": "none",
+  "name_key": "KEYWORD_CHAUP_NAME",
+  "name_en": "Charisma Up",
+  "_id": "CharismaUp"
+ },
+ {
+  "alias": "Charmed",
+  "_id": "CharmAllFlies"
+ },
+ {
+  "name": "KEYWORD_CHARMED_NAME",
+  "tooltip": "KEYWORD_CHARMED_DESC",
+  "tooltip_stackless": "KEYWORD_CHARMED_DESC_STACKLESS",
+  "tooltip_stackless_key": "KEYWORD_CHARMED_DESC_STACKLESS",
+  "tooltip_stackless_en": "Behaves as if it's on your team.",
+  "name_key": "KEYWORD_CHARMED_NAME",
+  "name_en": "Charmed",
+  "tooltip_key": "KEYWORD_CHARMED_DESC",
+  "tooltip_en": "It's brainwashed!",
+  "_id": "Charmed"
+ },
+ {
+  "name": "KEYWORD_CLEAVE_NAME",
+  "tooltip": "KEYWORD_CLEAVE_DESC",
+  "icon_frame": 152,
+  "name_key": "KEYWORD_CLEAVE_NAME",
+  "name_en": "Cleave",
+  "tooltip_key": "KEYWORD_CLEAVE_DESC",
+  "tooltip_en": "Cuts a chunk of meat off what it hits.",
+  "_id": "Cleave"
+ },
+ {
+  "name": "KEYWORD_PROBED_NAME",
+  "tooltip": "KEYWORD_PROBED_DESC",
+  "tooltip_stackless": "KEYWORD_PROBED_DESC_STACKLESS",
+  "tooltip_stackless_key": "KEYWORD_PROBED_DESC_STACKLESS",
+  "tooltip_stackless_en": "Behaves as if it's on your team. Attacks from allies will break the probe.",
+  "name_key": "KEYWORD_PROBED_NAME",
+  "name_en": "Probed",
+  "tooltip_key": "KEYWORD_PROBED_DESC",
+  "tooltip_en": "It's being controlled! Attack it to break the probe!",
+  "_id": "ProbeCharmed"
+ },
+ {
+  "name": "KEYWORD_CONFUSION_NAME",
+  "tooltip_stacks": "KEYWORD_CONFUSION_DESC",
+  "tooltip_stackless": "KEYWORD_CONFUSION_DESC_STACKLESS",
+  "tooltip_stackless_key": "KEYWORD_CONFUSION_DESC_STACKLESS",
+  "tooltip_stackless_en": "When performing an action, 33% chance to instead hit itself equal to its strength.",
+  "name_key": "KEYWORD_CONFUSION_NAME",
+  "name_en": "Confusion",
+  "_id": "Confusion"
+ },
+ {
+  "name": "KEYWORD_CONFUSION_NAME",
+  "tooltip_stacks": "KEYWORD_CONFUSION_DESC_STACKLESS",
+  "tooltip_stackless": "KEYWORD_CONFUSION_DESC_STACKLESS",
+  "tooltip_stackless_key": "KEYWORD_CONFUSION_DESC_STACKLESS",
+  "tooltip_stackless_en": "When performing an action, 33% chance to instead hit itself equal to its strength.",
+  "name_key": "KEYWORD_CONFUSION_NAME",
+  "name_en": "Confusion",
+  "_id": "PermanentConfusion"
+ },
+ {
+  "name": "KEYWORD_CONUP_NAME",
+  "name_stacks_neg": "KEYWORD_CONDOWN_NAME",
+  "tooltip_stacks_pos": "KEYWORD_CONUP_DESC",
+  "tooltip_stacks_neg": "KEYWORD_CONDOWN_DESC",
+  "tooltip_stackless": "none",
+  "name_stacks_neg_key": "KEYWORD_CONDOWN_NAME",
+  "name_stacks_neg_en": "Constitution Down",
+  "tooltip_stacks_pos_key": "KEYWORD_CONUP_DESC",
+  "tooltip_stacks_pos_en": "Constitution increased by {stacks}.\nConstitution affects max health and post-battle health regen.",
+  "tooltip_stacks_neg_key": "KEYWORD_CONDOWN_DESC",
+  "tooltip_stacks_neg_en": "Constitution decreased by {absstacks}.\nConstitution affects max health and post-battle health regen.",
+  "tooltip_stackless_key": "none",
+  "tooltip_stackless_en": "none",
+  "name_key": "KEYWORD_CONUP_NAME",
+  "name_en": "Constitution Up",
+  "_id": "ConstitutionUp"
+ },
+ {
+  "name": "KEYWORD_COUNTER_NAME",
+  "tooltip_stacks_singular": "KEYWORD_COUNTER_DESC",
+  "tooltip_stacks": "KEYWORD_COUNTER_DESC_STACKS",
+  "name_key": "KEYWORD_COUNTER_NAME",
+  "name_en": "Counter Attack",
+  "_id": "CounterNextAttacks"
+ },
+ {
+  "name": "KEYWORD_CRITCHANCE_NAME",
+  "tooltip_stacks": "KEYWORD_CRITCHANCE_DESC",
+  "tooltip_stackless": "none",
+  "tooltip_stackless_key": "none",
+  "tooltip_stackless_en": "none",
+  "name_key": "KEYWORD_CRITCHANCE_NAME",
+  "name_en": "Crit Chance Up",
+  "_id": "CritChanceUp"
+ },
+ {
+  "alias": "Brace",
+  "_id": "DamageReductionAura"
+ },
+ {
+  "name": "KEYWORD_DAMAGEUP_NAME",
+  "name_stacks_neg": "KEYWORD_DAMAGEDOWN_NAME",
+  "tooltip_stacks_pos": "KEYWORD_DAMAGEUP_DESC",
+  "tooltip_stacks_neg": "KEYWORD_DAMAGEDOWN_DESC",
+  "tooltip_stackless_pos": "KEYWORD_DAMAGEUP_DESC_STACKLESS",
+  "tooltip_stackless_neg": "KEYWORD_DAMAGEDOWN_DESC_STACKLESS",
+  "name_stacks_neg_key": "KEYWORD_DAMAGEDOWN_NAME",
+  "name_stacks_neg_en": "Damage Down",
+  "tooltip_stacks_pos_key": "KEYWORD_DAMAGEUP_DESC",
+  "tooltip_stacks_pos_en": "Basic attack damage increased by {stacks}.",
+  "tooltip_stacks_neg_key": "KEYWORD_DAMAGEDOWN_DESC",
+  "tooltip_stacks_neg_en": "Basic attack damage decreased by {absstacks}.",
+  "name_key": "KEYWORD_DAMAGEUP_NAME",
+  "name_en": "Damage Up",
+  "_id": "DamageUp"
+ },
+ {
+  "name": "KEYWORD_DELAYEDPAIN_NAME",
+  "tooltip_stacks": "KEYWORD_DELAYEDPAIN_DESC",
+  "tooltip_stackless": "KEYWORD_DELAYEDPAIN_DESC_STACKLESS",
+  "tooltip_stackless_key": "KEYWORD_DELAYEDPAIN_DESC_STACKLESS",
+  "tooltip_stackless_en": "Delayed damage is taken all at once at the end of your turn.",
+  "name_key": "KEYWORD_DELAYEDPAIN_NAME",
+  "name_en": "Delayed Pain",
+  "_id": "DelayedPain"
+ },
+ {
+  "name": "KEYWORD_DEXUP_NAME",
+  "name_stacks_neg": "KEYWORD_DEXDOWN_NAME",
+  "tooltip_stacks_pos": "KEYWORD_DEXUP_DESC",
+  "tooltip_stacks_neg": "KEYWORD_DEXDOWN_DESC",
+  "tooltip_stackless": "none",
+  "name_stacks_neg_key": "KEYWORD_DEXDOWN_NAME",
+  "name_stacks_neg_en": "Dexterity Down",
+  "tooltip_stacks_pos_key": "KEYWORD_DEXUP_DESC",
+  "tooltip_stacks_pos_en": "Dexterity increased by {stacks}.\nDexterity affects ranged attack and ranged ability damage.",
+  "tooltip_stacks_neg_key": "KEYWORD_DEXDOWN_DESC",
+  "tooltip_stacks_neg_en": "Dexterity decreased by {absstacks}.\nDexterity affects ranged attack and ranged ability damage.",
+  "tooltip_stackless_key": "none",
+  "tooltip_stackless_en": "none",
+  "name_key": "KEYWORD_DEXUP_NAME",
+  "name_en": "Dexterity Up",
+  "_id": "DexterityUp"
+ },
+ {
+  "name": "KEYWORD_DIMINISHREGEN_NAME",
+  "tooltip_stacks": "KEYWORD_DIMINISHREGEN_DESC",
+  "tooltip_stackless": "KEYWORD_DIMINISHREGEN_DESC_STACKLESS",
+  "tooltip_stackless_key": "KEYWORD_DIMINISHREGEN_DESC_STACKLESS",
+  "tooltip_stackless_en": "Regen health at the end of its turn, then decreases Health Regen by 1.",
+  "name_key": "KEYWORD_DIMINISHREGEN_NAME",
+  "name_en": "Health Regen (Diminishing)",
+  "_id": "DiminishingHealthRegen"
+ },
+ {
+  "name": "KEYWORD_DIVINESHIELD_NAME",
+  "tooltip": "KEYWORD_DIVINESHIELD_DESC",
+  "icon_frame": 141,
+  "name_key": "KEYWORD_DIVINESHIELD_NAME",
+  "name_en": "Holy Shield",
+  "tooltip_key": "KEYWORD_DIVINESHIELD_DESC",
+  "tooltip_en": "Blocks an entire instance of incoming damage.",
+  "_id": "DivineShield"
+ },
+ {
+  "alias": "DivineShield",
+  "_id": "divine_shield"
+ },
+ {
+  "alias": "DivineShield",
+  "_id": "NonStackingDivineShield"
+ },
+ {
+  "name": "KEYWORD_DODGE_NAME",
+  "tooltip_stacks": "KEYWORD_DODGE_DESC",
+  "tooltip_stackless": "KEYWORD_DODGE_DESC_STACKLESS",
+  "tooltip_stackless_key": "KEYWORD_DODGE_DESC_STACKLESS",
+  "tooltip_stackless_en": "Dodges the next attack.",
+  "name_key": "KEYWORD_DODGE_NAME",
+  "name_en": "Dodge",
+  "_id": "Dodge"
+ },
+ {
+  "name": "KEYWORD_DODGECHANCE_NAME",
+  "tooltip_stacks": "KEYWORD_DODGECHANCE_DESC",
+  "tooltip_stackless": "none",
+  "tooltip_stackless_key": "none",
+  "tooltip_stackless_en": "none",
+  "name_key": "KEYWORD_DODGECHANCE_NAME",
+  "name_en": "Dodge Chance",
+  "_id": "DodgeChance_Status"
+ },
+ {
+  "name": "KEYWORD_DOOMED_NAME",
+  "tooltip": "KEYWORD_DOOMED_DESC",
+  "name_key": "KEYWORD_DOOMED_NAME",
+  "name_en": "Doomed",
+  "tooltip_key": "KEYWORD_DOOMED_DESC",
+  "tooltip_en": "Ticks down at the end of your turn. When it hits 0, Die.",
+  "_id": "Doomed"
+ },
+ {
+  "name": "KEYWORD_DOUBLECAST_NAME",
+  "tooltip": "KEYWORD_DOUBLECAST_DESC",
+  "name_key": "KEYWORD_DOUBLECAST_NAME",
+  "name_en": "Double Action",
+  "tooltip_key": "KEYWORD_DOUBLECAST_DESC",
+  "tooltip_en": "The next ability you use is used an additional time for free.",
+  "_id": "DoubleCast"
+ },
+ {
+  "name": "KEYWORD_DOUBLECASTSPELL_NAME",
+  "tooltip": "KEYWORD_DOUBLECASTSPELL_DESC",
+  "name_key": "KEYWORD_DOUBLECASTSPELL_NAME",
+  "name_en": "Double Cast",
+  "tooltip_key": "KEYWORD_DOUBLECASTSPELL_DESC",
+  "tooltip_en": "The next spell you cast is cast an additional time for free.",
+  "_id": "DoubleCastSpell"
+ },
+ {
+  "name": "KEYWORD_DOUBLECASTTHISTURN_NAME",
+  "tooltip": "KEYWORD_DOUBLECASTTHISTURN_DESC",
+  "name_key": "KEYWORD_DOUBLECASTTHISTURN_NAME",
+  "name_en": "Double Cast (This Turn)",
+  "tooltip_key": "KEYWORD_DOUBLECASTTHISTURN_DESC",
+  "tooltip_en": "The next spell you cast this turn is cast an additional time for free.",
+  "_id": "DoubleCastSpellThisTurn"
+ },
+ {
+  "name": "KEYWORD_DROWSY_NAME",
+  "tooltip": "KEYWORD_DROWSY_DESC",
+  "name_key": "KEYWORD_DROWSY_NAME",
+  "name_en": "Drowsy",
+  "tooltip_key": "KEYWORD_DROWSY_DESC",
+  "tooltip_en": "Falls asleep at the end of its turn.",
+  "_id": "Drowsy"
+ },
+ {
+  "name": "KEYWORD_DYBBUKED_NAME",
+  "tooltip": "KEYWORD_DYBBUKED_DESC",
+  "name_key": "KEYWORD_DYBBUKED_NAME",
+  "name_en": "Possessed by Dybbuk",
+  "tooltip_key": "KEYWORD_DYBBUKED_DESC",
+  "tooltip_en": "This cat is possessed by Dybbuk. Down this cat to exorcise him.",
+  "_id": "DybbukPossessed"
+ },
+ {
+  "name": "KEYWORD_EMPTYMIND_NAME",
+  "tooltip": "KEYWORD_EMPTYMIND_DESC",
+  "name_key": "KEYWORD_EMPTYMIND_NAME",
+  "name_en": "Empty Mind",
+  "tooltip_key": "KEYWORD_EMPTYMIND_DESC",
+  "tooltip_en": "Spells are disabled. Whenever it gets a kill, it takes an extra turn.",
+  "_id": "EmptyMind"
+ },
+ {
+  "name": "Enrage",
+  "tooltip": "None",
+  "name_key": "Enrage",
+  "name_en": "Enrage",
+  "tooltip_key": "None",
+  "tooltip_en": "None",
+  "_id": "Enrage"
+ },
+ {
+  "name": "KEYWORD_EVENTBOUNTY_NAME",
+  "tooltip_stacks": "KEYWORD_EVENTBOUNTY_DESC",
+  "name_key": "KEYWORD_EVENTBOUNTY_NAME",
+  "name_en": "Bounty",
+  "_id": "EventBounty"
+ },
+ {
+  "name": "KEYWORD_EXHAUSTION_NAME",
+  "tooltip_stacks": "KEYWORD_EXHAUSTION_DESC",
+  "tooltip_stackless": "KEYWORD_EXHAUSTION_DESC_STACKLESS",
+  "tooltip_stackless_key": "KEYWORD_EXHAUSTION_DESC_STACKLESS",
+  "tooltip_stackless_en": "Takes unblockable damage at the start of its turn, then increase Exhaustion by 1. Decreases mana and health gain. Combat regen disabled.",
+  "name_key": "KEYWORD_EXHAUSTION_NAME",
+  "name_en": "Exhaustion",
+  "_id": "Exhaustion"
+ },
+ {
+  "name": "KEYWORD_EXTRAATTACK_NAME",
+  "tooltip_stacks": "KEYWORD_EXTRAATTACK_DESC",
+  "tooltip_stackless": "none",
+  "tooltip_stackless_key": "none",
+  "tooltip_stackless_en": "none",
+  "name_key": "KEYWORD_EXTRAATTACK_NAME",
+  "name_en": "Extra Attacks",
+  "_id": "ExtraBasicAttacks_Status"
+ },
+ {
+  "name": "KEYWORD_EXTRAMOVE_NAME",
+  "tooltip_stacks": "KEYWORD_EXTRAMOVE_DESC",
+  "tooltip_stackless": "none",
+  "tooltip_stackless_key": "none",
+  "tooltip_stackless_en": "none",
+  "name_key": "KEYWORD_EXTRAMOVE_NAME",
+  "name_en": "Extra Moves",
+  "_id": "ExtraBasicMoves_Status"
+ },
+ {
+  "name": "KEYWORD_FEAR_NAME",
+  "tooltip": "KEYWORD_FEAR_DESC",
+  "name_key": "KEYWORD_FEAR_NAME",
+  "name_en": "Fear",
+  "tooltip_key": "KEYWORD_FEAR_DESC",
+  "tooltip_en": "Moves as far away from enemies as it can at the start of its turn.",
+  "_id": "Fear"
+ },
+ {
+  "name": "FireArmor",
+  "tooltip": "None",
+  "name_key": "FireArmor",
+  "name_en": "FireArmor",
+  "tooltip_key": "None",
+  "tooltip_en": "None",
+  "_id": "FireArmor"
+ },
+ {
+  "name": "FireArmor2",
+  "tooltip": "None",
+  "name_key": "FireArmor2",
+  "name_en": "FireArmor2",
+  "tooltip_key": "None",
+  "tooltip_en": "None",
+  "_id": "FireArmor2"
+ },
+ {
+  "alias": "DamageUp",
+  "_id": "FlyDamageIncrease"
+ },
+ {
+  "name": "KEYWORD_FREESPELL_NAME",
+  "tooltip": "KEYWORD_FREESPELL_DESC",
+  "name_key": "KEYWORD_FREESPELL_NAME",
+  "name_en": "Free Spell",
+  "tooltip_key": "KEYWORD_FREESPELL_DESC",
+  "tooltip_en": "The next spell you cast costs 0 mana.",
+  "_id": "FreeSpell"
+ },
+ {
+  "name": "KEYWORD_FREEZE_NAME",
+  "tooltip": "KEYWORD_FREEZE_DESC",
+  "name_key": "KEYWORD_FREEZE_NAME",
+  "name_en": "Freeze",
+  "tooltip_key": "KEYWORD_FREEZE_DESC",
+  "tooltip_en": "Cannot take damage. Unfreezes at the start of its turn.",
+  "_id": "Freeze"
+ },
+ {
+  "alias": "DamageUp",
+  "_id": "GlobalFamiliarDamageBoost"
+ },
+ {
+  "alias": "MovementUp",
+  "_id": "GlobalFamiliarMoveBoost"
+ },
+ {
+  "name": "KEYWORD_GRAPPLED_NAME",
+  "tooltip": "KEYWORD_GRAPPLED_DESC",
+  "name_key": "KEYWORD_GRAPPLED_NAME",
+  "name_en": "Grappled",
+  "tooltip_key": "KEYWORD_GRAPPLED_DESC",
+  "tooltip_en": "Immobile as long as it's next to the thing that grappled it.",
+  "_id": "Grappled"
+ },
+ {
+  "name": "KEYWORD_HEALTHREGEN_NAME",
+  "tooltip_stacks": "KEYWORD_HEALTHREGEN_DESC",
+  "tooltip_stackless": "KEYWORD_HEALTHREGEN_DESC_STACKLESS",
+  "tooltip_stackless_key": "KEYWORD_HEALTHREGEN_DESC_STACKLESS",
+  "tooltip_stackless_en": "Regenerates health at the end of its turn.",
+  "name_key": "KEYWORD_HEALTHREGEN_NAME",
+  "name_en": "Health Regen",
+  "_id": "HealthRegenUp"
+ },
+ {
+  "name": "KEYWORD_DEHYDRATED_NAME",
+  "tooltip": "KEYWORD_DEHYDRATED_DESC",
+  "name_key": "KEYWORD_DEHYDRATED_NAME",
+  "name_en": "Heat Wave",
+  "tooltip_key": "KEYWORD_DEHYDRATED_DESC",
+  "tooltip_en": "Heals are reduced by 1. Does not heal after battle. Can be mitigated with water.",
+  "_id": "HeatWave"
+ },
+ {
+  "name": "KEYWORD_HEAVIERHITS_NAME",
+  "tooltip_stacks": "KEYWORD_HEAVIERHITS_DESC_STACKS",
+  "tooltip_stackless": "none",
+  "tooltip_stackless_key": "none",
+  "tooltip_stackless_en": "none",
+  "name_key": "KEYWORD_HEAVIERHITS_NAME",
+  "name_en": "Heavier Hits",
+  "_id": "HeavierHits"
+ },
+ {
+  "name": "KEYWORD_HEAVYHITS_NAME",
+  "tooltip_stacks": "KEYWORD_HEAVYHITS_DESC_STACKS",
+  "tooltip_stackless": "none",
+  "tooltip_stackless_key": "none",
+  "tooltip_stackless_en": "none",
+  "name_key": "KEYWORD_HEAVYHITS_NAME",
+  "name_en": "Heavy Hits",
+  "_id": "HeavyHits"
+ },
+ {
+  "name": "KEYWORD_HEX_NAME",
+  "tooltip_stacks": "KEYWORD_HEX_DESC",
+  "tooltip_stackless": "KEYWORD_HEX_DESC_STACKLESS",
+  "tooltip_stackless_key": "KEYWORD_HEX_DESC_STACKLESS",
+  "tooltip_stackless_en": "Spells cost more mana to cast.",
+  "name_key": "KEYWORD_HEX_NAME",
+  "name_en": "Hex",
+  "_id": "Hex"
+ },
+ {
+  "name": "IceArmor",
+  "tooltip": "None",
+  "name_key": "IceArmor",
+  "name_en": "IceArmor",
+  "tooltip_key": "None",
+  "tooltip_en": "None",
+  "_id": "IceArmor"
+ },
+ {
+  "name": "ImbueBleed",
+  "tooltip_stacks": "Next physical attack inflicts Bleed {stacks}",
+  "tooltip_stackless": "Next physical attack inflicts Bleed",
+  "tooltip_stackless_key": "Next physical attack inflicts Bleed",
+  "tooltip_stackless_en": "Next physical attack inflicts Bleed",
+  "name_key": "ImbueBleed",
+  "name_en": "ImbueBleed",
+  "_id": "ImbueBleed"
+ },
+ {
+  "name": "ImbueKnockOutCoin",
+  "tooltip": "None",
+  "name_key": "ImbueKnockOutCoin",
+  "name_en": "ImbueKnockOutCoin",
+  "tooltip_key": "None",
+  "tooltip_en": "None",
+  "_id": "ImbueKnockOutCoin"
+ },
+ {
+  "name": "ImbueManaLeech",
+  "tooltip": "None",
+  "name_key": "ImbueManaLeech",
+  "name_en": "ImbueManaLeech",
+  "tooltip_key": "None",
+  "tooltip_en": "None",
+  "_id": "ImbueManaLeech"
+ },
+ {
+  "name": "ImbuePoison",
+  "tooltip": "None",
+  "name_key": "ImbuePoison",
+  "name_en": "ImbuePoison",
+  "tooltip_key": "None",
+  "tooltip_en": "None",
+  "_id": "ImbuePoison"
+ },
+ {
+  "name": "ImbueRandomStatDown",
+  "tooltip": "None",
+  "name_key": "ImbueRandomStatDown",
+  "name_en": "ImbueRandomStatDown",
+  "tooltip_key": "None",
+  "tooltip_en": "None",
+  "_id": "ImbueRandomStatDown"
+ },
+ {
+  "name": "ImbueWeakness",
+  "tooltip": "None",
+  "name_key": "ImbueWeakness",
+  "name_en": "ImbueWeakness",
+  "tooltip_key": "None",
+  "tooltip_en": "None",
+  "_id": "ImbueWeakness"
+ },
+ {
+  "name": "KEYWORD_IMMOBILE_NAME",
+  "tooltip": "KEYWORD_IMMOBILE_DESC",
+  "name_key": "KEYWORD_IMMOBILE_NAME",
+  "name_en": "Immobile",
+  "tooltip_key": "KEYWORD_IMMOBILE_DESC",
+  "tooltip_en": "Cannot move.",
+  "_id": "Immobile"
+ },
+ {
+  "name": "KEYWORD_INFESTED_NAME",
+  "tooltip": "KEYWORD_INFESTED_DESC",
+  "name_key": "KEYWORD_INFESTED_NAME",
+  "name_en": "Infested",
+  "tooltip_key": "KEYWORD_INFESTED_DESC",
+  "tooltip_en": "The things infesting this pop out when it dies, destroying its corpse.",
+  "_id": "Infested"
+ },
+ {
+  "name": "KEYWORD_INTUP_NAME",
+  "name_stacks_neg": "KEYWORD_INTDOWN_NAME",
+  "tooltip_stacks_pos": "KEYWORD_INTUP_DESC",
+  "tooltip_stacks_neg": "KEYWORD_INTDOWN_DESC",
+  "tooltip_stackless": "none",
+  "name_stacks_neg_key": "KEYWORD_INTDOWN_NAME",
+  "name_stacks_neg_en": "Intelligence Down",
+  "tooltip_stacks_pos_key": "KEYWORD_INTUP_DESC",
+  "tooltip_stacks_pos_en": "Intelligence increased by {stacks}.\nIntelligence affects mana regen.",
+  "tooltip_stacks_neg_key": "KEYWORD_INTDOWN_DESC",
+  "tooltip_stacks_neg_en": "Intelligence decreased by {absstacks}.\nIntelligence affects mana regen.",
+  "tooltip_stackless_key": "none",
+  "tooltip_stackless_en": "none",
+  "name_key": "KEYWORD_INTUP_NAME",
+  "name_en": "Intelligence Up",
+  "_id": "IntelligenceUp"
+ },
+ {
+  "name": "KEYWORD_INVULNERABLE_NAME",
+  "tooltip": "KEYWORD_INVULNERABLE_DESC",
+  "name_key": "KEYWORD_INVULNERABLE_NAME",
+  "name_en": "Invulnerable",
+  "tooltip_key": "KEYWORD_INVULNERABLE_DESC",
+  "tooltip_en": "Does not take damage.",
+  "_id": "Invulnerable"
+ },
+ {
+  "name": "KEYWORD_KINETICSPPIKES_NAME",
+  "tooltip_stacks": "KEYWORD_KINETICSPPIKES_DESC",
+  "tooltip_stacks_singular": "KEYWORD_KINETICSPPIKES_DESC_SINGULAR",
+  "tooltip_stackless": "KEYWORD_KINETICSPPIKES_DESC_STACKLESS",
+  "tooltip_stackless_key": "KEYWORD_KINETICSPPIKES_DESC_STACKLESS",
+  "tooltip_stackless_en": "When this takes damage, emit Sparkles.",
+  "name_key": "KEYWORD_KINETICSPPIKES_NAME",
+  "name_en": "Kinetic Spikes",
+  "_id": "KineticSpikes"
+ },
+ {
+  "name": "Knockback",
+  "tooltip": "None",
+  "name_key": "Knockback",
+  "name_en": "Knockback",
+  "tooltip_key": "None",
+  "tooltip_en": "None",
+  "_id": "Knockback"
+ },
+ {
+  "name": "KEYWORD_LATEBLOOMER_NAME",
+  "tooltip_stacks": "KEYWORD_LATEBLOOMER_DESC",
+  "tooltip_stacks_singular": "KEYWORD_LATEBLOOMER_SINGULAR_DESC",
+  "tooltip_stackless": "none",
+  "tooltip_stackless_key": "none",
+  "tooltip_stackless_en": "none",
+  "name_key": "KEYWORD_LATEBLOOMER_NAME",
+  "name_en": "Late Bloomer",
+  "_id": "LateBloomer"
+ },
+ {
+  "name": "KEYWORD_LEECHES_NAME",
+  "name_reference_applier": "KEYWORD_LEECHES_NAME_APPLIER",
+  "tooltip_stacks": "KEYWORD_LEECHES_DESC",
+  "tooltip_reference_applier": "KEYWORD_LEECHES_DESC_APPLIER",
+  "tooltip_stackless": "KEYWORD_LEECHES_DESC_STACKLESS",
+  "tooltip_stackless_key": "KEYWORD_LEECHES_DESC_STACKLESS",
+  "tooltip_stackless_en": "Drains health from the leeched unit at the end of your turn.",
+  "name_key": "KEYWORD_LEECHES_NAME",
+  "name_en": "Leeches",
+  "_id": "Leeches"
+ },
+ {
+  "name": "KEYWORD_LIFESTEAL_NAME",
+  "tooltip_stacks": "KEYWORD_LIFESTEAL_DESC",
+  "tooltip_stackless": "KEYWORD_LIFESTEAL_DESC_STACKLESS",
+  "tooltip_stackless_key": "KEYWORD_LIFESTEAL_DESC_STACKLESS",
+  "tooltip_stackless_en": "Your next basic attack heals you for the amount of health damage it inflicts.",
+  "name_key": "KEYWORD_LIFESTEAL_NAME",
+  "name_en": "Lifesteal",
+  "_id": "Lifesteal"
+ },
+ {
+  "name": "KEYWORD_LIFESTEAL_NAME",
+  "tooltip": "KEYWORD_LIFESTEAL2_DESC",
+  "icon_frame": 17,
+  "name_key": "KEYWORD_LIFESTEAL_NAME",
+  "name_en": "Lifesteal",
+  "tooltip_key": "KEYWORD_LIFESTEAL2_DESC",
+  "tooltip_en": "Heals you equal to the amount of health damage dealt.",
+  "_id": "Leech"
+ },
+ {
+  "name": "LoseShieldNextTurn",
+  "tooltip": "None",
+  "name_key": "LoseShieldNextTurn",
+  "name_en": "LoseShieldNextTurn",
+  "tooltip_key": "None",
+  "tooltip_en": "None",
+  "_id": "LoseShieldNextTurn"
+ },
+ {
+  "name": "KEYWORD_LCKUP_NAME",
+  "name_stacks_neg": "KEYWORD_LCKDOWN_NAME",
+  "tooltip_stacks_pos": "KEYWORD_LCKUP_DESC",
+  "tooltip_stacks_neg": "KEYWORD_LCKDOWN_DESC",
+  "tooltip_stackless": "none",
+  "name_stacks_neg_key": "KEYWORD_LCKDOWN_NAME",
+  "name_stacks_neg_en": "Luck Down",
+  "tooltip_stacks_pos_key": "KEYWORD_LCKUP_DESC",
+  "tooltip_stacks_pos_en": "Luck increased by {stacks}.\nLuck affects base crit chance and all randomness.",
+  "tooltip_stacks_neg_key": "KEYWORD_LCKDOWN_DESC",
+  "tooltip_stacks_neg_en": "Luck decreased by {absstacks}.\nLuck affects base crit chance and all randomness.",
+  "tooltip_stackless_key": "none",
+  "tooltip_stackless_en": "none",
+  "name_key": "KEYWORD_LCKUP_NAME",
+  "name_en": "Luck Up",
+  "_id": "LuckUp"
+ },
+ {
+  "name": "KEYWORD_MADNESS_NAME",
+  "tooltip": "KEYWORD_MADNESS_DESC",
+  "name_key": "KEYWORD_MADNESS_NAME",
+  "name_en": "Madness",
+  "tooltip_key": "KEYWORD_MADNESS_DESC",
+  "tooltip_en": "Thinks everything is an enemy. Uncontrollable.",
+  "_id": "Madness"
+ },
+ {
+  "name": "KEYWORD_MAGICWEAKNESS_NAME",
+  "tooltip": "KEYWORD_MAGICWEAKNESS_DESC",
+  "name_key": "KEYWORD_MAGICWEAKNESS_NAME",
+  "name_en": "Magic Weakness",
+  "tooltip_key": "KEYWORD_MAGICWEAKNESS_DESC",
+  "tooltip_en": "Incoming magic damage has 100% Crit Chance and can't miss.",
+  "_id": "MagicWeakness"
+ },
+ {
+  "name": "KEYWORD_MANALEECHES_NAME",
+  "name_reference_applier": "KEYWORD_MANALEECHES_NAME_APPLIER",
+  "tooltip_stacks": "KEYWORD_MANALEECHES_DESC",
+  "tooltip_reference_applier": "KEYWORD_MANALEECHES_DESC_APPLIER",
+  "tooltip_stackless": "KEYWORD_MANALEECHES_DESC_STACKLESS",
+  "tooltip_stackless_key": "KEYWORD_MANALEECHES_DESC_STACKLESS",
+  "tooltip_stackless_en": "Drains mana from the leeched unit at the end of your turn.",
+  "name_key": "KEYWORD_MANALEECHES_NAME",
+  "name_en": "Mana Leeches",
+  "_id": "ManaLeeches"
+ },
+ {
+  "name": "KEYWORD_MARKED_NAME",
+  "tooltip": "KEYWORD_MARKED_DESC",
+  "name_key": "KEYWORD_MARKED_NAME",
+  "name_en": "Marked",
+  "tooltip_key": "KEYWORD_MARKED_DESC",
+  "tooltip_en": "Incoming physical damage has 100% Crit Chance, ignores shield, and can't miss.",
+  "_id": "Marked"
+ },
+ {
+  "name": "KEYWORD_MEATY_NAME",
+  "tooltip": "KEYWORD_MEATY_DESC",
+  "name_key": "KEYWORD_MEATY_NAME",
+  "name_en": "Meaty",
+  "tooltip_key": "KEYWORD_MEATY_DESC",
+  "tooltip_en": "Turns into meat when it dies.",
+  "_id": "Meaty"
+ },
+ {
+  "name": "KEYWORD_MISSCHANCE_NAME",
+  "tooltip_stacks": "KEYWORD_MISSCHANCE_DESC",
+  "tooltip_stackless": "none",
+  "tooltip_stackless_key": "none",
+  "tooltip_stackless_en": "none",
+  "name_key": "KEYWORD_MISSCHANCE_NAME",
+  "name_en": "Miss Chance",
+  "_id": "MissChance"
+ },
+ {
+  "name": "KEYWORD_MOVEMENTUP_NAME",
+  "name_stacks_neg": "KEYWORD_MOVEMENTDOWN_NAME",
+  "tooltip_stacks_pos": "KEYWORD_MOVEMENTUP_DESC",
+  "tooltip_stacks_neg": "KEYWORD_MOVEMENTDOWN_DESC",
+  "tooltip_stackless_pos": "KEYWORD_MOVEMENTUP_DESC_STACKLESS",
+  "tooltip_stackless_neg": "KEYWORD_MOVEMENTDOWN_DESC_STACKLESS",
+  "name_stacks_neg_key": "KEYWORD_MOVEMENTDOWN_NAME",
+  "name_stacks_neg_en": "Movement Down",
+  "tooltip_stacks_pos_key": "KEYWORD_MOVEMENTUP_DESC",
+  "tooltip_stacks_pos_en": "Basic movement range increased by {stacks}.",
+  "tooltip_stacks_neg_key": "KEYWORD_MOVEMENTDOWN_DESC",
+  "tooltip_stacks_neg_en": "Basic movement range decreased by {stacks}.",
+  "name_key": "KEYWORD_MOVEMENTUP_NAME",
+  "name_en": "Movement Up",
+  "_id": "MovementUp"
+ },
+ {
+  "name": "KEYWORD_BONUSMOVE_NAME",
+  "tooltip_stacks_singular": "KEYWORD_BONUSMOVE_DESC",
+  "tooltip_stacks": "KEYWORD_BONUSMOVE_DESC_STACKS",
+  "name_key": "KEYWORD_BONUSMOVE_NAME",
+  "name_en": "Bonus Move",
+  "_id": "MoveQuivered"
+ },
+ {
+  "alias": "TransformInXTurns",
+  "_id": "MutateAfterXTurns"
+ },
+ {
+  "name": "KEYWORD_MUTED_NAME",
+  "tooltip_stacks_singular": "KEYWORD_MUTED_DESC_SINGULAR",
+  "tooltip_stacks": "KEYWORD_MUTED_DESC",
+  "tooltip_stackless": "KEYWORD_MUTED_DESC_STACKLESS",
+  "tooltip_stackless_key": "KEYWORD_MUTED_DESC_STACKLESS",
+  "tooltip_stackless_en": "Disables a random spell until the applier is killed.",
+  "name_key": "KEYWORD_MUTED_NAME",
+  "name_en": "Muted",
+  "_id": "Muted"
+ },
+ {
+  "name": "NextAbilityHeals",
+  "tooltip": "None",
+  "name_key": "NextAbilityHeals",
+  "name_en": "NextAbilityHeals",
+  "tooltip_key": "None",
+  "tooltip_en": "None",
+  "_id": "NextAbilityHeals"
+ },
+ {
+  "name": "NextAbilityIncreaseRange",
+  "tooltip": "None",
+  "name_key": "NextAbilityIncreaseRange",
+  "name_en": "NextAbilityIncreaseRange",
+  "tooltip_key": "None",
+  "tooltip_en": "None",
+  "_id": "NextAbilityIncreaseRange"
+ },
+ {
+  "alias": "LuckUp",
+  "_id": "NextActionLuckUp"
+ },
+ {
+  "name": "KEYWORD_BONUSRANGE_NAME",
+  "tooltip_stacks": "KEYWORD_BONUSRANGE_DESC",
+  "tooltip_stackless": "KEYWORD_BONUSRANGE_DESC_STACKLESS",
+  "tooltip_stackless_key": "KEYWORD_BONUSRANGE_DESC_STACKLESS",
+  "tooltip_stackless_en": "Increases the range of your next basic attack.",
+  "name_key": "KEYWORD_BONUSRANGE_NAME",
+  "name_en": "Bonus Range",
+  "_id": "NextAttackBonusRange"
+ },
+ {
+  "name": "NextDamageReduceAndHealAllies",
+  "tooltip": "None",
+  "name_key": "NextDamageReduceAndHealAllies",
+  "name_en": "NextDamageReduceAndHealAllies",
+  "tooltip_key": "None",
+  "tooltip_en": "None",
+  "_id": "NextDamageReduceAndHealAllies"
+ },
+ {
+  "name": "NextDamageReduceAndPushback",
+  "tooltip": "None",
+  "name_key": "NextDamageReduceAndPushback",
+  "name_en": "NextDamageReduceAndPushback",
+  "tooltip_key": "None",
+  "tooltip_en": "None",
+  "_id": "NextDamageReduceAndPushback"
+ },
+ {
+  "name": "NextDamageReduceThisTurn",
+  "tooltip": "None",
+  "name_key": "NextDamageReduceThisTurn",
+  "name_en": "NextDamageReduceThisTurn",
+  "tooltip_key": "None",
+  "tooltip_en": "None",
+  "_id": "NextDamageReduceThisTurn"
+ },
+ {
+  "name": "NextMoveRangeIncrease",
+  "tooltip": "None",
+  "name_key": "NextMoveRangeIncrease",
+  "name_en": "NextMoveRangeIncrease",
+  "tooltip_key": "None",
+  "tooltip_en": "None",
+  "_id": "NextMoveRangeIncrease"
+ },
+ {
+  "name": "NextSpellHealEqualToMana",
+  "tooltip": "None",
+  "name_key": "NextSpellHealEqualToMana",
+  "name_en": "NextSpellHealEqualToMana",
+  "tooltip_key": "None",
+  "tooltip_en": "None",
+  "_id": "NextSpellHealEqualToMana"
+ },
+ {
+  "name": "KEYWORD_DOUBLERANGEDDMG_NAME",
+  "tooltip": "KEYWORD_DOUBLERANGEDDMG_DESC",
+  "name_key": "KEYWORD_DOUBLERANGEDDMG_NAME",
+  "name_en": "Double Ranged Damage",
+  "tooltip_key": "KEYWORD_DOUBLERANGEDDMG_DESC",
+  "tooltip_en": "All ranged physical attacks and abilities deal double damage.",
+  "_id": "NextTurnDoubleRangedDamage"
+ },
+ {
+  "name": "KEYWORD_NOHEALTHREGEN_NAME",
+  "tooltip": "KEYWORD_NOHEALTHREGEN_DESC",
+  "name_key": "KEYWORD_NOHEALTHREGEN_NAME",
+  "name_en": "No Health Regen",
+  "tooltip_key": "KEYWORD_NOHEALTHREGEN_DESC",
+  "tooltip_en": "Health won't regen automatically and does not regen at the end of battle.",
+  "_id": "NoHealthRegen"
+ },
+ {
+  "name": "KEYWORD_NOMANAREGEN_NAME",
+  "tooltip": "KEYWORD_NOMANAREGEN_DESC",
+  "name_key": "KEYWORD_NOMANAREGEN_NAME",
+  "name_en": "No Mana Regen",
+  "tooltip_key": "KEYWORD_NOMANAREGEN_DESC",
+  "tooltip_en": "Mana won't regen automatically.",
+  "_id": "NoManaRegen"
+ },
+ {
+  "name": "OldStealth",
+  "tooltip": "None",
+  "name_key": "OldStealth",
+  "name_en": "OldStealth",
+  "tooltip_key": "None",
+  "tooltip_en": "None",
+  "_id": "OldStealth"
+ },
+ {
+  "alias": "SpellDamageUp",
+  "_id": "OneUseSpellDamageUp"
+ },
+ {
+  "name": "KEYWORD_OSTRACIZED_NAME",
+  "tooltip": "KEYWORD_OSTRACIZED_DESC",
+  "name_key": "KEYWORD_OSTRACIZED_NAME",
+  "name_en": "Ostracized",
+  "tooltip_key": "KEYWORD_OSTRACIZED_DESC",
+  "tooltip_en": "Every unit sees this as an enemy and will attack it with priority.",
+  "_id": "Ostracized"
+ },
+ {
+  "alias": "Brace",
+  "_id": "PassiveBrace"
+ },
+ {
+  "alias": "Charmed",
+  "_id": "PermanentCharm"
+ },
+ {
+  "name": "KEYWORD_CAPTUREDFAMILIAR_NAME",
+  "tooltip": "KEYWORD_CAPTUREDFAMILIAR_DESC",
+  "name_key": "KEYWORD_CAPTUREDFAMILIAR_NAME",
+  "name_en": "Captured Familiar",
+  "tooltip_key": "KEYWORD_CAPTUREDFAMILIAR_DESC",
+  "tooltip_en": "Was once an enemy, is now on your team. Will follow you to future battles if it doesn't die.",
+  "_id": "CapturedFamiliarIcon"
+ },
+ {
+  "alias": "Immobile",
+  "_id": "PermanentImmobile"
+ },
+ {
+  "alias": "Madness",
+  "_id": "PermanentMadness"
+ },
+ {
+  "name": "KEYWORD_PETRIFY_NAME",
+  "tooltip_stacks": "KEYWORD_PETRIFY_DESC",
+  "tooltip_stacks_singular": "KEYWORD_PETRIFY_DESC_SINGULAR",
+  "tooltip_stackless": "KEYWORD_PETRIFY_DESC_STACKLESS",
+  "tooltip_stackless_key": "KEYWORD_PETRIFY_DESC_STACKLESS",
+  "tooltip_stackless_en": "Becomes a rock temporarily.",
+  "name_key": "KEYWORD_PETRIFY_NAME",
+  "name_en": "Petrify",
+  "_id": "Petrify"
+ },
+ {
+  "name": "KEYWORD_POISON_NAME",
+  "tooltip_stacks": "KEYWORD_POISON_DESC",
+  "tooltip_stackless": "KEYWORD_POISON_DESC_STACKLESS",
+  "tooltip_stackless_key": "KEYWORD_POISON_DESC_STACKLESS",
+  "tooltip_stackless_en": "Takes damage at the start of every turn. Incoming healing is less effective but cures 1 Poison.",
+  "name_key": "KEYWORD_POISON_NAME",
+  "name_en": "Poison",
+  "_id": "Poison"
+ },
+ {
+  "name": "KEYWORD_POISONLACE_NAME",
+  "tooltip_stacks": "KEYWORD_POISONLACE_DESC",
+  "tooltip_stackless": "KEYWORD_POISONLACE_DESC_STACKLESS",
+  "tooltip_stackless_key": "KEYWORD_POISONLACE_DESC_STACKLESS",
+  "tooltip_stackless_en": "Basic attack inflicts Poison.",
+  "name_key": "KEYWORD_POISONLACE_NAME",
+  "name_en": "Poison Lace",
+  "_id": "PoisonLace"
+ },
+ {
+  "name": "KEYWORD_WPOISONLACE_NAME",
+  "tooltip_stacks": "KEYWORD_WPOISONLACE_DESC",
+  "tooltip_stackless": "KEYWORD_WPOISONLACE_DESC_STACKLESS",
+  "tooltip_stackless_key": "KEYWORD_WPOISONLACE_DESC_STACKLESS",
+  "tooltip_stackless_en": "Your weapon inflicts Poison.",
+  "name_key": "KEYWORD_WPOISONLACE_NAME",
+  "name_en": "Poison Lace (Weapon)",
+  "_id": "CurrentWeaponAddPoison"
+ },
+ {
+  "name": "KEYWORD_POISONOUS_NAME",
+  "tooltip_stacks": "KEYWORD_POISONOUS_DESC",
+  "tooltip_stackless": "KEYWORD_POISONOUS_DESC_STACKLESS",
+  "tooltip_stackless_key": "KEYWORD_POISONOUS_DESC_STACKLESS",
+  "tooltip_stackless_en": "Inflicts Poison to units that contact you.",
+  "name_key": "KEYWORD_POISONOUS_NAME",
+  "name_en": "Poisonous",
+  "_id": "PoisonThorns"
+ },
+ {
+  "name": "KEYWORD_POSSESED_NAME",
+  "tooltip_stacks": "KEYWORD_POSSESSED_DESC",
+  "tooltip_stacks_singular": "KEYWORD_POSSESSED_DESC_SIGNULAR",
+  "tooltip_stackless": "KEYWORD_POSSESSED_DESC_STACKLESS",
+  "tooltip_stackless_key": "KEYWORD_POSSESSED_DESC_STACKLESS",
+  "tooltip_stackless_en": "Takes an extra Charmed turn.",
+  "name_key": "KEYWORD_POSSESED_NAME",
+  "name_en": "Possessed",
+  "_id": "Possessed"
+ },
+ {
+  "name": "KEYWORD_PREEMTIVECOUNTER_NAME",
+  "tooltip_stacks": "KEYWORD_PREEMTIVECOUNTER_DESC",
+  "tooltip_stacks_singular": "KEYWORD_PREEMTIVECOUNTER_DESC_STACKLESS",
+  "tooltip_stackless": "KEYWORD_PREEMTIVECOUNTER_DESC_STACKLESS",
+  "tooltip_stackless_key": "KEYWORD_PREEMTIVECOUNTER_DESC_STACKLESS",
+  "tooltip_stackless_en": "Attack the next thing that targets you before it attacks you, automatically.",
+  "name_key": "KEYWORD_PREEMTIVECOUNTER_NAME",
+  "name_en": "Preemptive Counter",
+  "_id": "PreEmptiveCounterNextAttacks"
+ },
+ {
+  "name": "KEYWORD_QUIVERED_NAME",
+  "tooltip_stacks_singular": "KEYWORD_QUIVERED_DESC_STACKLESS",
+  "tooltip_stacks": "KEYWORD_QUIVERED_DESC",
+  "name_key": "KEYWORD_QUIVERED_NAME",
+  "name_en": "Bonus Attack",
+  "_id": "Quivered"
+ },
+ {
+  "name": "KEYWORD_RANDOMINJURY_NAME",
+  "tooltip": "KEYWORD_RANDOMINJURY_DESC",
+  "icon_frame": 58,
+  "name_key": "KEYWORD_RANDOMINJURY_NAME",
+  "name_en": "Random Injury",
+  "tooltip_key": "KEYWORD_RANDOMINJURY_DESC",
+  "tooltip_en": "Gain a random injury that lowers one of your stats by 1, permanently.",
+  "_id": "RandomInjury"
+ },
+ {
+  "name": "KEYWORD_HEALRANDOMINJURY_NAME",
+  "tooltip": "KEYWORD_HEALRANDOMINJURY_DESC",
+  "icon_frame": 158,
+  "name_key": "KEYWORD_HEALRANDOMINJURY_NAME",
+  "name_en": "Cure Random Injury",
+  "tooltip_key": "KEYWORD_HEALRANDOMINJURY_DESC",
+  "tooltip_en": "Cure a random injury that was permanently lowering one of your stats, if you have any.",
+  "_id": "HealRandomInjury"
+ },
+ {
+  "name": "KEYWORD_SPARKLE_NAME",
+  "tooltip": "KEYWORD_SPARKLE_DESC",
+  "icon_frame": 154,
+  "name_key": "KEYWORD_SPARKLE_NAME",
+  "name_en": "Sparkle",
+  "tooltip_key": "KEYWORD_SPARKLE_DESC",
+  "tooltip_en": "A projectile that deals 1 magic damage to a random enemy.",
+  "_id": "RandomMagicMissile"
+ },
+ {
+  "name": "KEYWORD_RANGEUP_NAME",
+  "tooltip_stacks": "KEYWORD_RANGEUP_DESC",
+  "tooltip_stackless": "KEYWORD_RANGEUP_DESC_STACKLESS",
+  "tooltip_stackless_key": "KEYWORD_RANGEUP_DESC_STACKLESS",
+  "tooltip_stackless_en": "Increases the range of your basic attack and projectile abilities.",
+  "name_key": "KEYWORD_RANGEUP_NAME",
+  "name_en": "Range Up",
+  "_id": "RangeUp"
+ },
+ {
+  "name": "KEYWORD_BONUSKNOCKBACK_NAME",
+  "tooltip_stacks": "KEYWORD_BONUSKNOCKBACK_DESC",
+  "tooltip_stackless": "None",
+  "tooltip_stackless_key": "None",
+  "tooltip_stackless_en": "None",
+  "name_key": "KEYWORD_BONUSKNOCKBACK_NAME",
+  "name_en": "Bonus Knockback",
+  "_id": "TempBonusKnockback"
+ },
+ {
+  "name": "KEYWORD_BONUSKNOCKBACKDAMAGE_NAME",
+  "tooltip_stacks": "KEYWORD_BONUSKNOCKBACKDAMAGE_DESC",
+  "tooltip_stackless": "None",
+  "tooltip_stackless_key": "None",
+  "tooltip_stackless_en": "None",
+  "name_key": "KEYWORD_BONUSKNOCKBACKDAMAGE_NAME",
+  "name_en": "Bonus Knockback Damage",
+  "_id": "TempBonusKnockbackDamage"
+ },
+ {
+  "name": "KEYWORD_TEMPITEM_NAME",
+  "tooltip": "KEYWORD_TEMPITEM_DESC",
+  "icon_frame": 164,
+  "name_key": "KEYWORD_TEMPITEM_NAME",
+  "name_en": "Temporary Item",
+  "tooltip_key": "KEYWORD_TEMPITEM_DESC",
+  "tooltip_en": "Is lost at the end of the battle.",
+  "_id": "TemporaryItem"
+ },
+ {
+  "name": "KEYWORD_TEMPRANGE_NAME",
+  "tooltip_stacks": "KEYWORD_TEMPRANGE_DESC",
+  "tooltip_stackless": "KEYWORD_TEMPRANGE_DESC_STACKLESS",
+  "tooltip_stackless_key": "KEYWORD_TEMPRANGE_DESC_STACKLESS",
+  "tooltip_stackless_en": "Increases the range of your basic attack and projectile abilities until the end of the turn.",
+  "name_key": "KEYWORD_TEMPRANGE_NAME",
+  "name_en": "Range Up (Temporary)",
+  "_id": "TempRangeUp"
+ },
+ {
+  "name": "Reduce",
+  "tooltip": "None",
+  "name_key": "Reduce",
+  "name_en": "Reduce",
+  "tooltip_key": "None",
+  "tooltip_en": "None",
+  "_id": "Reduce"
+ },
+ {
+  "name": "KEYWORD_REDUCEMANACOST_NAME",
+  "tooltip_stacks": "KEYWORD_REDUCEMANACOST_DESC",
+  "tooltip_stackless": "KEYWORD_REDUCEMANACOST_DESC_STACKLESS",
+  "tooltip_stackless_key": "KEYWORD_REDUCEMANACOST_DESC_STACKLESS",
+  "tooltip_stackless_en": "Spells cost less mana to cast.",
+  "name_key": "KEYWORD_REDUCEMANACOST_NAME",
+  "name_en": "Insight",
+  "_id": "ReduceManaCost"
+ },
+ {
+  "name": "KEYWORD_INSIGHT_NAME",
+  "tooltip_stacks": "KEYWORD_INSIGHT_DESC",
+  "tooltip_stackless": "KEYWORD_INSIGHT_DESC_STACKLESS",
+  "tooltip_stackless_key": "KEYWORD_INSIGHT_DESC_STACKLESS",
+  "tooltip_stackless_en": "Spells cost less mana to cast, excluding Brainstorm. (cannot reduce cost to 0).",
+  "name_key": "KEYWORD_INSIGHT_NAME",
+  "name_en": "Insight",
+  "_id": "ReduceManaCostExcludeBrainstorm"
+ },
+ {
+  "name": "KEYWORD_REFLECT_NAME",
+  "tooltip_stacks": "KEYWORD_REFLECT_DESC",
+  "tooltip_stacks_singular": "KEYWORD_REFLECT_DESC_STACKLESS",
+  "name_key": "KEYWORD_REFLECT_NAME",
+  "name_en": "Reflect",
+  "_id": "Reflect"
+ },
+ {
+  "name": "KEYWORD_AUTOREVIVE_NAME",
+  "tooltip_stacks_singular": "KEYWORD_AUTOREVIVE_DESC_SINGULAR",
+  "tooltip_stacks": "KEYWORD_AUTOREVIVE_DESC",
+  "tooltip_stackless": "KEYWORD_AUTOREVIVE_DESC",
+  "tooltip_stackless_key": "KEYWORD_AUTOREVIVE_DESC",
+  "tooltip_stackless_en": "Revives at the end of the next round.",
+  "name_key": "KEYWORD_AUTOREVIVE_NAME",
+  "name_en": "Auto Revive",
+  "_id": "ReviveNextRound"
+ },
+ {
+  "name": "KEYWORD_ENERGIZED_NAME",
+  "tooltip": "KEYWORD_ENERGIZED_DESC",
+  "tooltip_stackless": "none",
+  "tooltip_stackless_key": "none",
+  "tooltip_stackless_en": "none",
+  "name_key": "KEYWORD_ENERGIZED_NAME",
+  "name_en": "Energized",
+  "tooltip_key": "KEYWORD_ENERGIZED_DESC",
+  "tooltip_en": "Takes an extra turn. Cannot be Energized again until after that turn ends.",
+  "_id": "Robot"
+ },
+ {
+  "name": "KEYWORD_ROT_NAME",
+  "tooltip": "KEYWORD_ROT_DESC",
+  "name_key": "KEYWORD_ROT_NAME",
+  "name_en": "Rot",
+  "tooltip_key": "KEYWORD_ROT_DESC",
+  "tooltip_en": "Hatches a Fly at the end of its turn. Damage from worms and bugs always crits against this.",
+  "_id": "Rot"
+ },
+ {
+  "name": "KEYWORD_SAFEDOOMED_NAME",
+  "tooltip": "KEYWORD_SAFEDOOMED_DESC",
+  "name_key": "KEYWORD_SAFEDOOMED_NAME",
+  "name_en": "Doomed",
+  "tooltip_key": "KEYWORD_SAFEDOOMED_DESC",
+  "tooltip_en": "Ticks down at the end of your turn. When it hits 0, Die (without being injured).",
+  "_id": "SafeDoomed"
+ },
+ {
+  "name": "KEYWORD_SCRAMBLED_NAME",
+  "tooltip": "KEYWORD_SCRAMBLED_DESC",
+  "name_key": "KEYWORD_SCRAMBLED_NAME",
+  "name_en": "Scrambled",
+  "tooltip_key": "KEYWORD_SCRAMBLED_DESC",
+  "tooltip_en": "Abilities are scrambled, temporarily.",
+  "_id": "Scrambled"
+ },
+ {
+  "name": "KEYWORD_SERRATED_NAME",
+  "tooltip_stacks": "KEYWORD_SERRATED_DESC",
+  "tooltip_stackless": "KEYWORD_SERRATED_DESC_STACKLESS",
+  "tooltip_stackless_key": "KEYWORD_SERRATED_DESC_STACKLESS",
+  "tooltip_stackless_en": "Basic attack inflicts Bleed.",
+  "name_key": "KEYWORD_SERRATED_NAME",
+  "name_en": "Serrated Claws",
+  "_id": "SerratedClaws"
+ },
+ {
+  "name": "KEYWORD_SHIELD_NAME",
+  "tooltip": "None",
+  "tooltip_stackless": "KEYWORD_SHIELD_DESC_STACKLESS",
+  "tooltip_stackless_key": "KEYWORD_SHIELD_DESC_STACKLESS",
+  "tooltip_stackless_en": "Blocks incoming damage.",
+  "name_key": "KEYWORD_SHIELD_NAME",
+  "name_en": "Shield",
+  "tooltip_key": "None",
+  "tooltip_en": "None",
+  "_id": "Shield"
+ },
+ {
+  "alias": "Shield",
+  "_id": "shield"
+ },
+ {
+  "name": "KEYWORD_SHORTCIRCUIT_NAME",
+  "tooltip": "KEYWORD_SHORTCIRCUIT_DESC",
+  "name_key": "KEYWORD_SHORTCIRCUIT_NAME",
+  "name_en": "Short Circuit",
+  "tooltip_key": "KEYWORD_SHORTCIRCUIT_DESC",
+  "tooltip_en": "All actions are disabled. Cast Break Circuit to break.",
+  "_id": "ShortCircuit"
+ },
+ {
+  "name": "SkipNextTurn",
+  "tooltip": "None",
+  "name_key": "SkipNextTurn",
+  "name_en": "SkipNextTurn",
+  "tooltip_key": "None",
+  "tooltip_en": "None",
+  "_id": "SkipNextTurn"
+ },
+ {
+  "name": "KEYWORD_SLEEP_NAME",
+  "tooltip_stacks": "KEYWORD_SLEEP_DESC",
+  "tooltip_stackless": "KEYWORD_SLEEP_DESC_STACKLESS",
+  "tooltip_stackless_key": "KEYWORD_SLEEP_DESC_STACKLESS",
+  "tooltip_stackless_en": "Skip the next turn. Being attacked has a chance to wake you up.",
+  "name_key": "KEYWORD_SLEEP_NAME",
+  "name_en": "Sleep",
+  "_id": "Sleep"
+ },
+ {
+  "name": "KEYWORD_SLEEPPAR_NAME",
+  "tooltip_stacks": "KEYWORD_SLEEPPAR_DESC",
+  "name_key": "KEYWORD_SLEEPPAR_NAME",
+  "name_en": "Sleep (Paralysis)",
+  "_id": "SleepParalysis"
+ },
+ {
+  "name": "KEYWORD_SLOW_NAME",
+  "tooltip_stacks": "KEYWORD_SLOW_DESC",
+  "tooltip_stackless": "KEYWORD_SLOW_DESC_STACKLESS",
+  "tooltip_stacks_neg": "KEYWORD_SLOW_DESC_STACKLESS",
+  "tooltip_stacks_neg_key": "KEYWORD_SLOW_DESC_STACKLESS",
+  "tooltip_stacks_neg_en": "Movement range is reduced to 2. Takes its turn later.",
+  "tooltip_stackless_key": "KEYWORD_SLOW_DESC_STACKLESS",
+  "tooltip_stackless_en": "Movement range is reduced to 2. Takes its turn later.",
+  "name_key": "KEYWORD_SLOW_NAME",
+  "name_en": "Slow",
+  "_id": "Slow"
+ },
+ {
+  "name": "KEYWORD_SOULLINK_NAME",
+  "tooltip": "KEYWORD_SOULLINK_DESC",
+  "name_key": "KEYWORD_SOULLINK_NAME",
+  "name_en": "Soul Link",
+  "tooltip_key": "KEYWORD_SOULLINK_DESC",
+  "tooltip_en": "Whenever a soul linked character loses health, all soul linked characters lose that health as well.",
+  "_id": "SoulLink"
+ },
+ {
+  "name": "KEYWORD_SPDUP_NAME",
+  "name_stacks_neg": "KEYWORD_SPDDOWN_NAME",
+  "tooltip_stacks_pos": "KEYWORD_SPDUP_DESC",
+  "tooltip_stacks_neg": "KEYWORD_SPWDDOWN_DESC",
+  "tooltip_stackless": "none",
+  "name_stacks_neg_key": "KEYWORD_SPDDOWN_NAME",
+  "name_stacks_neg_en": "Speed Down",
+  "tooltip_stacks_pos_key": "KEYWORD_SPDUP_DESC",
+  "tooltip_stacks_pos_en": "Speed increased by {stacks}.\nSpeed affects movement range and turn order.",
+  "tooltip_stacks_neg_key": "KEYWORD_SPWDDOWN_DESC",
+  "tooltip_stacks_neg_en": "Speed decreased by {absstacks}.\nSpeed affects movement range and turn order.",
+  "tooltip_stackless_key": "none",
+  "tooltip_stackless_en": "none",
+  "name_key": "KEYWORD_SPDUP_NAME",
+  "name_en": "Speed Up",
+  "_id": "SpeedUp"
+ },
+ {
+  "alias": "SpeedUp",
+  "_id": "SpeedUp_WithoutInitiative"
+ },
+ {
+  "name": "KEYWORD_MAGICDMGUP_NAME",
+  "tooltip_stacks": "KEYWORD_MAGICDMGUP_DESC",
+  "tooltip_stackless": "KEYWORD_MAGICDMGUP_DESC_STACKLESS",
+  "tooltip_stackless_key": "KEYWORD_MAGICDMGUP_DESC_STACKLESS",
+  "tooltip_stackless_en": "Increases any magical damage you deal.",
+  "name_key": "KEYWORD_MAGICDMGUP_NAME",
+  "name_en": "Magic Damage Up",
+  "_id": "SpellDamageUp"
+ },
+ {
+  "name": "SpellShield",
+  "tooltip": "None",
+  "name_key": "SpellShield",
+  "name_en": "SpellShield",
+  "tooltip_key": "None",
+  "tooltip_en": "None",
+  "_id": "SpellShield"
+ },
+ {
+  "name": "KEYWORD_SPIDERINFESTED_NAME",
+  "tooltip": "KEYWORD_SPIDERINFESTED_DESC",
+  "name_key": "KEYWORD_SPIDERINFESTED_NAME",
+  "name_en": "Infested",
+  "tooltip_key": "KEYWORD_SPIDERINFESTED_DESC",
+  "tooltip_en": "The spiders infesting this pop out when it dies, destroying its corpse.",
+  "_id": "SpiderInfested"
+ },
+ {
+  "alias": "MovementUp",
+  "_id": "SproutsGrantMovement"
+ },
+ {
+  "name": "KEYWORD_STATBOUNTY_NAME",
+  "tooltip_stacks": "KEYWORD_STATBOUNTY_DESC",
+  "tooltip_stackless": "KEYWORD_STATBOUNTY_DESC_STACKLESS",
+  "tooltip_stackless_key": "KEYWORD_STATBOUNTY_DESC_STACKLESS",
+  "tooltip_stackless_en": "Whoever kills this gets All Stats Up.",
+  "name_key": "KEYWORD_STATBOUNTY_NAME",
+  "name_en": "Stat Bounty",
+  "_id": "StatBounty"
+ },
+ {
+  "name": "KEYWORD_STEALTH_NAME",
+  "tooltip": "KEYWORD_STEALTH_DESC",
+  "name_key": "KEYWORD_STEALTH_NAME",
+  "name_en": "Stealth",
+  "tooltip_key": "KEYWORD_STEALTH_DESC",
+  "tooltip_en": "50% Dodge Chance. Lose Stealth when you get hit.",
+  "_id": "Stealth"
+ },
+ {
+  "name": "KEYWORD_STEALTHUNTIL_NAME",
+  "tooltip": "KEYWORD_STEALTHUNTIL_DESC",
+  "name_key": "KEYWORD_STEALTHUNTIL_NAME",
+  "name_en": "Stealth",
+  "tooltip_key": "KEYWORD_STEALTHUNTIL_DESC",
+  "tooltip_en": "50% Dodge Chance. Lose Stealth when you get hit or use your basic attack.",
+  "_id": "StealthUntilBasicAttack"
+ },
+ {
+  "alias": "StrengthUp",
+  "_id": "StrDownAura"
+ },
+ {
+  "alias": "DexterityUp",
+  "_id": "DexDownAura"
+ },
+ {
+  "alias": "SpeedUp",
+  "_id": "SpdDownAura"
+ },
+ {
+  "alias": "StrengthUp",
+  "_id": "StrengthForEachNeighboringEnemy"
+ },
+ {
+  "name": "KEYWORD_STRUP_NAME",
+  "name_stacks_neg": "KEYWORD_STRDOWN_NAME",
+  "tooltip_stacks_pos": "KEYWORD_STRUP_DESC",
+  "tooltip_stacks_neg": "KEYWORD_STRDOWN_DESC",
+  "tooltip_stackless": "none",
+  "name_stacks_neg_key": "KEYWORD_STRDOWN_NAME",
+  "name_stacks_neg_en": "Strength Down",
+  "tooltip_stacks_pos_key": "KEYWORD_STRUP_DESC",
+  "tooltip_stacks_pos_en": "Strength increased by {stacks}.\nStrength affects melee attack and melee ability damage.",
+  "tooltip_stacks_neg_key": "KEYWORD_STRDOWN_DESC",
+  "tooltip_stacks_neg_en": "Strength decreased by {absstacks}.\nStrength affects melee attack and melee ability damage.",
+  "tooltip_stackless_key": "none",
+  "tooltip_stackless_en": "none",
+  "name_key": "KEYWORD_STRUP_NAME",
+  "name_en": "Strength Up",
+  "_id": "StrengthUp"
+ },
+ {
+  "name": "KEYWORD_STUN_NAME",
+  "tooltip_stacks": "KEYWORD_STUN_DESC",
+  "tooltip_stackless": "KEYWORD_STUN_DESC_STACKLESS",
+  "tooltip_stackless_key": "KEYWORD_STUN_DESC_STACKLESS",
+  "tooltip_stackless_en": "Skip the next turn.",
+  "name_key": "KEYWORD_STUN_NAME",
+  "name_en": "Stun",
+  "_id": "Stun"
+ },
+ {
+  "name": "Switcheroo",
+  "tooltip": "None",
+  "name_key": "Switcheroo",
+  "name_en": "Switcheroo",
+  "tooltip_key": "None",
+  "tooltip_en": "None",
+  "_id": "Switcheroo"
+ },
+ {
+  "name": "KEYWORD_TARRED_NAME",
+  "tooltip_stacks": "KEYWORD_TARRED_DESC",
+  "tooltip_stackless": "KEYWORD_TARRED_DESC_STACKLESS",
+  "tooltip_stackless_key": "KEYWORD_TARRED_DESC_STACKLESS",
+  "tooltip_stackless_en": "Decreases speed. Flammable.",
+  "name_key": "KEYWORD_TARRED_NAME",
+  "name_en": "Tarred",
+  "_id": "Tarred"
+ },
+ {
+  "name": "Taunted",
+  "tooltip": "None",
+  "name_key": "Taunted",
+  "name_en": "Taunted",
+  "tooltip_key": "None",
+  "tooltip_en": "None",
+  "_id": "Taunted"
+ },
+ {
+  "name": "Taunting",
+  "tooltip": "None",
+  "name_key": "Taunting",
+  "name_en": "Taunting",
+  "tooltip_key": "None",
+  "tooltip_en": "None",
+  "_id": "Taunting"
+ },
+ {
+  "name": "KEYWORD_TECH_NAME",
+  "tooltip": "KEYWORD_TECH_DESC",
+  "name_key": "KEYWORD_TECH_NAME",
+  "name_en": "Tech",
+  "tooltip_key": "KEYWORD_TECH_DESC",
+  "tooltip_en": "Increases the quality of the next item you craft or the next familiar you spawn.\nUp to 3 Tech can be used at a time.",
+  "_id": "Tech"
+ },
+ {
+  "name": "KEYWORD_TEMPBACKSTAB_NAME",
+  "tooltip_stacks": "KEYWORD_TEMPBACKSTAB_DESC",
+  "tooltip_stackless": "KEYWORD_TEMPBACKSTAB_DESC_STACKLESS",
+  "tooltip_stackless_key": "KEYWORD_TEMPBACKSTAB_DESC_STACKLESS",
+  "tooltip_stackless_en": "Increases the damage your Backstabs deal.",
+  "name_key": "KEYWORD_TEMPBACKSTAB_NAME",
+  "name_en": "Backstab Bonus",
+  "_id": "TempBackstab"
+ },
+ {
+  "alias": "Charmed",
+  "_id": "TempCharmed"
+ },
+ {
+  "name": "KEYWORD_TEMPCOUNTER_NAME",
+  "tooltip": "KEYWORD_TEMPCOUNTER_DESC",
+  "name_key": "KEYWORD_TEMPCOUNTER_NAME",
+  "name_en": "Counter Attack",
+  "tooltip_key": "KEYWORD_TEMPCOUNTER_DESC",
+  "tooltip_en": "Attack things that damage you automatically.",
+  "_id": "TempCounterAttack"
+ },
+ {
+  "alias": "CritChanceUp",
+  "_id": "TempCritChanceUp"
+ },
+ {
+  "alias": "DamageUp",
+  "_id": "TempDamageUp"
+ },
+ {
+  "alias": "DexterityUp",
+  "_id": "TempDexterityUp"
+ },
+ {
+  "name": "KEYWORD_TEMPINIT_NAME",
+  "tooltip": "KEYWORD_TEMPINIT_DESC",
+  "name_stacks_neg": "KEYWORD_TEMPINITDOWN_NAME",
+  "tooltip_stacks_neg": "KEYWORD_TEMPINITDOWN_DESC",
+  "tooltip_stackless_neg": "KEYWORD_TEMPINITDOWN_DESC",
+  "name_stacks_neg_key": "KEYWORD_TEMPINITDOWN_NAME",
+  "name_stacks_neg_en": "Initiative Down",
+  "tooltip_stacks_neg_key": "KEYWORD_TEMPINITDOWN_DESC",
+  "tooltip_stacks_neg_en": "You take your turn later in the round.",
+  "name_key": "KEYWORD_TEMPINIT_NAME",
+  "name_en": "Initiative Up",
+  "tooltip_key": "KEYWORD_TEMPINIT_DESC",
+  "tooltip_en": "You take your turn earlier in the round.",
+  "_id": "TempInitiativeChange"
+ },
+ {
+  "name": "KEYWORD_TEMPIMMUNE_NAME",
+  "tooltip_stacks": "KEYWORD_TEMPIMMUNE_DESC",
+  "tooltip_stacks_singular": "KEYWORD_TEMPIMMUNE_DESC_SINGULAR",
+  "tooltip_stackless": "none",
+  "tooltip_stackless_key": "none",
+  "tooltip_stackless_en": "none",
+  "name_key": "KEYWORD_TEMPIMMUNE_NAME",
+  "name_en": "Injury Immunity",
+  "_id": "TempInjuryImmunity"
+ },
+ {
+  "name": "KEYWORD_TEMPMANAREDUCTION_NAME",
+  "tooltip_stacks": "KEYWORD_TEMPMANAREDUCTION_DESC",
+  "tooltip_stackless": "KEYWORD_TEMPMANAREDUCTION_DESC_STACKLESS",
+  "tooltip_stackless_key": "KEYWORD_TEMPMANAREDUCTION_DESC_STACKLESS",
+  "tooltip_stackless_en": "Spells cost less mana to cast until the end of the turn.",
+  "name_key": "KEYWORD_TEMPMANAREDUCTION_NAME",
+  "name_en": "Insight",
+  "_id": "TempManaCostReduction"
+ },
+ {
+  "alias": "MovementUp",
+  "_id": "TempMovement"
+ },
+ {
+  "name": "KEYWORD_PRECOUNTER_NAME",
+  "tooltip": "KEYWORD_PRECOUNTER_DESC",
+  "name_key": "KEYWORD_PRECOUNTER_NAME",
+  "name_en": "Preemptive Counter",
+  "tooltip_key": "KEYWORD_PRECOUNTER_DESC",
+  "tooltip_en": "Attack things that target you before they attack you, automatically.",
+  "_id": "TempPreEmptiveCounterAttack"
+ },
+ {
+  "alias": "SpeedUp",
+  "_id": "TempSpeedUp"
+ },
+ {
+  "alias": "SpellDamageUp",
+  "_id": "TempSpellDamageUp"
+ },
+ {
+  "alias": "StrengthUp",
+  "_id": "TempStrengthUp"
+ },
+ {
+  "name": "KEYWORD_THORNS_NAME",
+  "tooltip_stacks": "KEYWORD_THORNS_DESC",
+  "tooltip_stackless": "KEYWORD_THORNS_DESC_STACKLESS",
+  "tooltip_stackless_key": "KEYWORD_THORNS_DESC_STACKLESS",
+  "tooltip_stackless_en": "Deals damage to units that contact you.",
+  "name_key": "KEYWORD_THORNS_NAME",
+  "name_en": "Thorns",
+  "_id": "Thorns"
+ },
+ {
+  "name": "TilesMovedToCritChance",
+  "tooltip": "None",
+  "name_key": "TilesMovedToCritChance",
+  "name_en": "TilesMovedToCritChance",
+  "tooltip_key": "None",
+  "tooltip_en": "None",
+  "_id": "TilesMovedToCritChance"
+ },
+ {
+  "name": "TilesMovedToHealth",
+  "tooltip": "None",
+  "name_key": "TilesMovedToHealth",
+  "name_en": "TilesMovedToHealth",
+  "tooltip_key": "None",
+  "tooltip_en": "None",
+  "_id": "TilesMovedToHealth"
+ },
+ {
+  "name": "TilesMovedToMana",
+  "tooltip": "None",
+  "name_key": "TilesMovedToMana",
+  "name_en": "TilesMovedToMana",
+  "tooltip_key": "None",
+  "tooltip_en": "None",
+  "_id": "TilesMovedToMana"
+ },
+ {
+  "name": "TilesMovedToNeighborHeal",
+  "tooltip": "None",
+  "name_key": "TilesMovedToNeighborHeal",
+  "name_en": "TilesMovedToNeighborHeal",
+  "tooltip_key": "None",
+  "tooltip_en": "None",
+  "_id": "TilesMovedToNeighborHeal"
+ },
+ {
+  "name": "TilesMovedToStrength",
+  "tooltip": "None",
+  "name_key": "TilesMovedToStrength",
+  "name_en": "TilesMovedToStrength",
+  "tooltip_key": "None",
+  "tooltip_en": "None",
+  "_id": "TilesMovedToStrength"
+ },
+ {
+  "name": "KEYWORD_SENTRY_NAME",
+  "tooltip": "KEYWORD_SENTRY_DESC",
+  "name_key": "KEYWORD_SENTRY_NAME",
+  "name_en": "Sentry Mode",
+  "tooltip_key": "KEYWORD_SENTRY_DESC",
+  "tooltip_en": "The next time an enemy ends its movement in your basic attack range, attack it.",
+  "_id": "TowerDefenseStatus"
+ },
+ {
+  "name": "KEYWORD_SENTRYPLUS_NAME",
+  "tooltip_stacks": "KEYWORD_SENTRYPLUS_DESC",
+  "tooltip_stackless": "KEYWORD_SENTRYPLUS_DESC_STACKLESS",
+  "tooltip_stackless_key": "KEYWORD_SENTRYPLUS_DESC_STACKLESS",
+  "tooltip_stackless_en": "When an enemy ends its movement in your basic attack range, attack it.",
+  "name_key": "KEYWORD_SENTRYPLUS_NAME",
+  "name_en": "Sentry Mode+",
+  "_id": "TowerDefenseStatus2"
+ },
+ {
+  "name": "Trail Blazer",
+  "tooltip": "None",
+  "name_key": "Trail Blazer",
+  "name_en": "Trail Blazer",
+  "tooltip_key": "None",
+  "tooltip_en": "None",
+  "_id": "TrailBlazer"
+ },
+ {
+  "name": "KEYWORD_TRAMPLE_NAME",
+  "tooltip": "None",
+  "tooltip_stackless": "KEYWORD_TRAMPLE_DESC_STACKLESS",
+  "icon_frame": 153,
+  "tooltip_stackless_key": "KEYWORD_TRAMPLE_DESC_STACKLESS",
+  "tooltip_stackless_en": "You can move through other units, damaging and displacing them.",
+  "name_key": "KEYWORD_TRAMPLE_NAME",
+  "name_en": "Trample",
+  "tooltip_key": "None",
+  "tooltip_en": "None",
+  "_id": "Trample"
+ },
+ {
+  "name": "KEYWORD_TRANSFORM_NAME",
+  "tooltip": "KEYWORD_TRANSFORM_DESC",
+  "name_key": "KEYWORD_TRANSFORM_NAME",
+  "name_en": "Transformation",
+  "tooltip_key": "KEYWORD_TRANSFORM_DESC",
+  "tooltip_en": "Transforms when the timer hits 0.",
+  "_id": "TransformInXTurns"
+ },
+ {
+  "alias": "StrengthUp",
+  "_id": "VeinyBonus"
+ },
+ {
+  "name": "KEYWORD_WEAKNESS_NAME",
+  "tooltip_stacks": "KEYWORD_WEAKNESS_DESC",
+  "tooltip_stacks_singular": "KEYWORD_WEAKNESS_DESC_SINGULAR",
+  "tooltip_stackless": "KEYWORD_WEAKNESS_DESC_STACKLESS",
+  "tooltip_stackless_key": "KEYWORD_WEAKNESS_DESC_STACKLESS",
+  "tooltip_stackless_en": "-2 [img:dex], -2 [img:str], -2 [img:spd], temporarily.",
+  "name_key": "KEYWORD_WEAKNESS_NAME",
+  "name_en": "Weakness",
+  "_id": "Weakness"
+ },
+ {
+  "alias": "AllStatsUp",
+  "_id": "DepressionAura"
+ },
+ {
+  "name": "KEYWORD_WEBBED_NAME",
+  "tooltip": "KEYWORD_WEBBED_DESC",
+  "name_key": "KEYWORD_WEBBED_NAME",
+  "name_en": "Webbed",
+  "tooltip_key": "KEYWORD_WEBBED_DESC",
+  "tooltip_en": "Immobile. Use basic attack to break free.",
+  "_id": "Webbed"
+ },
+ {
+  "name": "KEYWORD_TANGLED_NAME",
+  "tooltip": "KEYWORD_TANGLED_DESC",
+  "name_key": "KEYWORD_TANGLED_NAME",
+  "name_en": "Entangled",
+  "tooltip_key": "KEYWORD_TANGLED_DESC",
+  "tooltip_en": "Immobile. Use basic attack to break free.",
+  "_id": "Tangled"
+ },
+ {
+  "name": "KEYWORD_WET_NAME",
+  "tooltip": "KEYWORD_WET_DESC",
+  "name_key": "KEYWORD_WET_NAME",
+  "name_en": "Wet",
+  "tooltip_key": "KEYWORD_WET_DESC",
+  "tooltip_en": "Wet.",
+  "_id": "Wet"
+ },
+ {
+  "name": "KEYWORD_ZOMBIE_NAME",
+  "tooltip": "KEYWORD_ZOMBIE_DESC",
+  "name_key": "KEYWORD_ZOMBIE_NAME",
+  "name_en": "Zombie",
+  "tooltip_key": "KEYWORD_ZOMBIE_DESC",
+  "tooltip_en": "-2 [img:str]. -2 [img:int]. Takes damage from Holy Element heals. Does not get injured when downed.",
+  "_id": "Zombie"
+ },
+ {
+  "name": "KEYWORD_METAL_NAME",
+  "tooltip": "KEYWORD_METAL_DESC",
+  "icon_frame": 151,
+  "name_key": "KEYWORD_METAL_NAME",
+  "name_en": "Metal",
+  "tooltip_key": "KEYWORD_METAL_DESC",
+  "tooltip_en": "This item is electrically conductive.",
+  "_id": "Metal"
+ },
+ {
+  "name": "KEYWORD_FRAGILE_NAME",
+  "tooltip": "KEYWORD_FRAGILE_DESC",
+  "icon_frame": 149,
+  "name_key": "KEYWORD_FRAGILE_NAME",
+  "name_en": "Fragile",
+  "tooltip_key": "KEYWORD_FRAGILE_DESC",
+  "tooltip_en": "This item breaks when you're downed.",
+  "_id": "Fragile"
+ },
+ {
+  "alias": "Fragile",
+  "_id": "FragileDuringElement"
+ },
+ {
+  "name": "KEYWORD_BRITTLE_NAME",
+  "tooltip": "KEYWORD_BRITTLE_DESC",
+  "icon_frame": 150,
+  "name_key": "KEYWORD_BRITTLE_NAME",
+  "name_en": "Brittle",
+  "tooltip_key": "KEYWORD_BRITTLE_DESC",
+  "tooltip_en": "This item has a 25% chance to break when you take damage.",
+  "_id": "Brittle"
+ },
+ {
+  "alias": "Brittle",
+  "_id": "BrittleDuringElement"
+ },
+ {
+  "name": "KEYWORD_FLAMMABLE_NAME",
+  "tooltip": "KEYWORD_FLAMMABLE_DESC",
+  "icon_frame": 148,
+  "name_key": "KEYWORD_FLAMMABLE_NAME",
+  "name_en": "Flammable",
+  "tooltip_key": "KEYWORD_FLAMMABLE_DESC",
+  "tooltip_en": "This item burns up when hit with fire.",
+  "_id": "Flammable"
+ },
+ {
+  "name": "KEYWORD_CURSED_NAME",
+  "tooltip": "KEYWORD_CURSED_DESC",
+  "icon_frame": 156,
+  "name_key": "KEYWORD_CURSED_NAME",
+  "name_en": "Cursed",
+  "tooltip_key": "KEYWORD_CURSED_DESC",
+  "tooltip_en": "This item cannot be unequipped once equipped.",
+  "_id": "Cursed"
+ },
+ {
+  "name": "KEYWORD_RELOAD_NAME",
+  "tooltip": "KEYWORD_RELOAD_DESC",
+  "icon_frame": 159,
+  "name_key": "KEYWORD_RELOAD_NAME",
+  "name_en": "Reload",
+  "tooltip_key": "KEYWORD_RELOAD_DESC",
+  "tooltip_en": "This action starts disabled and does not refresh on its own after use. Meet the condition to refresh it.",
+  "_id": "Reload"
+ },
+ {
+  "name": "KEYWORD_RELOAD_NAME",
+  "tooltip": "KEYWORD_RELOADB_DESC",
+  "icon_frame": 159,
+  "name_key": "KEYWORD_RELOAD_NAME",
+  "name_en": "Reload",
+  "tooltip_key": "KEYWORD_RELOADB_DESC",
+  "tooltip_en": "This action does not refresh on its own after use. Meet the condition to refresh it.",
+  "_id": "ReloadB"
+ },
+ {
+  "name": "KEYWORD_FLYING_NAME",
+  "tooltip": "KEYWORD_FLYING_DESC",
+  "icon_frame": 157,
+  "name_key": "KEYWORD_FLYING_NAME",
+  "name_en": "Flying",
+  "tooltip_key": "KEYWORD_FLYING_DESC",
+  "tooltip_en": "Ignores tiles and can pass over units and objects.",
+  "_id": "Flying"
+ },
+ {
+  "name": "KEYWORD_COMFORT_NAME",
+  "tooltip": "KEYWORD_COMFORT_DESC",
+  "name_key": "KEYWORD_COMFORT_NAME",
+  "name_en": "[img:comfort] Comfort",
+  "tooltip_key": "KEYWORD_COMFORT_DESC",
+  "tooltip_en": "Affects how often cats will breed or fight.",
+  "_id": "Comfort"
+ },
+ {
+  "name": "KEYWORD_STIMULATION_NAME",
+  "tooltip": "KEYWORD_STIMULATION_DESC",
+  "name_key": "KEYWORD_STIMULATION_NAME",
+  "name_en": "[img:stimulation] Stimulation",
+  "tooltip_key": "KEYWORD_STIMULATION_DESC",
+  "tooltip_en": "Affects the quality of newborn kittens.",
+  "_id": "Stimulation"
+ },
+ {
+  "name": "KEYWORD_APPEAL_NAME",
+  "tooltip": "KEYWORD_APPEAL_DESC",
+  "name_key": "KEYWORD_APPEAL_NAME",
+  "name_en": "[img:appeal] Appeal",
+  "tooltip_key": "KEYWORD_APPEAL_DESC",
+  "tooltip_en": "Affects the quality of the stray cats that show up each day",
+  "_id": "Appeal"
+ },
+ {
+  "name": "KEYWORD_EVOLUTION_NAME",
+  "tooltip": "KEYWORD_EVOLUTION_DESC",
+  "name_key": "KEYWORD_EVOLUTION_NAME",
+  "name_en": "[img:evolution] Mutation",
+  "tooltip_key": "KEYWORD_EVOLUTION_DESC",
+  "tooltip_en": "Adds a chance for cats to receive random mutations each night.",
+  "_id": "Evolution"
+ },
+ {
+  "name": "KEYWORD_HEALTH_NAME",
+  "tooltip": "KEYWORD_HEALTH_DESC",
+  "name_key": "KEYWORD_HEALTH_NAME",
+  "name_en": "[img:health] Health",
+  "tooltip_key": "KEYWORD_HEALTH_DESC",
+  "tooltip_en": "Affects lifespan and chance to develop or cure disorders each night",
+  "_id": "Health"
+ },
+ {
+  "name": "KEYWORD_TOR_BITE_NAME",
+  "tooltip": "KEYWORD_TOR_BITE_DESC",
+  "name_key": "KEYWORD_TOR_BITE_NAME",
+  "name_en": "Lucifer Rune",
+  "tooltip_key": "KEYWORD_TOR_BITE_DESC",
+  "tooltip_en": "Imbues its owner with an extra turn and the power to Bite",
+  "_id": "DemonicGlyph_Bite"
+ },
+ {
+  "name": "KEYWORD_TOR_FIRE_NAME",
+  "tooltip": "KEYWORD_TOR_FIRE_DESC",
+  "name_key": "KEYWORD_TOR_FIRE_NAME",
+  "name_en": "Brimstone Rune",
+  "tooltip_key": "KEYWORD_TOR_FIRE_DESC",
+  "tooltip_en": "Imbues its owner's basic attack with +2 Damage and +2 Burn.",
+  "_id": "DemonicGlyph_Fire"
+ },
+ {
+  "name": "KEYWORD_TOR_SUMMON_NAME",
+  "tooltip": "KEYWORD_TOR_SUMMON_DESC",
+  "name_key": "KEYWORD_TOR_SUMMON_NAME",
+  "name_en": "Pentagram Rune",
+  "tooltip_key": "KEYWORD_TOR_SUMMON_DESC",
+  "tooltip_en": "Imbues its owner with an extra turn and the power to Summon",
+  "_id": "DemonicGlyph_Summon"
+ },
+ {
+  "name": "KEYWORD_TOR_MOVE_NAME",
+  "tooltip": "KEYWORD_TOR_MOVE_DESC",
+  "name_key": "KEYWORD_TOR_MOVE_NAME",
+  "name_en": "Hexagram Rune",
+  "tooltip_key": "KEYWORD_TOR_MOVE_DESC",
+  "tooltip_en": "Imbues its owner with +1 Movement Range and +3 Trample Damage",
+  "_id": "DemonicGlyph_Movement"
+ },
+ {
+  "name": "KEYWORD_TOR_BOUNCE_NAME",
+  "tooltip": "KEYWORD_TOR_BOUNCE_DESC",
+  "name_key": "KEYWORD_TOR_BOUNCE_NAME",
+  "name_en": "Chaos Rune",
+  "tooltip_key": "KEYWORD_TOR_BOUNCE_DESC",
+  "tooltip_en": "Imbues its owner with the ability to repel attackers.",
+  "_id": "DemonicGlyph_Bounce"
+ },
+ {
+  "name": "KEYWORD_CHILDHOLY_NAME",
+  "tooltip": "KEYWORD_CHILDHOLY_DESC",
+  "name_key": "KEYWORD_CHILDHOLY_NAME",
+  "name_en": "The Child's Flame",
+  "tooltip_key": "KEYWORD_CHILDHOLY_DESC",
+  "tooltip_en": "Counts down every time it gets hit. At 0, unleash the holy beams.",
+  "_id": "FinalBossHitCountdownHoly"
+ },
+ {
+  "name": "KEYWORD_CHILDPULSE_NAME",
+  "tooltip": "KEYWORD_CHILDPULSE_DESC",
+  "name_key": "KEYWORD_CHILDPULSE_NAME",
+  "name_en": "The Child's Flame",
+  "tooltip_key": "KEYWORD_CHILDPULSE_DESC",
+  "tooltip_en": "Counts down every time it gets hit. At 0, releases a pulse.",
+  "_id": "FinalBossHitCountdownBoris"
+ },
+ {
+  "name": "KEYWORD_CHILDWRATH_NAME",
+  "tooltip": "KEYWORD_CHILDWRATH_DESC",
+  "name_key": "KEYWORD_CHILDWRATH_NAME",
+  "name_en": "The Child's Flame",
+  "tooltip_key": "KEYWORD_CHILDWRATH_DESC",
+  "tooltip_en": "Counts down every time it gets hit. At 0, unleash a wrath of holy light.",
+  "_id": "FinalBossHitCountdownExplosive"
+ },
+ {
+  "name": "ENEMY_TVBOT_OBEY_NAME",
+  "tooltip": "ENEMY_TVBOT_OBEY_DESC",
+  "icon_frame": 155,
+  "name_key": "ENEMY_TVBOT_OBEY_NAME",
+  "name_en": "OBEY",
+  "tooltip_key": "ENEMY_TVBOT_OBEY_DESC",
+  "tooltip_en": "Basic attacks of its enemies are disabled.",
+  "_id": "TVBotObey"
+ },
+ {
+  "name": "ENEMY_TVBOT_STOP_NAME",
+  "tooltip": "ENEMY_TVBOT_STOP_DESC",
+  "icon_frame": 155,
+  "name_key": "ENEMY_TVBOT_STOP_NAME",
+  "name_en": "STOP",
+  "tooltip_key": "ENEMY_TVBOT_STOP_DESC",
+  "tooltip_en": "Basic movement of its enemies is disabled.",
+  "_id": "TVBotStop"
+ },
+ {
+  "name": "ENEMY_TVBOT_DUMB_NAME",
+  "tooltip": "ENEMY_TVBOT_DUMB_DESC",
+  "icon_frame": 155,
+  "name_key": "ENEMY_TVBOT_DUMB_NAME",
+  "name_en": "DUMB",
+  "tooltip_key": "ENEMY_TVBOT_DUMB_DESC",
+  "tooltip_en": "Spells of its enemies are disabled.",
+  "_id": "TVBotDumb"
+ },
+ {
+  "name": "ENEMY_TVBOT_DIE_NAME",
+  "tooltip": "ENEMY_TVBOT_DIE_DESC",
+  "icon_frame": 155,
+  "name_key": "ENEMY_TVBOT_DIE_NAME",
+  "name_en": "DIE",
+  "tooltip_key": "ENEMY_TVBOT_DIE_DESC",
+  "tooltip_en": "It is too late. Win now or die.",
+  "_id": "TVBotDie"
+ },
+ {
+  "name": "KEYWORD_ELITE_SPIKY_NAME",
+  "tooltip": "KEYWORD_ELITE_SPIKY_DESC",
+  "name_key": "KEYWORD_ELITE_SPIKY_NAME",
+  "name_en": "Elite Buff: Spiky",
+  "tooltip_key": "KEYWORD_ELITE_SPIKY_DESC",
+  "tooltip_en": "+2 Thorns",
+  "_id": "EliteBuff_Spiky"
+ },
+ {
+  "name": "KEYWORD_ELITE_BOSSSPIKY_NAME",
+  "tooltip": "KEYWORD_ELITE_BOSSSPIKY_DESC",
+  "name_key": "KEYWORD_ELITE_BOSSSPIKY_NAME",
+  "name_en": "Elite Buff: Spiky",
+  "tooltip_key": "KEYWORD_ELITE_BOSSSPIKY_DESC",
+  "tooltip_en": "+1 Thorns",
+  "_id": "EliteBuff_BossSpiky"
+ },
+ {
+  "name": "KEYWORD_ELITE_REACTIVE_NAME",
+  "tooltip": "KEYWORD_ELITE_REACTIVE_DESC",
+  "name_key": "KEYWORD_ELITE_REACTIVE_NAME",
+  "name_en": "Elite Buff: Reactive",
+  "tooltip_key": "KEYWORD_ELITE_REACTIVE_DESC",
+  "tooltip_en": "+1 Kinetic Spikes",
+  "_id": "EliteBuff_Reactive"
+ },
+ {
+  "alias": "EliteBuff_Reactive",
+  "_id": "EliteBuff_BossReactive"
+ },
+ {
+  "name": "KEYWORD_ELITE_DAMAGING_NAME",
+  "tooltip": "KEYWORD_ELITE_DAMAGING_DESC",
+  "name_key": "KEYWORD_ELITE_DAMAGING_NAME",
+  "name_en": "Elite Buff: Damaging",
+  "tooltip_key": "KEYWORD_ELITE_DAMAGING_DESC",
+  "tooltip_en": "+2 Damage",
+  "_id": "EliteBuff_Damaging"
+ },
+ {
+  "alias": "EliteBuff_Damaging",
+  "_id": "EliteBuff_BossDamaging"
+ },
+ {
+  "name": "KEYWORD_ELITE_TOUGH_NAME",
+  "tooltip": "KEYWORD_ELITE_TOUGH_DESC",
+  "name_key": "KEYWORD_ELITE_TOUGH_NAME",
+  "name_en": "Elite Buff: Tough",
+  "tooltip_key": "KEYWORD_ELITE_TOUGH_DESC",
+  "tooltip_en": "+2 Brace",
+  "_id": "EliteBuff_Tough"
+ },
+ {
+  "name": "KEYWORD_ELITE_BOSSTOUGH_NAME",
+  "tooltip": "KEYWORD_ELITE_BOSSTOUGH_DESC",
+  "name_key": "KEYWORD_ELITE_BOSSTOUGH_NAME",
+  "name_en": "Elite Buff: Tough",
+  "tooltip_key": "KEYWORD_ELITE_BOSSTOUGH_DESC",
+  "tooltip_en": "+1 Brace",
+  "_id": "EliteBuff_BossTough"
+ },
+ {
+  "name": "KEYWORD_ELITE_SHIELDED1_NAME",
+  "tooltip": "KEYWORD_ELITE_SHIELDED1_DESC",
+  "name_key": "KEYWORD_ELITE_SHIELDED1_NAME",
+  "name_en": "Elite Buff: Shielded",
+  "tooltip_key": "KEYWORD_ELITE_SHIELDED1_DESC",
+  "tooltip_en": "At the start of each round, if it has less than 3 [img:shield], set [img:shield] to 3. -20% max health.",
+  "_id": "EliteBuff_Shielded1"
+ },
+ {
+  "name": "KEYWORD_ELITE_BOSSSHIELDED1_NAME",
+  "tooltip": "KEYWORD_ELITE_BOSSSHIELDED1_DESC",
+  "name_key": "KEYWORD_ELITE_BOSSSHIELDED1_NAME",
+  "name_en": "Elite Buff: Shielded",
+  "tooltip_key": "KEYWORD_ELITE_BOSSSHIELDED1_DESC",
+  "tooltip_en": "At the start of each round, if it has less than 4 [img:shield], set [img:shield] to 4. -20% max health.",
+  "_id": "EliteBuff_BossShielded1"
+ },
+ {
+  "name": "KEYWORD_ELITE_SHIELDED2_NAME",
+  "tooltip": "KEYWORD_ELITE_SHIELDED2_DESC",
+  "name_key": "KEYWORD_ELITE_SHIELDED2_NAME",
+  "name_en": "Elite Buff: Shielded",
+  "tooltip_key": "KEYWORD_ELITE_SHIELDED2_DESC",
+  "tooltip_en": "At the start of each round, if it has less than 5 [img:shield], set [img:shield] to 5. -20% max health.",
+  "_id": "EliteBuff_Shielded2"
+ },
+ {
+  "name": "KEYWORD_ELITE_BOSSSHIELDED2_NAME",
+  "tooltip": "KEYWORD_ELITE_BOSSSHIELDED2_DESC",
+  "name_key": "KEYWORD_ELITE_BOSSSHIELDED2_NAME",
+  "name_en": "Elite Buff: Shielded",
+  "tooltip_key": "KEYWORD_ELITE_BOSSSHIELDED2_DESC",
+  "tooltip_en": "At the start of each round, if it has less than 8 [img:shield], set [img:shield] to 8. -20% max health.",
+  "_id": "EliteBuff_BossShielded2"
+ },
+ {
+  "name": "KEYWORD_ELITE_SHIELDED3_NAME",
+  "tooltip": "KEYWORD_ELITE_SHIELDED3_DESC",
+  "name_key": "KEYWORD_ELITE_SHIELDED3_NAME",
+  "name_en": "Elite Buff: Shielded",
+  "tooltip_key": "KEYWORD_ELITE_SHIELDED3_DESC",
+  "tooltip_en": "At the start of each round, if it has less than 7 [img:shield], set [img:shield] to 7. -20% max health.",
+  "_id": "EliteBuff_Shielded3"
+ },
+ {
+  "name": "KEYWORD_ELITE_BOSSSHIELDED3_NAME",
+  "tooltip": "KEYWORD_ELITE_BOSSSHIELDED3_DESC",
+  "name_key": "KEYWORD_ELITE_BOSSSHIELDED3_NAME",
+  "name_en": "Elite Buff: Shielded",
+  "tooltip_key": "KEYWORD_ELITE_BOSSSHIELDED3_DESC",
+  "tooltip_en": "At the start of each round, if it has less than 12 [img:shield], set [img:shield] to 12. -20% max health.",
+  "_id": "EliteBuff_BossShielded3"
+ },
+ {
+  "name": "KEYWORD_ELITE_SHIELDED4_NAME",
+  "tooltip": "KEYWORD_ELITE_SHIELDED4_DESC",
+  "name_key": "KEYWORD_ELITE_SHIELDED4_NAME",
+  "name_en": "Elite Buff: Shielded",
+  "tooltip_key": "KEYWORD_ELITE_SHIELDED4_DESC",
+  "tooltip_en": "At the start of each round, if it has less than 9 [img:shield], set [img:shield] to 9. -20% max health.",
+  "_id": "EliteBuff_Shielded4"
+ },
+ {
+  "name": "KEYWORD_ELITE_BOSSSHIELDED4_NAME",
+  "tooltip": "KEYWORD_ELITE_BOSSSHIELDED4_DESC",
+  "name_key": "KEYWORD_ELITE_BOSSSHIELDED4_NAME",
+  "name_en": "Elite Buff: Shielded",
+  "tooltip_key": "KEYWORD_ELITE_BOSSSHIELDED4_DESC",
+  "tooltip_en": "At the start of each round, if it has less than 16 [img:shield], set [img:shield] to 16. -20% max health.",
+  "_id": "EliteBuff_BossShielded4"
+ },
+ {
+  "name": "KEYWORD_ELITE_PROTECTED_NAME",
+  "tooltip": "KEYWORD_ELITE_PROTECTED_DESC",
+  "name_key": "KEYWORD_ELITE_PROTECTED_NAME",
+  "name_en": "Elite Buff: Protected",
+  "tooltip_key": "KEYWORD_ELITE_PROTECTED_DESC",
+  "tooltip_en": "At the end of each turn, set [img:divineshield] to 1 if it had no [img:divineshield]. -20% max health.",
+  "_id": "EliteBuff_Protected"
+ },
+ {
+  "alias": "EliteBuff_Protected",
+  "_id": "EliteBuff_BossProtected"
+ },
+ {
+  "name": "KEYWORD_ELITE_SPEEDY_NAME",
+  "tooltip": "KEYWORD_ELITE_SPEEDY_DESC",
+  "name_key": "KEYWORD_ELITE_SPEEDY_NAME",
+  "name_en": "Elite Buff: Speedy",
+  "tooltip_key": "KEYWORD_ELITE_SPEEDY_DESC",
+  "tooltip_en": "+4 [img:spd]",
+  "_id": "EliteBuff_Speedy"
+ },
+ {
+  "alias": "EliteBuff_Speedy",
+  "_id": "EliteBuff_BossSpeedy"
+ },
+ {
+  "name": "KEYWORD_ELITE_FLAMING_NAME",
+  "tooltip": "KEYWORD_ELITE_FLAMING_DESC",
+  "name_key": "KEYWORD_ELITE_FLAMING_NAME",
+  "name_en": "Elite Buff: Flaming",
+  "tooltip_key": "KEYWORD_ELITE_FLAMING_DESC",
+  "tooltip_en": "Fire Immune. Leaves a trail of fire.",
+  "_id": "EliteBuff_Flaming"
+ },
+ {
+  "name": "KEYWORD_ELITE_BOSSFLAMING_NAME",
+  "tooltip": "KEYWORD_ELITE_BOSSFLAMING_DESC",
+  "name_key": "KEYWORD_ELITE_BOSSFLAMING_NAME",
+  "name_en": "Elite Buff: Flaming",
+  "tooltip_key": "KEYWORD_ELITE_BOSSFLAMING_DESC",
+  "tooltip_en": "Fire Immune. Leaves a trail of fire. Applies Burn 1 to attackers.",
+  "_id": "EliteBuff_BossFlaming"
+ },
+ {
+  "name": "KEYWORD_ELITE_CREEPY_NAME",
+  "tooltip": "KEYWORD_ELITE_CREEPY_DESC",
+  "name_key": "KEYWORD_ELITE_CREEPY_NAME",
+  "name_en": "Elite Buff: Creepy",
+  "tooltip_key": "KEYWORD_ELITE_CREEPY_DESC",
+  "tooltip_en": "Basic attack inflicts Poison. Leaves a trail of creep.",
+  "_id": "EliteBuff_Creepy"
+ },
+ {
+  "name": "KEYWORD_ELITE_LUCKY_NAME",
+  "tooltip": "KEYWORD_ELITE_LUCKY_DESC",
+  "name_key": "KEYWORD_ELITE_LUCKY_NAME",
+  "name_en": "Elite Buff: Lucky",
+  "tooltip_key": "KEYWORD_ELITE_LUCKY_DESC",
+  "tooltip_en": "+3 [img:lck]. +10% Crit Chance. +10% Dodge Chance.",
+  "_id": "EliteBuff_Lucky"
+ },
+ {
+  "alias": "EliteBuff_Lucky",
+  "_id": "EliteBuff_BossLucky"
+ },
+ {
+  "name": "KEYWORD_ELITE_STATIC_NAME",
+  "tooltip": "KEYWORD_ELITE_STATIC_DESC",
+  "name_key": "KEYWORD_ELITE_STATIC_NAME",
+  "name_en": "Elite Buff: Static",
+  "tooltip_key": "KEYWORD_ELITE_STATIC_DESC",
+  "tooltip_en": "Arcs 1 electric damage to neighbors whenever it moves.",
+  "_id": "EliteBuff_Static"
+ },
+ {
+  "alias": "EliteBuff_Static",
+  "_id": "EliteBuff_BossStatic"
+ },
+ {
+  "name": "KEYWORD_ELITE_BOUNCY_NAME",
+  "tooltip": "KEYWORD_ELITE_BOUNCY_DESC",
+  "name_key": "KEYWORD_ELITE_BOUNCY_NAME",
+  "name_en": "Elite Buff: Bouncy",
+  "tooltip_key": "KEYWORD_ELITE_BOUNCY_DESC",
+  "tooltip_en": "When hit, bounces itself and its attacker apart.",
+  "_id": "EliteBuff_Bouncy"
+ },
+ {
+  "alias": "EliteBuff_Bouncy",
+  "_id": "EliteBuff_BossBouncy"
+ },
+ {
+  "name": "KEYWORD_ELITE_MIRROR_NAME",
+  "tooltip": "KEYWORD_ELITE_MIRROR_DESC",
+  "name_key": "KEYWORD_ELITE_MIRROR_NAME",
+  "name_en": "Elite Buff: Mirror",
+  "tooltip_key": "KEYWORD_ELITE_MIRROR_DESC",
+  "tooltip_en": "Reflects all projectiles. Takes 2 damage when it reflects a projectile.",
+  "_id": "EliteBuff_Mirror"
+ },
+ {
+  "name": "KEYWORD_ELITE_RESONANT_NAME",
+  "tooltip": "KEYWORD_ELITE_RESONANT_DESC",
+  "name_key": "KEYWORD_ELITE_RESONANT_NAME",
+  "name_en": "Elite Buff: Resonant",
+  "tooltip_key": "KEYWORD_ELITE_RESONANT_DESC",
+  "tooltip_en": "Whenever an enemy casts a spell, gain All Stats Up 1 and heal 1.",
+  "_id": "EliteBuff_Resonant"
+ },
+ {
+  "name": "KEYWORD_ELITE_UNDYING_NAME",
+  "tooltip": "KEYWORD_ELITE_UNDYING_DESC",
+  "name_key": "KEYWORD_ELITE_UNDYING_NAME",
+  "name_en": "Elite Buff: Undying",
+  "tooltip_key": "KEYWORD_ELITE_UNDYING_DESC",
+  "tooltip_en": "Revives to 50% health at the end of the round. +2 Corpse Health.",
+  "_id": "EliteBuff_Undying"
+ },
+ {
+  "name": "KEYWORD_ELITE_SUBUNDYING_NAME",
+  "tooltip": "KEYWORD_ELITE_SUBUNDYING_DESC",
+  "name_key": "KEYWORD_ELITE_SUBUNDYING_NAME",
+  "name_en": "Elite Buff: Undying",
+  "tooltip_key": "KEYWORD_ELITE_SUBUNDYING_DESC",
+  "tooltip_en": "Revives to 50% health at the end of the round.",
+  "_id": "EliteBuff_SubUndying"
+ },
+ {
+  "name": "KEYWORD_ELITE_HEALTHY_NAME",
+  "tooltip": "KEYWORD_ELITE_HEALTHY_DESC",
+  "name_key": "KEYWORD_ELITE_HEALTHY_NAME",
+  "name_en": "Elite Buff: Healthy",
+  "tooltip_key": "KEYWORD_ELITE_HEALTHY_DESC",
+  "tooltip_en": "+3 Health Regen. +20 unfilled max health.",
+  "_id": "EliteBuff_Healthy"
+ },
+ {
+  "name": "KEYWORD_ELITE_SANDY_NAME",
+  "tooltip": "KEYWORD_ELITE_SANDY_DESC",
+  "name_key": "KEYWORD_ELITE_SANDY_NAME",
+  "name_en": "Elite Buff: Sandy",
+  "tooltip_key": "KEYWORD_ELITE_SANDY_DESC",
+  "tooltip_en": "+10% Dodge Chance. Starts a sandstorm when it dies.",
+  "_id": "EliteBuff_Sandy"
+ },
+ {
+  "name": "KEYWORD_ELITE_INFESTED_NAME",
+  "tooltip": "KEYWORD_ELITE_INFESTED_DESC",
+  "name_key": "KEYWORD_ELITE_INFESTED_NAME",
+  "name_en": "Elite Buff: Infested",
+  "tooltip_key": "KEYWORD_ELITE_INFESTED_DESC",
+  "tooltip_en": "Spawns a fly swarm when it dies.",
+  "_id": "EliteBuff_Infested"
+ },
+ {
+  "name": "KEYWORD_ELITE_ABSORBANT_NAME",
+  "tooltip": "KEYWORD_ELITE_ABSORBANT_DESC",
+  "name_key": "KEYWORD_ELITE_ABSORBANT_NAME",
+  "name_en": "Elite Buff: Absorbent",
+  "tooltip_key": "KEYWORD_ELITE_ABSORBANT_DESC",
+  "tooltip_en": "Drains all unused mana from units when they end their turn, and deals damage to them equal to the amount of mana drained.",
+  "_id": "EliteBuff_Absorbant"
+ },
+ {
+  "alias": "EliteBuff_Absorbant",
+  "_id": "EliteBuff_BossAbsorbant"
+ },
+ {
+  "name": "KEYWORD_ELITE_DEPRESSING_NAME",
+  "tooltip": "KEYWORD_ELITE_DEPRESSING_DESC",
+  "name_key": "KEYWORD_ELITE_DEPRESSING_NAME",
+  "name_en": "Elite Buff: Depressing",
+  "tooltip_key": "KEYWORD_ELITE_DEPRESSING_DESC",
+  "tooltip_en": "While alive, its enemies have -1 to all stats.",
+  "_id": "EliteBuff_Depressing"
+ },
+ {
+  "alias": "EliteBuff_Depressing",
+  "_id": "EliteBuff_BossDepressing"
+ },
+ {
+  "name": "KEYWORD_ELITE_SLIGHTLYDEPRESSING_NAME",
+  "tooltip": "KEYWORD_ELITE_SLIGHTLYDEPRESSING_DESC",
+  "name_key": "KEYWORD_ELITE_SLIGHTLYDEPRESSING_NAME",
+  "name_en": "Elite Buff: Slightly Depressing",
+  "tooltip_key": "KEYWORD_ELITE_SLIGHTLYDEPRESSING_DESC",
+  "tooltip_en": "While alive, adjacent enemies have -1 to all stats.",
+  "_id": "EliteBuff_SlightlyDepressing"
+ },
+ {
+  "alias": "EliteBuff_SlightlyDepressing",
+  "_id": "EliteBuff_BossSlightlyDepressing"
+ },
+ {
+  "name": "KEYWORD_ELITE_EVOLVING_NAME",
+  "tooltip": "KEYWORD_ELITE_EVOLVING_DESC",
+  "name_key": "KEYWORD_ELITE_EVOLVING_NAME",
+  "name_en": "Elite Buff: Evolving",
+  "tooltip_key": "KEYWORD_ELITE_EVOLVING_DESC",
+  "tooltip_en": "At the end of each round, gain a random Elite Buff.",
+  "_id": "EliteBuff_Evolving"
+ },
+ {
+  "name": "KEYWORD_ELITE_PLOW_NAME",
+  "tooltip": "KEYWORD_ELITE_PLOW_DESC",
+  "name_key": "KEYWORD_ELITE_PLOW_NAME",
+  "name_en": "Elite Buff: Plow",
+  "tooltip_key": "KEYWORD_ELITE_PLOW_DESC",
+  "tooltip_en": "Trample. Moves one space towards attackers when damaged.",
+  "_id": "EliteBuff_Plow"
+ },
+ {
+  "name": "KEYWORD_ELITE_MEGA_NAME",
+  "tooltip": "KEYWORD_ELITE_MEGA_DESC",
+  "name_key": "KEYWORD_ELITE_MEGA_NAME",
+  "name_en": "Elite Buff: Mega",
+  "tooltip_key": "KEYWORD_ELITE_MEGA_DESC",
+  "tooltip_en": "Takes one less turn per round. +50% health and damage",
+  "_id": "EliteBuff_Mega"
+ },
+ {
+  "name": "KEYWORD_ELITE_MAD_NAME",
+  "tooltip": "KEYWORD_ELITE_MAD_DESC",
+  "name_key": "KEYWORD_ELITE_MAD_NAME",
+  "name_en": "Elite Buff: Mad",
+  "tooltip_key": "KEYWORD_ELITE_MAD_DESC",
+  "tooltip_en": "Madness. Takes an extra turn per round. Gains +1 all stats and heals 4 when it gets a kill.",
+  "_id": "EliteBuff_Mad"
+ },
+ {
+  "name": "KEYWORD_ELITE_BOSSMAD_NAME",
+  "tooltip": "KEYWORD_ELITE_BOSSMAD_DESC",
+  "name_key": "KEYWORD_ELITE_BOSSMAD_NAME",
+  "name_en": "Elite Buff: Mad",
+  "tooltip_key": "KEYWORD_ELITE_BOSSMAD_DESC",
+  "tooltip_en": "Madness. Gains +1 all stats and heals 4 when it gets a kill.",
+  "_id": "EliteBuff_BossMad"
+ },
+ {
+  "name": "KEYWORD_ELITE_TWIN_NAME",
+  "tooltip": "KEYWORD_ELITE_TWIN_DESC",
+  "name_key": "KEYWORD_ELITE_TWIN_NAME",
+  "name_en": "Elite Buff: Twin",
+  "tooltip_key": "KEYWORD_ELITE_TWIN_DESC",
+  "tooltip_en": "Half health. Comes with a twin.",
+  "_id": "EliteBuff_Twin"
+ },
+ {
+  "alias": "EliteBuff_Twin",
+  "_id": "EliteBuff_BossTwin"
+ },
+ {
+  "alias": "EliteBuff_Twin",
+  "_id": "EliteBuff_SubTwin"
+ },
+ {
+  "alias": "EliteBuff_Twin",
+  "_id": "EliteBuff_BossSubTwin"
+ },
+ {
+  "name": "KEYWORD_ELITE_HARDY_NAME",
+  "tooltip": "KEYWORD_ELITE_HARDY_DESC",
+  "name_key": "KEYWORD_ELITE_HARDY_NAME",
+  "name_en": "Elite Buff: Hardy",
+  "tooltip_key": "KEYWORD_ELITE_HARDY_DESC",
+  "tooltip_en": "Immune to stuns.",
+  "_id": "EliteBuff_Hardy"
+ },
+ {
+  "alias": "EliteBuff_Hardy",
+  "_id": "EliteBuff_BossHardy"
+ },
+ {
+  "name": "KEYWORD_ELITE_STICKY_NAME",
+  "tooltip": "KEYWORD_ELITE_STICKY_DESC",
+  "name_key": "KEYWORD_ELITE_STICKY_NAME",
+  "name_en": "Elite Buff: Sticky",
+  "tooltip_key": "KEYWORD_ELITE_STICKY_DESC",
+  "tooltip_en": "Anything that contacts or attacks this gets Tarred 1.",
+  "_id": "EliteBuff_Sticky"
+ },
+ {
+  "alias": "EliteBuff_Sticky",
+  "_id": "EliteBuff_BossSticky"
+ }
+]

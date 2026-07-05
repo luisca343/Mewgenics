@@ -1,0 +1,37 @@
+# ── Raw game files (huge, not redistributable) ───────────────────────
+# Original game archive (~4.7 GB) and its extracted contents (~4.8 GB)
+resources.gpak
+/dump/
+
+# ── Vendored third-party binaries (downloaded, ~250 MB) ───────────────
+# ffdec (SWF decompiler) and bundled JRE, plus their archives
+/tools/vendor/
+
+# ── Generated wiki assets (sprites/icons, ~433 MB) ────────────────────
+# Regenerable from the dump via the export tools
+/wiki_data/assets/
+
+# ── Generated preview page ────────────────────────────────────────────
+# Rebuilt by tools/generate_preview.py
+/preview.html
+
+# ── Python ────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.Python
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ── OS / editor cruft ─────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.idea/
+.vscode/
