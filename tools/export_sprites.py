@@ -62,12 +62,23 @@ def swf_exports(path):
 
 
 def needed_names():
-    chars = json.load(open(os.path.join(ROOT, "wiki_data", "characters.json")))
     names = set()
+    chars = json.load(open(os.path.join(ROOT, "wiki_data", "characters.json")))
     for r in chars:
         g = r.get("graphics")
         if isinstance(g, dict) and isinstance(g.get("movieclip"), str):
             names.add(g["movieclip"])
+    # Ability projectile/particle movieclips double as thumbnails for enemy
+    # abilities (which have no UI icon). abilities.json is written by the first
+    # build_wiki_data pass, so it exists by the time sprites are exported.
+    apath = os.path.join(ROOT, "wiki_data", "abilities.json")
+    if os.path.exists(apath):
+        for a in json.load(open(apath)):
+            g = a.get("graphics")
+            if isinstance(g, dict):
+                for k in ("projectile", "particle"):
+                    if isinstance(g.get(k), str):
+                        names.add(g[k])
     return names
 
 

@@ -112,6 +112,49 @@ def _load(name):
 SPRITE_MAP = _load("sprite_map.json")     # movieclip -> {svg, frames}
 ICON_MAP = _load("icon_map.json")         # {abilities:{}, passives:{}, items:{}}
 
+# ---- ability back-references -------------------------------------------
+# Enemy abilities (special_enemy_abilities.gon etc.) have no dedicated UI
+# icon; they are only reachable through the enemies that use them. These maps
+# are populated in main() before abilities are emitted so every ability gets
+# represented (who uses it) and a sensible thumbnail (its projectile/particle
+# sprite, or failing that the sprite of an enemy that uses it).
+ABILITY_OWNERS = {}     # ability_id -> [character_id, ...]     (enemies/cats)
+ABILITY_XREFS = {}      # ability_id -> [ability_id, ...]       (combo chains)
+OWNER_SPRITE = {}       # character_id -> {svg, frames} from SPRITE_MAP
+
+def _string_leaves(o):
+    """Yield every string value nested anywhere inside o."""
+    if isinstance(o, dict):
+        for v in o.values():
+            yield from _string_leaves(v)
+    elif isinstance(o, list):
+        for v in o:
+            yield from _string_leaves(v)
+    elif isinstance(o, str):
+        yield o
+
+def build_ability_refs(index, ability_ids, drop_self=False):
+    """{referenced_ability -> sorted[referrers]} for referrers in `index`.
+
+    A referrer references an ability if any string field anywhere in it equals
+    that ability's id (covers abilities/spells/passives plus AI/unlock fields).
+    """
+    refs = {}
+    for referrer, ent in index.items():
+        for val in set(_string_leaves(ent)):
+            if val in ability_ids and not (drop_self and val == referrer):
+                refs.setdefault(val, set()).add(referrer)
+    return {k: sorted(v) for k, v in refs.items()}
+
+def build_owner_sprites(char_index):
+    out = {}
+    for cid, ent in char_index.items():
+        g = ent.get("graphics")
+        mc = g.get("movieclip") if isinstance(g, dict) else None
+        if isinstance(mc, str) and mc in SPRITE_MAP:
+            out[cid] = SPRITE_MAP[mc]
+    return out
+
 def enrich(rec, category):
     """Attach `sprite`/`icon` asset paths (if the exported assets exist)."""
     if category == "characters":
@@ -128,13 +171,39 @@ def enrich(rec, category):
                 rec["icon"] = icon
     elif category == "abilities":
         icons = ICON_MAP.get("abilities", {})
-        g = rec.get("graphics")
+        g = rec.get("graphics") if isinstance(rec.get("graphics"), dict) else {}
+        # reverse links: which enemies/cats use it, and which abilities chain it
+        owners = ABILITY_OWNERS.get(rec["_id"], [])
+        if owners:
+            rec["used_by"] = owners[:60]
+            rec["used_by_count"] = len(owners)
+        xrefs = ABILITY_XREFS.get(rec["_id"], [])
+        if xrefs:
+            rec["used_by_abilities"] = xrefs[:60]
+        # icon: dedicated UI icon (player abilities) ...
         # try: explicit ability_icon override -> own id -> variant parent id
-        for label in (g.get("ability_icon") if isinstance(g, dict) else None,
-                      rec["_id"], rec.get("variant_of")):
+        for label in (g.get("ability_icon"), rec["_id"], rec.get("variant_of")):
             if isinstance(label, str) and label in icons:
                 rec["icon"] = icons[label]
+                rec["icon_source"] = "ui"
                 break
+        # ... else fall back to a real in-world visual: the ability's own
+        # projectile/particle sprite, else the sprite of an enemy that uses it.
+        if "icon" not in rec:
+            proj, part = g.get("projectile"), g.get("particle")
+            if isinstance(proj, str) and proj in SPRITE_MAP:
+                rec["icon"] = SPRITE_MAP[proj]["svg"]
+                rec["icon_source"] = "projectile"
+            elif isinstance(part, str) and part in SPRITE_MAP:
+                rec["icon"] = SPRITE_MAP[part]["svg"]
+                rec["icon_source"] = "particle"
+            else:
+                for cid in owners:
+                    if cid in OWNER_SPRITE:
+                        rec["icon"] = OWNER_SPRITE[cid]["svg"]
+                        rec["icon_source"] = "owner"
+                        rec["icon_owner"] = cid
+                        break
     elif category == "passives":
         icon = ICON_MAP.get("passives", {}).get(rec["_id"])
         if icon:
@@ -231,11 +300,14 @@ def main():
     tmpl_index, _ = load_dir("ability_templates")
 
     counts = {}
+    char_index = {}
     print("[+] categories:")
     for cat, sub in [("items", "items"), ("characters", "characters"),
                      ("passives", "passives"), ("classes", "classes"),
                      ("events", "events")]:
         idx, src = load_dir(sub)
+        if cat == "characters":
+            char_index = idx
         counts[cat] = emit(cat, idx, src)
 
     # maps: one record per area file (skip the shared include fragment)
@@ -246,6 +318,16 @@ def main():
 
     # abilities need the template namespace
     idx, src = load_dir("abilities")
+    # reverse-link every ability so even enemy-only ones are represented, and
+    # so icon-less enemy abilities can borrow their owner's sprite as a thumb.
+    ability_ids = set(idx)
+    ABILITY_OWNERS.update(build_ability_refs(char_index, ability_ids))
+    ABILITY_XREFS.update(build_ability_refs(idx, ability_ids, drop_self=True))
+    OWNER_SPRITE.update(build_owner_sprites(char_index))
+    orphans = sum(1 for a in ability_ids
+                  if a not in ABILITY_OWNERS and a not in ABILITY_XREFS)
+    print(f"    ability refs: {len(ABILITY_OWNERS)} used by a character, "
+          f"{len(ABILITY_XREFS)} chained by another ability, {orphans} orphan")
     counts["abilities"] = emit("abilities", idx, src, tmpl_index)
 
     # single-file categories
